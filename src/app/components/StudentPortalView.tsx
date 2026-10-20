@@ -4,6 +4,8 @@ import { BookOpen, CheckCircle, Clock, AlertTriangle, Calendar, ArrowRight, Shie
 import { Student, Loan, Book } from '../types';
 import { useTheme } from '../context/ThemeContext';
 import { StudentCardModal } from './StudentCardModal';
+import { Button } from '@/components/ui/button';
+import { parseLibraryDate } from '../utils/libraryRules';
 
 interface StudentPortalViewProps {
   student: Student;
@@ -11,6 +13,7 @@ interface StudentPortalViewProps {
   books: Book[];
   onOpenCatalog: () => void;
   onLogout: () => void;
+  onRenewLoan?: (loanId: string) => void;
   onRequestReturn?: (loanId: string) => void;
 }
 
@@ -21,6 +24,7 @@ export const StudentPortalView: React.FC<StudentPortalViewProps> = ({
   onOpenCatalog,
   onLogout,
   onRequestReturn,
+  onRenewLoan,
 }) => {
   const { isDark } = useTheme();
   const [isCardModalOpen, setIsCardModalOpen] = useState(false);
@@ -36,7 +40,7 @@ export const StudentPortalView: React.FC<StudentPortalViewProps> = ({
     );
   });
 
-  const activeLoans = studentLoans.filter((l) => l.status === 'em_andamento');
+  const activeLoans = studentLoans.filter((l) => ['em_andamento', 'ativo'].includes(l.status));
   const overdueLoans = studentLoans.filter((l) => l.status === 'atrasado');
   const returnedLoans = studentLoans.filter((l) => l.status === 'devolvido');
 
@@ -242,6 +246,14 @@ export const StudentPortalView: React.FC<StudentPortalViewProps> = ({
                       <p className={`text-xs truncate ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>{loan.bookAuthor}</p>
                     </div>
 
+                    <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
+                      <span>{(() => {
+                        const today = new Date(); today.setHours(0,0,0,0);
+                        const days = Math.ceil((parseLibraryDate(loan.returnDate).getTime() - today.getTime()) / 86400000);
+                        return days < 0 ? `${Math.abs(days)} dia(s) de atraso` : days === 0 ? 'Devolução hoje' : `${days} dia(s) para devolver`;
+                      })()}</span>
+                      {onRenewLoan && <Button size="sm" onClick={() => onRenewLoan(loan.id)}>Renovar +7 dias</Button>}
+                    </div>
                     <div className={`pt-2 border-t flex items-center justify-between text-xs ${isDark ? 'border-[#163e5e]/50 text-slate-400' : 'border-slate-100 text-slate-500'}`}>
                       <span>Retirado em: <strong className={isDark ? 'text-slate-200' : 'text-slate-700'}>{loan.loanDate}</strong></span>
                       {onRequestReturn && (

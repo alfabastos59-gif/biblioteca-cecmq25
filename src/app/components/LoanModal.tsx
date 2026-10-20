@@ -9,7 +9,7 @@ interface LoanModalProps {
   students: Student[];
   isOpen: boolean;
   onClose: () => void;
-  onConfirmLoan: (loanData: Omit<Loan, 'id'>) => void;
+  onConfirmLoan: (loanData: Omit<Loan, 'id'>) => boolean;
   session?: UserSession;
 }
 
@@ -94,7 +94,7 @@ export const LoanModal: React.FC<LoanModalProps> = ({
 
     const studentCodeClean = (currentStudent.studentCode || '').replace(/^ALU-/, '');
 
-    onConfirmLoan({
+    const confirmed = onConfirmLoan({
       studentName: currentStudent.name,
       studentEmail: currentStudent.email,
       studentAvatar: currentStudent.avatar,
@@ -109,6 +109,7 @@ export const LoanModal: React.FC<LoanModalProps> = ({
       status: 'em_andamento',
     });
 
+    if (!confirmed) return;
     setIsSuccess(true);
     setTimeout(() => {
       setIsSuccess(false);
@@ -359,8 +360,8 @@ export const LoanModal: React.FC<LoanModalProps> = ({
                 <Calendar className="w-3.5 h-3.5 text-emerald-500" />
                 <span>Prazo de Devolução:</span>
               </label>
-              <div className="grid grid-cols-3 gap-2">
-                {[7, 14, 21].map((days) => (
+              <div className="grid grid-cols-2 gap-2">
+                {[7, 14].map((days) => (
                   <button
                     type="button"
                     key={days}
