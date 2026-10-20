@@ -59,8 +59,10 @@ interface MissaoQuiterioViewProps {
   onBackToHome?: () => void;
 }
 
+import { LIBRARY_RULES } from '../utils/libraryRules';
+
 // 20 minutes timer per question/challenge (1200 seconds)
-const QUESTION_TIMER_SECONDS = 1200;
+const QUESTION_TIMER_SECONDS = LIBRARY_RULES.questionSeconds;
 
 export const MissaoQuiterioView: React.FC<MissaoQuiterioViewProps> = ({
   books,
@@ -297,7 +299,7 @@ export const MissaoQuiterioView: React.FC<MissaoQuiterioViewProps> = ({
     timerRef.current = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
-          clearInterval(timerRef.current!);
+          if (timerRef.current) clearInterval(timerRef.current);
           handleTimeUp();
           return 0;
         }
