@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { LIBRARY_RULES, validateLibraryLoan, renewLibraryDate } from '@/app/utils/libraryRules';
-import { getMissionSeason, recordAttemptCompletion, addGamePoints, getStudentGameData, saveScoresMap } from '@/app/utils/quiterioScores';
+import { getMissionSeason, getMissionMedals, recordAttemptCompletion, addGamePoints, getStudentGameData, saveScoresMap } from '@/app/utils/quiterioScores';
 import { localQuiterioAnswer } from '@/lib/quiterio-local';
 import type { Loan } from '@/app/types';
 
@@ -43,5 +43,10 @@ describe('Library rules', () => {
     ]);
     expect(answer).toContain('Obra disponível');
     expect(answer).not.toContain('Obra emprestada');
+  });
+  it('awards existing medals only after their achievement thresholds', () => {
+    expect(getMissionMedals(getStudentGameData('001'))).toEqual([]);
+    for (let i = 0; i < 6; i++) addGamePoints('001', 'Leitor', 100, true, 'Livro');
+    expect(getMissionMedals(getStudentGameData('001'))).toEqual(['Leitor Dedicado', 'Mestre das Histórias', 'Desafio Ler Mais']);
   });
 });

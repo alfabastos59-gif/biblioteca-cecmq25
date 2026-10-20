@@ -20,6 +20,8 @@ export interface BookScoreDetail {
 
 export interface StudentScoreData {
   season?: string;
+  currentStreak?: number;
+  maxStreak?: number;
   studentId?: string;
   studentCode: string;
   studentName: string;
@@ -111,9 +113,12 @@ export function addGamePoints(
   const normalizedKey = (studentKey || 'anon').trim().toLowerCase();
   const current = map[normalizedKey] || getStudentGameData(studentKey, studentName);
 
+  const currentStreak = isCorrect ? (current.currentStreak || 0) + 1 : 0;
   const updated: StudentScoreData = {
     ...current,
     season: getMissionSeason(),
+    currentStreak,
+    maxStreak: Math.max(current.maxStreak || 0, currentStreak),
     studentName: studentName || current.studentName,
     score: (current.score || 0) + points,
     points: (current.points || 0) + points,
@@ -156,6 +161,14 @@ export function addGamePoints(
   saveScoresMap(map);
 
   return { updatedData: updated };
+}
+
+export function getMissionMedals(data: StudentScoreData): string[] {
+  return [
+    data.correctAnswers >= 1 ? 'Leitor Dedicado' : '',
+    data.score > 500 ? 'Mestre das Histórias' : '',
+    (data.maxStreak || 0) >= 3 ? 'Desafio Ler Mais' : '',
+  ].filter(Boolean);
 }
 
 export function recordAttemptCompletion(
