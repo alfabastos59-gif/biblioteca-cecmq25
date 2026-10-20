@@ -7,6 +7,7 @@ export const LIBRARY_RULES = {
 
 export function parseLibraryDate(value: string): Date {
   const [day, month, year] = value.split('/').map(Number);
+  if (day === undefined || month === undefined || year === undefined) return new Date(NaN);
   return new Date(year, month - 1, day);
 }
 export function renewLibraryDate(value: string): string {
