@@ -5,3 +5,4 @@
 - [x] Verificação final de build antes de publicar (publicar só quando o usuário pedir)
 - [x] Janela 'Cadastrar novo livro' e 'Fotografar capa' agora no fundo roxo da tela inicial
 - [x] Publicar o site
+- [x] Avatar do agente trocado pelo gatinho leitor, com movimento
