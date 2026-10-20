@@ -59,8 +59,11 @@ interface MissaoQuiterioViewProps {
   onBackToHome?: () => void;
 }
 
+import { LIBRARY_RULES } from '../utils/libraryRules';
+import { getMissionMedals } from '../utils/quiterioScores';
+
 // 20 minutes timer per question/challenge (1200 seconds)
-const QUESTION_TIMER_SECONDS = 1200;
+const QUESTION_TIMER_SECONDS = LIBRARY_RULES.questionSeconds;
 
 export const MissaoQuiterioView: React.FC<MissaoQuiterioViewProps> = ({
   books,
@@ -297,7 +300,7 @@ export const MissaoQuiterioView: React.FC<MissaoQuiterioViewProps> = ({
     timerRef.current = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
-          clearInterval(timerRef.current!);
+          if (timerRef.current) clearInterval(timerRef.current);
           handleTimeUp();
           return 0;
         }
@@ -324,6 +327,7 @@ export const MissaoQuiterioView: React.FC<MissaoQuiterioViewProps> = ({
 
   // Handle Option Click
   const handleSelectOption = (index: number) => {
+    if (!activeStudent || !studentBooks.some(({ book }) => book.id === selectedBookForQuiz.id) || gameData.attemptsCount >= MAX_QUIZ_ATTEMPTS) return;
     if (isAnswered || !activeQuestion) return;
 
     setIsAnswered(true);
@@ -1035,6 +1039,10 @@ export const MissaoQuiterioView: React.FC<MissaoQuiterioViewProps> = ({
                     </motion.div>
                   )}
 
+                  <div className="flex flex-wrap gap-2 mb-3 text-sm">
+                    {getMissionMedals(gameData).map(medal => <span key={medal} className="bg-secondary text-foreground border border-border rounded-md px-2 py-1">🏅 {medal}</span>)}
+                    {getMissionMedals(gameData).length === 0 && <span>Medalhas: nenhuma conquistada ainda.</span>}
+                  </div>
                   {/* Books Scores List */}
                   <div className="space-y-2.5 max-h-[340px] sm:max-h-[380px] overflow-y-auto pr-1">
                     {Object.keys(gameData.bookScores || {}).length === 0 ? (

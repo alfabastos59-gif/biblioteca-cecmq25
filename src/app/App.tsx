@@ -17,6 +17,8 @@ import { LoanModal } from './components/LoanModal';
 import { ManageBooksModal } from './components/ManageBooksModal';
 import { RegisterBookModal } from './components/RegisterBookModal';
 import { QuiterioChat } from './components/QuiterioChat';
+import { validateLibraryLoan, renewLibraryDate } from './utils/libraryRules';
+import { toast } from 'sonner';
 import { AuthModal } from './components/AuthModal';
 import { StudentPortalView } from './components/StudentPortalView';
 import { RankingView } from './components/RankingView';
@@ -489,6 +491,10 @@ export default function App() {
   };
 
   const handleConfirmLoan = (loanData: Omit<Loan, 'id'>) => {
+    const error = validateLibraryLoan(loanData, loans);
+    if (error) { toast.error(error); return false; }
+    const book = books.find(b => b.id === loanData.bookId);
+    if (!book || book.availableCopies <= 0) { toast.error('Este livro não possui exemplares disponíveis.'); return false; }
     const newLoan: Loan = {
       ...loanData,
       id: `l_${Date.now()}`,
@@ -520,6 +526,7 @@ export default function App() {
       `Empréstimo do livro "${loanData.bookTitle}" emitido para ${loanData.studentName} (${loanData.studentClass}). Devolução prevista para ${loanData.returnDate}.`,
       loanData.bookTitle
     );
+    return true;
   };
 
   const handleReturnLoan = (loanId: string) => {
@@ -563,15 +570,12 @@ export default function App() {
 
   const handleRenewLoan = (loanId: string) => {
     const targetLoan = loans.find((l) => l.id === loanId);
-    let newDateStr = '';
+    if (!targetLoan || targetLoan.status === 'devolvido') return;
+    const newDateStr = renewLibraryDate(targetLoan.returnDate);
 
     setLoans((prev) =>
       prev.map((l) => {
         if (l.id === loanId) {
-          const [d, m, y] = l.returnDate.split('/').map(Number);
-          const currentReturn = new Date(y, m - 1, d);
-          currentReturn.setDate(currentReturn.getDate() + 7);
-          newDateStr = currentReturn.toLocaleDateString('pt-BR');
           const renewedLoan: Loan = { ...l, returnDate: newDateStr, status: 'em_andamento' };
           saveLoanToCloud(renewedLoan).catch(console.error);
           return renewedLoan;
@@ -1083,6 +1087,7 @@ export default function App() {
             loans={loans}
             books={books}
             onOpenCatalog={() => setActiveTab('catalogo')}
+            onRenewLoan={handleRenewLoan}
             onLogout={handleLogout}
             onRequestReturn={handleReturnLoan}
           />
@@ -1173,7 +1178,7 @@ export default function App() {
         )}
       </main>
 
-      <QuiterioChat />
+      <QuiterioChat books={books} onNavigate={handleNavigateTab} />
 
       {/* Register Book Modal (com Câmera Fotográfica de Smartphone) */}
       <RegisterBookModal

@@ -1,5 +1,7 @@
 // @ts-nocheck
-export const MAX_QUIZ_ATTEMPTS = 5;
+import { LIBRARY_RULES } from './libraryRules';
+export const MAX_QUIZ_ATTEMPTS = LIBRARY_RULES.maxAttempts;
+export const getMissionSeason = (date = new Date()) => String(date.getFullYear());
 
 const STORAGE_KEY = 'cecmq_quiterio_scores_v2';
 
@@ -17,6 +19,9 @@ export interface BookScoreDetail {
 }
 
 export interface StudentScoreData {
+  season?: string;
+  currentStreak?: number;
+  maxStreak?: number;
   studentId?: string;
   studentCode: string;
   studentName: string;
@@ -50,7 +55,9 @@ export function loadScoresMap(): Record<string, StudentScoreData> {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return {};
-    return JSON.parse(raw);
+    const map: Record<string, StudentScoreData> = JSON.parse(raw);
+    const season = getMissionSeason();
+    return Object.fromEntries(Object.entries(map).filter(([, data]) => !data.season || data.season === season));
   } catch {
     return {};
   }
@@ -74,6 +81,7 @@ export function getStudentGameData(studentKey: string, studentName = 'Estudante'
   }
 
   const initial: StudentScoreData = {
+    season: getMissionSeason(),
     studentId: studentKey,
     studentCode: studentKey,
     studentName,
@@ -105,8 +113,12 @@ export function addGamePoints(
   const normalizedKey = (studentKey || 'anon').trim().toLowerCase();
   const current = map[normalizedKey] || getStudentGameData(studentKey, studentName);
 
+  const currentStreak = isCorrect ? (current.currentStreak || 0) + 1 : 0;
   const updated: StudentScoreData = {
     ...current,
+    season: getMissionSeason(),
+    currentStreak,
+    maxStreak: Math.max(current.maxStreak || 0, currentStreak),
     studentName: studentName || current.studentName,
     score: (current.score || 0) + points,
     points: (current.points || 0) + points,
@@ -130,7 +142,9 @@ export function addGamePoints(
       lastAttemptDate: new Date().toISOString(),
     };
 
-    updated.bookScores![bookTitle] = {
+    const bookScores = updated.bookScores || {};
+    updated.bookScores = bookScores;
+    bookScores[bookTitle] = {
       ...existingBook,
       author: author || existingBook.author,
       bookAuthor: author || existingBook.bookAuthor,
@@ -149,6 +163,14 @@ export function addGamePoints(
   return { updatedData: updated };
 }
 
+export function getMissionMedals(data: StudentScoreData): string[] {
+  return [
+    data.correctAnswers >= 1 ? 'Leitor Dedicado' : '',
+    data.score > 500 ? 'Mestre das Histórias' : '',
+    (data.maxStreak || 0) >= 3 ? 'Desafio Ler Mais' : '',
+  ].filter(Boolean);
+}
+
 export function recordAttemptCompletion(
   studentKey: string,
   studentName: string,
@@ -163,6 +185,7 @@ export function recordAttemptCompletion(
   const normalizedKey = (studentKey || 'anon').trim().toLowerCase();
   const current = map[normalizedKey] || getStudentGameData(studentKey, studentName);
 
+  if ((current.attemptsCount || 0) >= MAX_QUIZ_ATTEMPTS) return { updatedData: current, isLimitReached: true };
   const attemptsCount = (current.attemptsCount || 0) + 1;
   const isLimitReached = attemptsCount >= MAX_QUIZ_ATTEMPTS;
 
@@ -186,9 +209,9 @@ export function recordAttemptCompletion(
     cover: cover || existingBook.cover,
     bookCover: cover || existingBook.bookCover,
     attempts: (existingBook.attempts || 0) + 1,
-    points: (existingBook.points || 0) + roundPoints,
-    correctAnswers: (existingBook.correctAnswers || 0) + correctCount,
-    totalQuestions: (existingBook.totalQuestions || 0) + totalQuestions,
+    points: existingBook.points || roundPoints,
+    correctAnswers: existingBook.correctAnswers || correctCount,
+    totalQuestions: existingBook.totalQuestions || totalQuestions,
     lastAttemptDate: new Date().toISOString(),
   };
 
@@ -196,6 +219,7 @@ export function recordAttemptCompletion(
 
   const updated: StudentScoreData = {
     ...current,
+    season: getMissionSeason(),
     studentName: studentName || current.studentName,
     attemptsCount,
     completedBooks,

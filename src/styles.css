@@ -1,2 +1,31 @@
 @import "tailwindcss" source(none);
 @source "../src";
+
+@theme inline {
+  --color-background: var(--quiterio-background);
+  --color-foreground: var(--quiterio-foreground);
+  --color-secondary: var(--quiterio-secondary);
+  --color-primary: var(--quiterio-primary);
+  --color-primary-foreground: var(--quiterio-foreground);
+  --color-muted-foreground: var(--quiterio-muted);
+  --color-input: var(--quiterio-border);
+  --color-border: var(--quiterio-border);
+  --color-accent: var(--quiterio-secondary);
+  --color-accent-foreground: var(--quiterio-foreground);
+  --color-ring: var(--quiterio-primary);
+  --color-destructive: var(--quiterio-error);
+}
+:root {
+  --quiterio-background: #13072b;
+  --quiterio-foreground: #f1f5f9;
+  --quiterio-secondary: #1f0b3b;
+  --quiterio-primary: #15803d;
+  --quiterio-muted: #cbd5e1;
+  --quiterio-border: #643594;
+  --quiterio-error: #fb7185;
+  --quiterio-shadow: 0 15px 45px #0a041680;
+  --quiterio-stripe: linear-gradient(90deg, #F08A3C 0% 25%, #17A67D 25% 50%, #E24B4B 50% 75%, #2B8FD1 75% 100%);
+}
+.quiterio-stripe { background: var(--quiterio-stripe); }
+.quiterio-window { box-shadow: var(--quiterio-shadow); }
+.quiterio-window [data-streamdown] { overflow-wrap: anywhere; }
