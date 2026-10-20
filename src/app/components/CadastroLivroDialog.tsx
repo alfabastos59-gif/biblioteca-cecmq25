@@ -12,10 +12,10 @@ import { toast } from "sonner";
 import { Upload, Loader2, Camera, X, RefreshCw } from "lucide-react";
 
 // Janela com fundo azul claro: campos brancos e texto escuro para ficar legível.
-const FIELD = "bg-white text-slate-900 border-slate-300 placeholder:text-slate-400 focus-visible:ring-sky-500";
-const LABEL = "text-slate-700";
+const FIELD = "bg-[#1f0b3b] text-white border-[#7c3aed]/40 placeholder:text-slate-400 focus-visible:ring-sky-500";
+const LABEL = "text-slate-200";
 const SOLID = "bg-sky-600 text-white hover:bg-sky-700";
-const SOFT = "border-slate-300 bg-white text-slate-800 hover:bg-sky-50";
+const SOFT = "border-[#7c3aed]/40 bg-[#1f0b3b] text-slate-200 hover:bg-[#2a1250]";
 
 export function CadastroLivroDialog({ isOpen, onClose, onRegisterBook, existingBooks = [] }: {
   isOpen: boolean; onClose: () => void; onRegisterBook: (b: Book) => void; existingBooks?: Book[];
@@ -156,10 +156,10 @@ export function CadastroLivroDialog({ isOpen, onClose, onRegisterBook, existingB
 
   return (
     <Dialog open={open} onOpenChange={(v) => { setOpen(v); if (!v) { setAuthed(false); setSenha(""); } }}>
-      <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto bg-sky-100 border-sky-300 text-slate-900">
+      <DialogContent className="max-w-lg max-h-[90vh] overflow-y-auto bg-[#13072b] border-[#7c3aed]/40 text-white">
         <DialogHeader>
-          <DialogTitle className="font-display text-2xl text-slate-900">Cadastrar novo livro</DialogTitle>
-          <DialogDescription className="text-sky-800">Compartilhe um livro com a biblioteca da escola.</DialogDescription>
+          <DialogTitle className="font-display text-2xl text-white">Cadastrar novo livro</DialogTitle>
+          <DialogDescription className="text-purple-200">Compartilhe um livro com a biblioteca da escola.</DialogDescription>
         </DialogHeader>
 
         {!authed ? (
@@ -191,18 +191,18 @@ export function CadastroLivroDialog({ isOpen, onClose, onRegisterBook, existingB
               <Label className={LABEL}>Capa do livro</Label>
               <div
                 onClick={() => fileRef.current?.click()}
-                className="mt-1.5 border-2 border-dashed border-slate-300 rounded-xl p-4 flex items-center gap-3 cursor-pointer bg-white/60 hover:border-sky-500 transition-colors"
+                className="mt-1.5 border-2 border-dashed border-[#7c3aed]/40 rounded-xl p-4 flex items-center gap-3 cursor-pointer bg-[#1f0b3b]/60 hover:border-sky-500 transition-colors"
               >
                 {preview ? (
                   <img src={preview} alt="prévia" className="h-20 w-14 object-cover rounded-md" />
                 ) : (
-                  <div className="h-20 w-14 rounded-md bg-sky-200 flex items-center justify-center">
-                    <Upload className="h-6 w-6 text-slate-600" />
+                  <div className="h-20 w-14 rounded-md bg-[#2a1250] flex items-center justify-center">
+                    <Upload className="h-6 w-6 text-slate-200" />
                   </div>
                 )}
                 <div className="text-sm">
-                  <p className="font-medium text-slate-900">{capaFile ? capaFile.name : "Clique para enviar a imagem"}</p>
-                  <p className="text-xs text-slate-500">PNG ou JPG, até 5MB</p>
+                  <p className="font-medium text-white">{capaFile ? capaFile.name : "Clique para enviar a imagem"}</p>
+                  <p className="text-xs text-purple-300">PNG ou JPG, até 5MB</p>
                 </div>
                 <input
                   ref={fileRef}
@@ -252,12 +252,12 @@ export function CadastroLivroDialog({ isOpen, onClose, onRegisterBook, existingB
                 <SelectTrigger id="categoria" className={`mt-1.5 ${FIELD}`}>
                   <SelectValue placeholder="Selecione uma categoria" />
                 </SelectTrigger>
-                <SelectContent className="max-h-80 bg-white text-slate-900 border-slate-300">
+                <SelectContent className="max-h-80 bg-[#1f0b3b] text-white border-[#7c3aed]/40">
                   {CATEGORIAS_GRUPOS.map((g) => (
                     <SelectGroup key={g.grupo}>
-                      <SelectLabel className="text-slate-500">{g.grupo}</SelectLabel>
+                      <SelectLabel className="text-purple-300">{g.grupo}</SelectLabel>
                       {g.itens.map((c) => (
-                        <SelectItem key={c} value={c} className="focus:bg-sky-200 focus:text-slate-900">{c}</SelectItem>
+                        <SelectItem key={c} value={c} className="focus:bg-[#2a1250] focus:text-white">{c}</SelectItem>
                       ))}
                     </SelectGroup>
                   ))}
@@ -280,10 +280,10 @@ export function CadastroLivroDialog({ isOpen, onClose, onRegisterBook, existingB
       </DialogContent>
 
       <Dialog open={camOpen} onOpenChange={(v) => { if (!v) stopCam(); setCamOpen(v); }}>
-        <DialogContent className="max-w-md bg-sky-100 border-sky-300 text-slate-900">
+        <DialogContent className="max-w-md bg-[#13072b] border-[#7c3aed]/40 text-white">
           <DialogHeader>
-            <DialogTitle className="font-display text-slate-900">Fotografar capa</DialogTitle>
-            <DialogDescription className="text-sky-800">Posicione a capa do livro e capture.</DialogDescription>
+            <DialogTitle className="font-display text-white">Fotografar capa</DialogTitle>
+            <DialogDescription className="text-purple-200">Posicione a capa do livro e capture.</DialogDescription>
           </DialogHeader>
           <div className="relative bg-black rounded-lg overflow-hidden aspect-[3/4]">
             <video ref={videoRef} playsInline muted className="w-full h-full object-cover" />
