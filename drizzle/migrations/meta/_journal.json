@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790698403022,
+      "tag": "0000_records_table",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791515805177,
+      "tag": "0001_capas_insert_policy",
+      "breakpoints": true
+    }
+  ]
+}
