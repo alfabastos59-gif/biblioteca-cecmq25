@@ -34,7 +34,7 @@ describe('Library rules', () => {
   it('does not count question points twice in the book bulletin', () => {
     addGamePoints('001', 'Leitor', 100, true, 'Livro');
     recordAttemptCompletion('001', 'Leitor', 'Livro', '', '', 100, 1, 1);
-    expect(getStudentGameData('001').bookScores?.Livro.points).toBe(100);
+    expect(getStudentGameData('001').bookScores?.['Livro']?.points).toBe(100);
   });
   it('recommends only matching, available catalog entries', () => {
     const answer = localQuiterioAnswer('aventura disponível', [
