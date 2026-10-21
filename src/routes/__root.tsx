@@ -109,15 +109,6 @@ function RootShell({ children }: { children: ReactNode }) {
       </head>
       <body className="bg-[#001424] text-slate-100 font-['Poppins',sans-serif] antialiased selection:bg-emerald-500 selection:text-white">
         {children}
-        <div
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html:
-              '<div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>',
-          }}
-        />
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js" />
-        <script dangerouslySetInnerHTML={{ __html: VLIBRAS_INIT }} />
         <Scripts />
       </body>
     </html>

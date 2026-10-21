@@ -54,7 +54,6 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   onOpenDesignSystem,
   onOpenRegisterBook,
-  onOpenAccessibility,
   onOpenOpeningVideo,
   session,
   onOpenLogin,
