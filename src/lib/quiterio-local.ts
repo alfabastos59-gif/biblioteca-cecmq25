@@ -1,13 +1,28 @@
-export interface CatalogEntry { title: string; author: string; category: string; availableCopies: number; synopsis: string }
+export interface CatalogEntry { title: string; author: string; category: string; availableCopies: number; synopsis: string; year?: number | undefined; location?: string | undefined }
+export interface AuthorEntry { name: string; period?: string | undefined; role?: string | undefined; tag?: string | undefined }
+const norm = (v: string) => v.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+export function authorAnswer(question: string, books: CatalogEntry[], authors: AuthorEntry[]): string | null {
+  const q = norm(question);
+  const author = authors.find(a => a.name && q.includes(norm(a.name))) ?? (/\b(quem e|autor|autora|escritor)/.test(q) ? authors.find(a => norm(a.name).split(' ').some(p => p.length > 3 && q.includes(p))) : undefined);
+  if (!author) return null;
+  const obras = books.filter(b => norm(b.author).includes(norm(author.name)));
+  const ficha = [author.period && `Período: ${author.period}`, author.role, author.tag].filter(Boolean).join(' · ');
+  const lista = obras.length ? obras.map(b => `- **${b.title}** — ${b.availableCopies > 0 ? 'disponível' : 'emprestado no momento'}${b.location ? ` (local: ${b.location})` : ''}`).join('\n') : '- Nenhuma obra deste autor está cadastrada no acervo.';
+  return `**${author.name}** ✍️\n\n${ficha || 'Biografia ainda não cadastrada no sistema.'}\n\n**No acervo da biblioteca:**\n${lista}\n\nVeja mais na seção de autores da tela **Início** ou procure pelo nome no **Catálogo**.`;
+}
 export const QUITERIO_RULES = `Empréstimos: até 2 livros simultâneos; prazo de 7 a 14 dias corridos; renovação online em Meu Histórico ou presencial na biblioteca, acrescentando 7 dias ao prazo atual.
 Missão Quitério: obrigatório ter emprestado o livro antes de participar. Identifique-se com Código do Aluno, escolha um livro do seu histórico; até 20 minutos por pergunta e 5 tentativas por aluno por temporada. Respostas corretas valem 100 pontos; confira pontos e medalhas no Boletim da Missão e classificação por turmas no Ranking.
 Início: destaques, novidades e resumo do ranking. Catálogo: busca por título e autor, filtros por gênero e disponibilidade, sinopse e solicitação de empréstimo com Código do Aluno. Meu Histórico: livros em posse, prazos e renovação. Nunca afirme que realizou um empréstimo ou renovação pelo chat. Use os botões das abas.`;
 
-export function localQuiterioAnswer(question: string, books: CatalogEntry[]): string {
+export function localQuiterioAnswer(question: string, books: CatalogEntry[], authors: AuthorEntry[] = []): string {
+  const sobreAutor = authorAnswer(question, books, authors);
+  if (sobreAutor) return sobreAutor;
   const text = question.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  if (/conquista|desafio|boletim/.test(text)) return 'Seus **desafios, pontos e medalhas** ficam no **Boletim da Missão Quitério**: abra a aba Missão Quitério e entre com seu Código do Aluno. A classificação geral está no **Ranking**.';
   if (/missao|tentativ|pergunta|medalh/.test(text)) return '**Missão Quitério** 🐾\n\nVocê precisa ter **emprestado o livro**. Entre com seu Código do Aluno, escolha uma obra do seu histórico e responda ao desafio. São até **20 minutos por pergunta** e **5 tentativas por temporada**. Cada acerto vale **100 pontos**; confira seu Boletim e o Ranking.';
   if (/historico|prazo|renov|meus livros/.test(text)) return 'Abra **Meu Histórico** e entre com seu Código do Aluno para ver os livros com você e os prazos. O botão **Renovar +7 dias** acrescenta 7 dias à devolução atual. Você também pode renovar presencialmente na biblioteca.';
-  if (/emprestimo|emprestar|funciona/.test(text)) return 'Você pode pegar até **2 livros simultâneos**, por **7 a 14 dias corridos**. Abra o **Catálogo**, escolha um livro disponível, veja a sinopse e solicite o empréstimo com seu **Código do Aluno**. Renove online em **Meu Histórico** (+7 dias) ou presencialmente.';
+  if (/emprestimo|emprestar|funciona|solicit/.test(text)) return '**Passo a passo:** 1) abra o **Catálogo** e busque o título ou autor; 2) confira se está *disponível*; 3) clique no livro e solicite o empréstimo com seu **Código do Aluno**; 4) acompanhe prazos em **Meu Histórico**. Se houver impedimento, procure a equipe da biblioteca.\n\nVocê pode pegar até **2 livros simultâneos**, por **7 a 14 dias corridos**. Abra o **Catálogo**, escolha um livro disponível, veja a sinopse e solicite o empréstimo com seu **Código do Aluno**. Renove online em **Meu Histórico** (+7 dias) ou presencialmente.';
   if (/ranking|podio/.test(text)) return 'Abra **Ranking** para conferir o pódio da escola, a classificação por turmas e seus pontos. Seu Boletim fica na **Missão Quitério**.';
   const terms = text.split(/\W+/).filter(t => t.length > 3 && !['livro','livros','indica','disponivel','quero','algo','para','hoje'].includes(t));
   const candidates = books.filter(b => b.availableCopies > 0).map(book => {
@@ -15,5 +30,5 @@ export function localQuiterioAnswer(question: string, books: CatalogEntry[]): st
     return { book, score: terms.filter(t => haystack.includes(t)).length };
   }).filter(b => b.score > 0).sort((a,b) => b.score - a.score).slice(0,3);
   if (!candidates.length) return 'Não encontrei uma obra disponível que corresponda a esse pedido no acervo atual. Consulte o **Catálogo** ou me diga outro tema: aventura, poesia, romance ou saberes do campo.';
-  return 'Encontrei estas opções **disponíveis no acervo** 📚\n\n' + candidates.map(({book}) => `- **${book.title}**, de ${book.author} — ${book.category}. ${book.synopsis.slice(0,180)}`).join('\n\n') + '\n\nAbra o **Catálogo** para conferir a ficha e solicitar o empréstimo.';
+  return 'Encontrei estas opções **disponíveis no acervo** 📚\n\n' + candidates.map(({book}) => `- **${book.title}**, de ${book.author} — ${book.category}${book.year ? `, ${book.year}` : ''}${book.location ? ` · local: ${book.location}` : ''}. ${book.synopsis.slice(0,180)}`).join('\n\n') + '\n\nAbra o **Catálogo** para conferir a ficha e solicitar o empréstimo.';
 }

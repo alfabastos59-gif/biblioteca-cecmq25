@@ -6,12 +6,13 @@ import { Message, MessageContent, MessageResponse } from "@/components/ai-elemen
 import { PromptInput, PromptInputTextarea, PromptInputFooter, PromptInputSubmit } from "@/components/ai-elements/prompt-input";
 import { Shimmer } from "@/components/ai-elements/shimmer";
 import { QuiterioAgentMascot } from "./QuiterioAgentMascot";
+import { DEFAULT_AUTHORS } from "../data/authorsData";
 import { localQuiterioAnswer } from "@/lib/quiterio-local";
 import type { ActiveTab, Book } from "../types";
 
 type Msg = { role: "user" | "assistant"; content: string };
 const GREETING = "Oi! Eu sou o **Quitério** 🐱, seu guia de leitura. Que história você quer descobrir hoje?";
-const SUGGESTIONS = ["Como funciona o empréstimo de livros?", "Como participo da Missão Quitério?", "Onde vejo meus livros e prazos?", "Me indica um livro de aventura disponível"];
+const SUGGESTIONS = ["Quais livros de aventura estão disponíveis?", "Quem é Machado de Assis?", "Como faço para solicitar um empréstimo?", "Como participo da Missão Quitério?", "Como vejo meus desafios e minhas conquistas?"];
 const SHORTCUTS = [
   { tab: "inicio", label: "Início", icon: Home },
   { tab: "catalogo", label: "Catálogo", icon: BookOpen },
@@ -77,7 +78,7 @@ export function QuiterioChat({ books, onNavigate }: { books: Book[]; onNavigate:
         });
       } catch (err) {
         if (controller.signal.aborted) throw err;
-        append(localQuiterioAnswer(content, books)); setSource("Orientação local · conexão indisponível");
+        append(localQuiterioAnswer(content, books, DEFAULT_AUTHORS)); setSource("Orientação local · conexão indisponível");
         return;
       }
       if (!response.ok) {
