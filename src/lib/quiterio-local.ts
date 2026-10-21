@@ -1,5 +1,5 @@
-export interface CatalogEntry { title: string; author: string; category: string; availableCopies: number; synopsis: string; year?: number; location?: string }
-export interface AuthorEntry { name: string; period?: string; role?: string; tag?: string }
+export interface CatalogEntry { title: string; author: string; category: string; availableCopies: number; synopsis: string; year?: number | undefined; location?: string | undefined }
+export interface AuthorEntry { name: string; period?: string | undefined; role?: string | undefined; tag?: string | undefined }
 const norm = (v: string) => v.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
 export function authorAnswer(question: string, books: CatalogEntry[], authors: AuthorEntry[]): string | null {
