@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { X, Volume2, VolumeX, BookOpen, Trophy, History, Home, PawPrint } from "lucide-react";
+import { X } from "lucide-react";
 import { Conversation, ConversationContent, ConversationScrollButton } from "@/components/ai-elements/conversation";
 import { Message, MessageContent, MessageResponse } from "@/components/ai-elements/message";
 import { PromptInput, PromptInputTextarea, PromptInputFooter, PromptInputSubmit } from "@/components/ai-elements/prompt-input";
@@ -8,58 +8,32 @@ import { Shimmer } from "@/components/ai-elements/shimmer";
 import { QuiterioAgentMascot } from "./QuiterioAgentMascot";
 import { DEFAULT_AUTHORS } from "../data/authorsData";
 import { localQuiterioAnswer } from "@/lib/quiterio-local";
-import type { ActiveTab, Book } from "../types";
+import type { Book } from "../types";
 
 type Msg = { role: "user" | "assistant"; content: string };
+const MODE = "gateway";
 const GREETING = "Oi! Eu sou o **Quitério** 🐱, seu guia de leitura. Que história você quer descobrir hoje?";
-const SUGGESTIONS = ["Quais livros de aventura estão disponíveis?", "Quem é Machado de Assis?", "Como faço para solicitar um empréstimo?", "Como participo da Missão Quitério?", "Como vejo meus desafios e minhas conquistas?"];
-const SHORTCUTS = [
-  { tab: "inicio", label: "Início", icon: Home },
-  { tab: "catalogo", label: "Catálogo", icon: BookOpen },
-  { tab: "missao_quiterio", label: "Missão Quitério", icon: PawPrint },
-  { tab: "ranking", label: "Ranking", icon: Trophy },
-  { tab: "meu_historico", label: "Meu Histórico", icon: History },
-] as const;
 
-export function QuiterioChat({ books, onNavigate }: { books: Book[]; onNavigate: (tab: ActiveTab) => void }) {
+export function QuiterioChat({ books }: { books: Book[] }) {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Msg[]>([{ role: "assistant", content: GREETING }]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [mode, setMode] = useState("gateway");
-  const [voiceAvailable, setVoiceAvailable] = useState(false);
-  const [speaking, setSpeaking] = useState<number | null>(null);
   const [source, setSource] = useState("");
   const requestRef = useRef<AbortController | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  useEffect(() => {
-    setVoiceAvailable("speechSynthesis" in window);
-    return () => { requestRef.current?.abort(); window.speechSynthesis?.cancel(); };
-  }, []);
+  useEffect(() => () => { requestRef.current?.abort(); }, []);
   useEffect(() => { if (open && !loading) textareaRef.current?.focus(); }, [open, loading]);
-  const stopVoice = () => { window.speechSynthesis?.cancel(); setSpeaking(null); };
-  const speak = (text: string, index: number) => {
-    stopVoice();
-    if (speaking === index) return;
-    const utterance = new SpeechSynthesisUtterance(text.replace(/[*#_`]/g, "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1"));
-    utterance.lang = "pt-BR";
-    const voice = window.speechSynthesis.getVoices().find(v => v.lang.toLowerCase() === "pt-br");
-    if (voice) utterance.voice = voice;
-    utterance.onend = () => setSpeaking(null);
-    utterance.onerror = () => { setSpeaking(null); setError("Não foi possível ler em voz alta neste navegador."); };
-    setSpeaking(index);
-    window.speechSynthesis.speak(utterance);
-  };
   const close = () => {
-    requestRef.current?.abort(); requestRef.current = null; stopVoice();
+    requestRef.current?.abort(); requestRef.current = null;
     setOpen(false); setLoading(false); setInput(""); setError(""); setSource("");
     setMessages([{ role: "assistant", content: GREETING }]);
   };
   const send = async (text: string) => {
     const content = text.trim();
     if (!content || loading || requestRef.current) return;
-    stopVoice(); setError(""); setSource(""); setInput(""); setLoading(true);
+    setError(""); setSource(""); setInput(""); setLoading(true);
     const next: Msg[] = [...messages, { role: "user", content }];
     setMessages([...next, { role: "assistant", content: "" }]);
     const controller = new AbortController(); requestRef.current = controller;
@@ -74,7 +48,7 @@ export function QuiterioChat({ books, onNavigate }: { books: Book[]; onNavigate:
       try {
         response = await fetch("/api/public/quiterio-chat", {
           method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ messages: next.slice(-20), mode }), signal: controller.signal,
+          body: JSON.stringify({ messages: next.slice(-20), mode: MODE }), signal: controller.signal,
         });
       } catch (err) {
         if (controller.signal.aborted) throw err;
@@ -111,35 +85,27 @@ export function QuiterioChat({ books, onNavigate }: { books: Book[]; onNavigate:
   };
   return <>
     {!open && <Button onClick={() => setOpen(true)} className="fixed bottom-5 left-5 z-[60] h-24 w-24 overflow-hidden rounded-full p-0 border-2 border-primary bg-background quiterio-window" aria-label="Abrir Quitério — assistente de leitura"><QuiterioAgentMascot size={96} mood="happy" /></Button>}
-    {open && <section aria-label="Conversa com Quitério" className="quiterio-window fixed inset-x-3 bottom-3 sm:inset-x-auto sm:bottom-5 sm:left-5 sm:w-[400px] z-[60] bg-background text-foreground border border-border rounded-lg flex flex-col h-[min(740px,85dvh)] overflow-hidden">
+    {open && <section aria-label="Conversa com Quitério" className="quiterio-window fixed inset-2 sm:inset-4 md:inset-6 z-[60] mx-auto flex max-w-5xl flex-col overflow-hidden rounded-lg border border-border bg-background text-foreground">
       <div aria-hidden="true" className="quiterio-stripe h-1.5 w-full shrink-0" />
-      <header className="px-3 py-3 flex items-center gap-2 border-b border-border bg-secondary">
-        <QuiterioAgentMascot size={44} mood={loading || speaking !== null ? "talking" : "happy"} />
-        <div className="flex-1 min-w-0"><h2 className="font-bold text-base">Quitério</h2><p className="text-xs text-muted-foreground">Seu guia de leitura 🐱</p></div>
+      <header className="flex shrink-0 items-center gap-3 border-b border-border bg-secondary px-4 py-3">
+        <QuiterioAgentMascot size={40} mood={loading ? "talking" : "happy"} />
+        <div className="min-w-0 flex-1"><h2 className="truncate text-base font-bold">Quitério</h2><p className="truncate text-xs text-muted-foreground">Seu guia de leitura 🐱</p></div>
         <Button variant="ghost" size="icon" onClick={close} aria-label="Fechar Quitério" title="Fechar"><X /></Button>
       </header>
-      <nav aria-label="Atalhos da biblioteca" className="flex flex-wrap gap-1 p-2 border-b border-border">
-        {SHORTCUTS.map(({ tab, label, icon: Icon }) => <Button key={tab} size="icon-sm" variant="ghost" aria-label={`Abrir ${label}`} title={label} onClick={() => { close(); onNavigate(tab); }}><Icon /></Button>)}
-        <label className="ml-auto flex items-center"><span className="sr-only">Modo de resposta</span><select aria-label="Modo de resposta" value={mode} disabled={loading} onChange={e => setMode(e.target.value)} className="w-[132px] bg-secondary text-foreground border border-border rounded-md p-1 text-xs"><option value="gateway">Lovable AI</option><option value="gemini">Gemini 3.8 Flash</option><option value="local">Orientação local</option></select></label>
-      </nav>
-      <Conversation className="min-h-0">
-        <ConversationContent className="gap-4 p-3">
+      <Conversation className="min-h-0 flex-1">
+        <ConversationContent className="gap-5 p-4 sm:p-6">
           {messages.map((m, i) => <Message key={i} from={m.role}>
             <MessageContent className={m.role === "user" ? "group-[.is-user]:bg-primary group-[.is-user]:text-primary-foreground" : ""}>
               {m.role === "assistant" ? m.content ? <MessageResponse>{m.content}</MessageResponse> : loading ? <Shimmer>Quitério está consultando...</Shimmer> : null : <p className="whitespace-pre-wrap break-words">{m.content}</p>}
             </MessageContent>
-            {m.role === "assistant" && m.content && voiceAvailable && !(loading && i === messages.length - 1) && <Button variant="ghost" size="icon-sm" aria-label={speaking === i ? "Parar leitura" : "Ler resposta em voz alta"} title={speaking === i ? "Parar leitura" : "Ler em voz alta"} onClick={() => speak(m.content, i)}>{speaking === i ? <VolumeX /> : <Volume2 />}</Button>}
           </Message>)}
         </ConversationContent><ConversationScrollButton />
       </Conversation>
-      {source && <p className="px-3 pb-1 text-xs text-muted-foreground">{source}</p>}
-      {error && <p role="alert" className="px-3 py-2 text-sm text-destructive">{error}</p>}
-      <div className="px-3 py-2 flex flex-col gap-1 border-t border-border">
-        {SUGGESTIONS.map(s => <Button key={s} variant="ghost" disabled={loading} onClick={() => send(s)} className="h-auto min-h-7 justify-start whitespace-normal text-left text-xs px-2 py-1">{s}</Button>)}
-      </div>
-      <div className="p-2 bg-secondary border-t border-border">
+      {source && <p className="shrink-0 px-4 pb-1 text-xs text-muted-foreground">{source}</p>}
+      {error && <p role="alert" className="shrink-0 px-4 py-2 text-sm text-destructive">{error}</p>}
+      <div className="shrink-0 border-t border-border bg-secondary p-3">
         <PromptInput onSubmit={({ text }) => send(text)}>
-          <PromptInputTextarea ref={textareaRef} value={input} onChange={e => setInput(e.target.value)} maxLength={2000} placeholder="Pergunte ao Quitério..." aria-label="Pergunte ao Quitério" disabled={loading} className="min-h-[60px] max-h-[100px] text-foreground" />
+          <PromptInputTextarea ref={textareaRef} value={input} onChange={e => setInput(e.target.value)} maxLength={2000} placeholder="Pergunte ao Quitério..." aria-label="Pergunte ao Quitério" disabled={loading} className="min-h-[72px] max-h-[180px] text-foreground" />
           <PromptInputFooter className="justify-end"><PromptInputSubmit aria-label={loading ? "Parar resposta" : "Enviar pergunta"} status={loading ? "streaming" : "ready"} onStop={() => requestRef.current?.abort()} disabled={!loading && !input.trim()} /></PromptInputFooter>
         </PromptInput>
       </div>
