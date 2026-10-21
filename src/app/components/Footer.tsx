@@ -7,14 +7,12 @@ import { useTheme } from '../context/ThemeContext';
 interface FooterProps {
   setActiveTab: (tab: ActiveTab) => void;
   onOpenDesignSystem: () => void;
-  onOpenAccessibility?: () => void;
   onOpenOpeningVideo?: () => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({
   setActiveTab,
   onOpenDesignSystem,
-  onOpenAccessibility,
   onOpenOpeningVideo,
 }) => {
   const { isDark } = useTheme();
@@ -117,17 +115,6 @@ export const Footer: React.FC<FooterProps> = ({
                   className={`hover:text-emerald-500 transition-colors text-left cursor-pointer ${isDark ? 'text-slate-400' : 'text-slate-600'}`}
                 >
                   Visualização Smartphone
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (onOpenAccessibility) onOpenAccessibility();
-                  }}
-                  className={`hover:text-cyan-400 font-bold transition-colors text-left cursor-pointer flex items-center gap-1.5 ${isDark ? 'text-blue-300' : 'text-blue-700'}`}
-                >
-                  <span>🤟</span>
-                  <span>Acessibilidade & Libras</span>
                 </button>
               </li>
               {onOpenOpeningVideo && (

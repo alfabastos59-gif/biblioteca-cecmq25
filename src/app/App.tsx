@@ -23,7 +23,6 @@ import { AuthModal } from './components/AuthModal';
 import { StudentPortalView } from './components/StudentPortalView';
 import { RankingView } from './components/RankingView';
 import { MissaoQuiterioView } from './components/MissaoQuiterioView';
-import { LibrasAccessibilityModal } from './components/LibrasAccessibilityModal';
 import { Footer } from './components/Footer';
 
 const safeSetItem = (key: string, value: string) => {
@@ -189,7 +188,6 @@ export default function App() {
   const [isManageBooksOpen, setIsManageBooksOpen] = useState(false);
   const [isRegisterBookOpen, setIsRegisterBookOpen] = useState(false);
   const [isDesignSystemOpen, setIsDesignSystemOpen] = useState(false);
-  const [isAccessibilityModalOpen, setIsAccessibilityModalOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
   // Banco de dados de autores na nuvem
@@ -1002,7 +1000,6 @@ export default function App() {
         setActiveTab={handleNavigateTab}
         onOpenDesignSystem={() => setIsDesignSystemOpen(true)}
         onOpenRegisterBook={() => setIsRegisterBookOpen(true)}
-        onOpenAccessibility={() => setIsAccessibilityModalOpen(true)}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         session={session}
@@ -1237,19 +1234,12 @@ export default function App() {
         onClose={() => setIsDesignSystemOpen(false)}
       />
 
-      {/* Acessibilidade em Libras & Inclusão (Surdos e Mudos / Deficiência Auditiva e Fala) */}
-      <LibrasAccessibilityModal
-        isOpen={isAccessibilityModalOpen}
-        onClose={() => setIsAccessibilityModalOpen(false)}
-        isDark={isDark}
-      />
 
       {/* Footer */}
       {activeTab !== 'admin' && activeTab !== 'missao_quiterio' && (
         <Footer
           setActiveTab={handleNavigateTab}
           onOpenDesignSystem={() => setIsDesignSystemOpen(true)}
-          onOpenAccessibility={() => setIsAccessibilityModalOpen(true)}
         />
       )}
     </div>

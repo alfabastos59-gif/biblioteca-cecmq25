@@ -13,3 +13,4 @@
 - [x] Janela 'Cadastrar novo livro' e 'Fotografar capa' agora no fundo roxo da tela inicial
 - [x] Publicar o site
 - [x] Avatar do agente trocado pelo gatinho leitor, com movimento
+- [x] Retirar a função de Libras (avatar flutuante do VLibras, modal de acessibilidade e link do rodapé)

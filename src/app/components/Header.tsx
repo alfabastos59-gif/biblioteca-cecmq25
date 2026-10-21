@@ -32,7 +32,6 @@ interface HeaderProps {
   onOpenNewLoan?: () => void;
   onOpenNewSuggestion?: () => void;
   onOpenRegisterBook?: () => void;
-  onOpenAccessibility?: () => void;
   onOpenOpeningVideo?: () => void;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
@@ -55,7 +54,6 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   onOpenDesignSystem,
   onOpenRegisterBook,
-  onOpenAccessibility,
   onOpenOpeningVideo,
   session,
   onOpenLogin,

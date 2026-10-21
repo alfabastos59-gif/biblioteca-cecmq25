@@ -100,10 +100,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   errorComponent: ErrorComponent,
 });
 
-const VLIBRAS_INIT = `window.addEventListener('load', function () {
-  try { if (window.VLibras) { new window.VLibras.Widget('https://vlibras.gov.br/app'); } }
-  catch (e) { console.warn('VLibras widget failed to initialize:', e); }
-});`;
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
@@ -113,15 +109,6 @@ function RootShell({ children }: { children: ReactNode }) {
       </head>
       <body className="bg-[#001424] text-slate-100 font-['Poppins',sans-serif] antialiased selection:bg-emerald-500 selection:text-white">
         {children}
-        <div
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html:
-              '<div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>',
-          }}
-        />
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js" />
-        <script dangerouslySetInnerHTML={{ __html: VLIBRAS_INIT }} />
         <Scripts />
       </body>
     </html>
