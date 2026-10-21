@@ -1175,7 +1175,7 @@ export default function App() {
         )}
       </main>
 
-      <QuiterioChat books={books} onNavigate={handleNavigateTab} />
+      <QuiterioChat books={books} />
 
       {/* Register Book Modal (com Câmera Fotográfica de Smartphone) */}
       <RegisterBookModal
