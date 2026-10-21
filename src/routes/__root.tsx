@@ -100,10 +100,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   errorComponent: ErrorComponent,
 });
 
-const VLIBRAS_INIT = `window.addEventListener('load', function () {
-  try { if (window.VLibras) { new window.VLibras.Widget('https://vlibras.gov.br/app'); } }
-  catch (e) { console.warn('VLibras widget failed to initialize:', e); }
-});`;
 
 function RootShell({ children }: { children: ReactNode }) {
   return (

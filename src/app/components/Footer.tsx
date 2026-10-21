@@ -7,7 +7,6 @@ import { useTheme } from '../context/ThemeContext';
 interface FooterProps {
   setActiveTab: (tab: ActiveTab) => void;
   onOpenDesignSystem: () => void;
-  onOpenAccessibility?: () => void;
   onOpenOpeningVideo?: () => void;
 }
 

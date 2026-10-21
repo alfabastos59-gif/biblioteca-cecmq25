@@ -23,7 +23,6 @@ import { AuthModal } from './components/AuthModal';
 import { StudentPortalView } from './components/StudentPortalView';
 import { RankingView } from './components/RankingView';
 import { MissaoQuiterioView } from './components/MissaoQuiterioView';
-import { LibrasAccessibilityModal } from './components/LibrasAccessibilityModal';
 import { Footer } from './components/Footer';
 
 const safeSetItem = (key: string, value: string) => {
