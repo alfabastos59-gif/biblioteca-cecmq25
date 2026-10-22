@@ -9,10 +9,12 @@ export function QuiterioAgentMascot({ size = 56, mood = "idle", className = "" }
       <img src={quiterioTabby.url} alt="" className={`quiterio-agent-img ${cls}`} />
       <style>{`
         .quiterio-agent{display:inline-block;line-height:0}
-        .quiterio-agent-img{width:100%;height:100%;object-fit:contain;display:block;transform-origin:50% 92%;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));animation:qa-idle 8s ease-in-out infinite}
+        .quiterio-agent-img{width:100%;height:100%;object-fit:contain;display:block;transform-origin:50% 92%;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));animation:qa-breathe 3s ease-in-out infinite}
+        .quiterio-agent:hover .quiterio-agent-img,button:hover .quiterio-agent-img,button:focus-visible .quiterio-agent-img{animation:qa-idle 4s ease-in-out infinite}
         .quiterio-agent-img.is-happy{animation:qa-celebrate 1.4s ease-in-out infinite}
         .quiterio-agent-img.is-talking{animation:qa-jump .7s ease-in-out infinite}
-        /* idle: acena com a pata, dá pulinhos e um pulão com giro — como no vídeo */
+        @keyframes qa-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.02,.98)}}
+        /* hover: acena com a pata, dá pulinhos e um pulão com giro — como no vídeo */
         @keyframes qa-idle{
           /* acenando: inclina de um lado ao outro, como a pata acenando */
           0%{transform:rotate(0deg) translateY(0)}
