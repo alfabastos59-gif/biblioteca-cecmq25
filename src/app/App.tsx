@@ -1175,7 +1175,7 @@ export default function App() {
         )}
       </main>
 
-      <QuiterioChat books={books} />
+      <QuiterioChat books={books} visible={activeTab === 'inicio' || activeTab === 'catalogo'} />
 
       {/* Register Book Modal (com Câmera Fotográfica de Smartphone) */}
       <RegisterBookModal
