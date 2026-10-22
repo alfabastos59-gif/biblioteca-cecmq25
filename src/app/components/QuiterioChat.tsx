@@ -14,7 +14,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 const MODE = "gateway";
 const GREETING = "Oi! Eu sou o **Quitério** 🐱, seu guia de leitura. Que história você quer descobrir hoje?";
 
-export function QuiterioChat({ books }: { books: Book[] }) {
+export function QuiterioChat({ books, visible = true }: { books: Book[]; visible?: boolean }) {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Msg[]>([{ role: "assistant", content: GREETING }]);
   const [input, setInput] = useState("");
