@@ -9,26 +9,45 @@ export function QuiterioAgentMascot({ size = 56, mood = "idle", className = "" }
       <img src={quiterioTabby.url} alt="" className={`quiterio-agent-img ${cls}`} />
       <style>{`
         .quiterio-agent{display:inline-block;line-height:0}
-        .quiterio-agent-img{width:100%;height:100%;object-fit:contain;display:block;transform-origin:50% 95%;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));animation:qa-idle 9s ease-in-out infinite}
-        .quiterio-agent-img.is-happy{animation:qa-wave 1.6s ease-in-out infinite}
+        .quiterio-agent-img{width:100%;height:100%;object-fit:contain;display:block;transform-origin:50% 92%;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));animation:qa-idle 8s ease-in-out infinite}
+        .quiterio-agent-img.is-happy{animation:qa-celebrate 1.4s ease-in-out infinite}
         .quiterio-agent-img.is-talking{animation:qa-jump .7s ease-in-out infinite}
-        /* idle: acena, pula e vira em sequência */
+        /* idle: acena com a pata, dá pulinhos e um pulão com giro — como no vídeo */
         @keyframes qa-idle{
-          0%,8%{transform:rotate(0deg) translateY(0)}
-          12%{transform:rotate(-8deg) translateY(0)}
-          16%{transform:rotate(6deg) translateY(0)}
-          20%{transform:rotate(-6deg) translateY(0)}
-          24%,34%{transform:rotate(0deg) translateY(0)}
-          40%{transform:translateY(-14%) scale(1.03)}
+          /* acenando: inclina de um lado ao outro, como a pata acenando */
+          0%{transform:rotate(0deg) translateY(0)}
+          4%{transform:rotate(-10deg) translateY(-2%)}
+          8%{transform:rotate(8deg) translateY(0)}
+          12%{transform:rotate(-10deg) translateY(-2%)}
+          16%{transform:rotate(8deg) translateY(0)}
+          20%{transform:rotate(0deg) translateY(0)}
+          /* pulinhos rápidos com "squash" ao aterrissar */
+          26%{transform:translateY(-16%) scale(1.04,.96)}
+          31%{transform:translateY(0) scale(1.06,.94)}
+          34%{transform:translateY(0) scale(1)}
+          38%{transform:translateY(-10%) scale(1.02,.98)}
+          42%{transform:translateY(0) scale(1.05,.95)}
           46%{transform:translateY(0) scale(1)}
-          50%{transform:translateY(-8%)}
-          55%,64%{transform:translateY(0) rotateY(0deg)}
-          72%{transform:rotateY(180deg)}
-          80%{transform:rotateY(360deg)}
-          100%{transform:rotateY(360deg)}
+          /* pulão comemorando: sobe alto, estica, gira e aterrissa */
+          54%{transform:translateY(-30%) scale(.96,1.08) rotate(-4deg)}
+          62%{transform:translateY(-34%) scale(1) rotateY(180deg)}
+          70%{transform:translateY(-30%) scale(.96,1.08) rotateY(360deg) rotate(4deg)}
+          76%{transform:translateY(0) scale(1.08,.9) rotateY(360deg)}
+          82%,100%{transform:translateY(0) scale(1) rotateY(360deg)}
         }
-        @keyframes qa-wave{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg) translateY(-3%)}}
-        @keyframes qa-jump{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-12%) scale(1.05)}}
+        /* feliz: pulo grande com as duas patas pro alto */
+        @keyframes qa-celebrate{
+          0%,100%{transform:translateY(0) scale(1) rotate(0deg)}
+          30%{transform:translateY(-26%) scale(.95,1.1) rotate(-5deg)}
+          55%{transform:translateY(-28%) scale(1.02) rotate(5deg)}
+          75%{transform:translateY(0) scale(1.08,.9)}
+        }
+        /* falando: pulinhos animados */
+        @keyframes qa-jump{
+          0%,100%{transform:translateY(0) scale(1)}
+          45%{transform:translateY(-14%) scale(.97,1.06)}
+          70%{transform:translateY(0) scale(1.05,.95)}
+        }
         @media (prefers-reduced-motion:reduce){.quiterio-agent-img{animation:none}}
       `}</style>
     </div>
