@@ -14,7 +14,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 const MODE = "gateway";
 const GREETING = "Oi! Eu sou o **Quitério** 🐱, seu guia de leitura. Que história você quer descobrir hoje?";
 
-export function QuiterioChat({ books }: { books: Book[] }) {
+export function QuiterioChat({ books, visible = true }: { books: Book[]; visible?: boolean }) {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Msg[]>([{ role: "assistant", content: GREETING }]);
   const [input, setInput] = useState("");
@@ -25,6 +25,7 @@ export function QuiterioChat({ books }: { books: Book[] }) {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   useEffect(() => () => { requestRef.current?.abort(); }, []);
   useEffect(() => { if (open && !loading) textareaRef.current?.focus(); }, [open, loading]);
+  useEffect(() => { if (!visible) close(); }, [visible]);
   const close = () => {
     requestRef.current?.abort(); requestRef.current = null;
     setOpen(false); setLoading(false); setInput(""); setError(""); setSource("");
@@ -83,8 +84,9 @@ export function QuiterioChat({ books }: { books: Book[] }) {
       if (requestRef.current === controller) { requestRef.current = null; setLoading(false); }
     }
   };
+  if (!visible) return null;
   return <>
-    {!open && <Button onClick={() => setOpen(true)} className="fixed bottom-5 left-5 z-[60] h-24 w-24 overflow-hidden rounded-full p-0 border-2 border-primary bg-background quiterio-window" aria-label="Abrir Quitério — assistente de leitura"><QuiterioAgentMascot size={96} mood="happy" /></Button>}
+    {!open && <Button onClick={() => setOpen(true)} variant="ghost" className="fixed bottom-3 left-3 z-[60] h-28 w-28 p-0 hover:bg-transparent" aria-label="Abrir Quitério — assistente de leitura"><QuiterioAgentMascot size={112} mood="idle" /></Button>}
     {open && <section aria-label="Conversa com Quitério" className="quiterio-window fixed inset-2 sm:inset-4 md:inset-6 z-[60] mx-auto flex max-w-5xl flex-col overflow-hidden rounded-lg border border-border bg-background text-foreground">
       <div aria-hidden="true" className="quiterio-stripe h-1.5 w-full shrink-0" />
       <header className="flex shrink-0 items-center gap-3 border-b border-border bg-secondary px-4 py-3">
