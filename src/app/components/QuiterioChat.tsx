@@ -25,6 +25,7 @@ export function QuiterioChat({ books, visible = true }: { books: Book[]; visible
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   useEffect(() => () => { requestRef.current?.abort(); }, []);
   useEffect(() => { if (open && !loading) textareaRef.current?.focus(); }, [open, loading]);
+  useEffect(() => { if (!visible) close(); }, [visible]);
   const close = () => {
     requestRef.current?.abort(); requestRef.current = null;
     setOpen(false); setLoading(false); setInput(""); setError(""); setSource("");
