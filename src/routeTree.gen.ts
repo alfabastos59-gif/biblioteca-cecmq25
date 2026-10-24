@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AutoresRouteImport } from './routes/autores'
 import { Route as ApiPublicQuiterioChatRouteImport } from './routes/api/public/quiterio-chat'
 import { Route as ApiPublicCapaPathRouteImport } from './routes/api/public/capa/$path'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AutoresRoute = AutoresRouteImport.update({
+  id: '/autores',
+  path: '/autores',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ApiPublicQuiterioChatRoute = ApiPublicQuiterioChatRouteImport.update({
@@ -31,30 +37,40 @@ const ApiPublicCapaPathRoute = ApiPublicCapaPathRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/autores': typeof AutoresRoute
   '/api/public/quiterio-chat': typeof ApiPublicQuiterioChatRoute
   '/api/public/capa/$path': typeof ApiPublicCapaPathRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/autores': typeof AutoresRoute
   '/api/public/quiterio-chat': typeof ApiPublicQuiterioChatRoute
   '/api/public/capa/$path': typeof ApiPublicCapaPathRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/autores': typeof AutoresRoute
   '/api/public/quiterio-chat': typeof ApiPublicQuiterioChatRoute
   '/api/public/capa/$path': typeof ApiPublicCapaPathRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/api/public/quiterio-chat' | '/api/public/capa/$path'
+  fullPaths:
+    '/' | '/autores' | '/api/public/quiterio-chat' | '/api/public/capa/$path'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/api/public/quiterio-chat' | '/api/public/capa/$path'
-  id: '__root__' | '/' | '/api/public/quiterio-chat' | '/api/public/capa/$path'
+  to: '/' | '/autores' | '/api/public/quiterio-chat' | '/api/public/capa/$path'
+  id:
+    | '__root__'
+    | '/'
+    | '/autores'
+    | '/api/public/quiterio-chat'
+    | '/api/public/capa/$path'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AutoresRoute: typeof AutoresRoute
   ApiPublicQuiterioChatRoute: typeof ApiPublicQuiterioChatRoute
   ApiPublicCapaPathRoute: typeof ApiPublicCapaPathRoute
 }
@@ -66,6 +82,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/autores': {
+      id: '/autores'
+      path: '/autores'
+      fullPath: '/autores'
+      preLoaderRoute: typeof AutoresRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/public/quiterio-chat': {
@@ -87,6 +110,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AutoresRoute: AutoresRoute,
   ApiPublicQuiterioChatRoute: ApiPublicQuiterioChatRoute,
   ApiPublicCapaPathRoute: ApiPublicCapaPathRoute,
 }
