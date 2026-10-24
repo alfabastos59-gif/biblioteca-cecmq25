@@ -180,7 +180,7 @@
     "referenceUrl": "https://www.pensador.com/autor/roberto_shinyashiki/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": ""
+    "photoUrl": "https://cdn.pensador.com/img/authors/ro/be/roberto-shinyashiki-1-l.jpg"
   },
   {
     "id": "augusto-cury",
@@ -212,7 +212,7 @@
     "referenceUrl": "https://www.pensador.com/autor/augusto_cury/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/augusto-cury.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/au/gu/augusto-cury-2-l.jpg"
   },
   {
     "id": "luis-de-camoes",
@@ -340,7 +340,7 @@
     "referenceUrl": "https://www.pensador.com/autor/confucio/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/confucio.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/co/nf/confucio-2-l.jpg"
   },
   {
     "id": "pitagoras",
@@ -436,7 +436,7 @@
     "referenceUrl": "https://www.pensador.com/autor/dalai_lama/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/dalai-lama.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/da/la/dalai-lama-4-l.jpg"
   },
   {
     "id": "aristoteles",
@@ -468,7 +468,7 @@
     "referenceUrl": "https://www.pensador.com/autor/aristoteles/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/aristoteles.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ar/is/aristoteles-2-l.jpg"
   },
   {
     "id": "haile-selassie",
@@ -622,7 +622,7 @@
     "referenceUrl": "https://www.pensador.com/autor/charles_chaplin/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": ""
+    "photoUrl": "https://cdn.pensador.com/img/authors/ch/ar/charles-chaplin-2-l.jpg"
   },
   {
     "id": "albert-einstein",
@@ -1133,7 +1133,7 @@
     "referenceUrl": "https://www.pensador.com/autor/nemo_nox/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": ""
+    "photoUrl": "https://cdn.pensador.com/img/authors/ne/mo/nemo-nox-l.jpg"
   },
   {
     "id": "myrtes-mathias",
@@ -1672,7 +1672,7 @@
     "referenceUrl": "https://www.pensador.com/autor/oswaldo_montenegro/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/oswaldo-montenegro.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/os/wa/oswaldo-montenegro-2-l.jpg"
   },
   {
     "id": "sigmund-freud",
@@ -1820,7 +1820,7 @@
     "referenceUrl": "https://www.pensador.com/autor/mahatma_gandhi/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/mahatma-gandhi.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ma/ha/mahatma-gandhi-2-l.jpg"
   },
   {
     "id": "leon-tolstoi",
@@ -1936,7 +1936,7 @@
     "referenceUrl": "https://www.pensador.com/autor/henry_ford/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/henry-ford.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/he/nr/henry-ford-2-l.jpg"
   },
   {
     "id": "cynthia-kersey",
