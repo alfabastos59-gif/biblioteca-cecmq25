@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { AuthorItem } from '../types';
 import { MANOEL_DE_BARROS_QUOTES } from '../components/FeaturedWriterCard';
+import AUTHORS_PAGE_DATA from '../../features/authors/authors.json';
 
 export const DEFAULT_AUTHORS: AuthorItem[] = [
   {
@@ -460,6 +461,29 @@ export const DEFAULT_AUTHORS: AuthorItem[] = [
   }
 ];
 
+// Junta os 69 autores da página de Autores ao banco já cadastrado (sem duplicar)
+{
+  const known = new Set(DEFAULT_AUTHORS.map((a) => a.id));
+  for (const a of AUTHORS_PAGE_DATA as any[]) {
+    if (known.has(a.id)) continue;
+    known.add(a.id);
+    DEFAULT_AUTHORS.push({
+      id: a.id,
+      name: a.name,
+      period: a.period,
+      role: a.role,
+      tag: a.tag,
+      photoUrl: a.photoUrl || '',
+      featuredQuote: a.featuredQuote,
+      quoteSource: a.quoteSource,
+      referenceUrl: a.referenceUrl,
+      additionalQuotes: (a.additionalQuotes || []).map((q: any) => ({ text: q.text, source: q.source || a.quoteSource })),
+      active: a.active !== false,
+      createdAt: '2026-10-24T00:00:00.000Z'
+    });
+  }
+}
+
 const BROKEN_PHOTO_URLS = new Set<string>(["https://upload.wikimedia.org/wikipedia/commons/1/1d/Carolina_Maria_de_Jesus_1960.jpg", "https://upload.wikimedia.org/wikipedia/commons/9/90/Clarice_Lispector.jpg", "https://upload.wikimedia.org/wikipedia/commons/e/e0/Concei%C3%A7%C3%A3o_Evaristo_em_2019.jpg", "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jo%C3%A3o_Guimar%C3%A3es_Rosa_%281967%29.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PREMIO_APCA_DE_LITERATURA_2019_CATEGORIA_CONTOS_-_CR%C3%94NICAS_%22Redemoinho_em_dia_quente_-_Jarid_Arraes%22.png/640px-PREMIO_APCA_DE_LITERATURA_2019_CATEGORIA_CONTOS_-_CR%C3%94NICAS_%22Redemoinho_em_dia_quente_-_Jarid_Arraes%22.png", "https://upload.wikimedia.org/wikipedia/commons/0/05/Machado_de_Assis_real.jpg", "https://upload.wikimedia.org/wikipedia/commons/2/29/Manoel_Ramos_de_Barros.jpg", "https://upload.wikimedia.org/wikipedia/commons/0/07/Maria_firmina_%28detailed%29.jpg", "https://upload.wikimedia.org/wikipedia/commons/6/69/Mel_Duarte_arquivo_pessoal.jpg"]);
 
 const STORAGE_KEY = 'cecmq_featured_authors';
@@ -490,6 +514,12 @@ export function startAuthorsCloudSync() {
         applyingCloud = true;
         try {
           try { localStorage.setItem(STORAGE_KEY, JSON.stringify(list)); } catch {}
+          const ids = new Set(list.map((a) => a.id));
+          if (DEFAULT_AUTHORS.some((a) => !ids.has(a.id))) {
+            syncAuthorsToCloud(getStoredAuthors()).catch((e) =>
+              console.error('Erro ao juntar autores na nuvem:', e)
+            );
+          }
           window.dispatchEvent(new Event(CUSTOM_EVENT_NAME));
         } finally {
           applyingCloud = false;
