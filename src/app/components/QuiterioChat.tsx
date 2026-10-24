@@ -89,13 +89,13 @@ export function QuiterioChat({ books, visible = true }: { books: Book[]; visible
     {!open && <Button onClick={() => setOpen(true)} variant="ghost" className="fixed bottom-3 left-3 z-[60] h-28 w-28 p-0 hover:bg-transparent" aria-label="Abrir Quitério — assistente de leitura"><QuiterioAgentMascot size={112} mood="idle" /></Button>}
     {open && <section aria-label="Conversa com Quitério" className="quiterio-window fixed left-1/2 top-1/2 z-[60] flex h-[min(46vh,30rem)] w-[min(46vw,34rem)] min-h-[16rem] min-w-[17rem] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-lg border border-border bg-background text-foreground">
       <div aria-hidden="true" className="quiterio-stripe h-1.5 w-full shrink-0" />
-      <header className="flex shrink-0 items-center gap-3 border-b border-border bg-secondary px-4 py-3">
+      <header className="flex shrink-0 items-center gap-3 border-b border-border bg-secondary px-3 py-2">
         <QuiterioAgentMascot size={40} mood={loading ? "talking" : "happy"} />
         <div className="min-w-0 flex-1"><h2 className="truncate text-base font-bold">Quitério</h2><p className="truncate text-xs text-muted-foreground">Seu guia de leitura 🐱</p></div>
         <Button variant="ghost" size="icon" onClick={close} aria-label="Fechar Quitério" title="Fechar"><X /></Button>
       </header>
       <Conversation className="min-h-0 flex-1">
-        <ConversationContent className="gap-5 p-4 sm:p-6">
+        <ConversationContent className="gap-4 p-3 sm:p-4">
           {messages.map((m, i) => <Message key={i} from={m.role}>
             <MessageContent className={m.role === "user" ? "group-[.is-user]:bg-primary group-[.is-user]:text-primary-foreground" : ""}>
               {m.role === "assistant" ? m.content ? <MessageResponse>{m.content}</MessageResponse> : loading ? <Shimmer>Quitério está consultando...</Shimmer> : null : <p className="whitespace-pre-wrap break-words">{m.content}</p>}
@@ -107,7 +107,7 @@ export function QuiterioChat({ books, visible = true }: { books: Book[]; visible
       {error && <p role="alert" className="shrink-0 px-4 py-2 text-sm text-destructive">{error}</p>}
       <div className="shrink-0 border-t border-border bg-secondary p-3">
         <PromptInput onSubmit={({ text }) => send(text)}>
-          <PromptInputTextarea ref={textareaRef} value={input} onChange={e => setInput(e.target.value)} maxLength={2000} placeholder="Pergunte ao Quitério..." aria-label="Pergunte ao Quitério" disabled={loading} className="min-h-[72px] max-h-[180px] text-foreground" />
+          <PromptInputTextarea ref={textareaRef} value={input} onChange={e => setInput(e.target.value)} maxLength={2000} placeholder="Pergunte ao Quitério..." aria-label="Pergunte ao Quitério" disabled={loading} className="min-h-[48px] max-h-[120px] text-foreground" />
           <PromptInputFooter className="justify-end"><PromptInputSubmit aria-label={loading ? "Parar resposta" : "Enviar pergunta"} status={loading ? "streaming" : "ready"} onStop={() => requestRef.current?.abort()} disabled={!loading && !input.trim()} /></PromptInputFooter>
         </PromptInput>
       </div>
