@@ -514,6 +514,12 @@ export function startAuthorsCloudSync() {
         applyingCloud = true;
         try {
           try { localStorage.setItem(STORAGE_KEY, JSON.stringify(list)); } catch {}
+          const ids = new Set(list.map((a) => a.id));
+          if (DEFAULT_AUTHORS.some((a) => !ids.has(a.id))) {
+            syncAuthorsToCloud(getStoredAuthors()).catch((e) =>
+              console.error('Erro ao juntar autores na nuvem:', e)
+            );
+          }
           window.dispatchEvent(new Event(CUSTOM_EVENT_NAME));
         } finally {
           applyingCloud = false;
