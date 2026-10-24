@@ -1,0 +1,31 @@
+/* ============================================================
+   Tema da página Autores — Biblioteca Maria Quitéria
+   Tokens e classes usadas por src/features/authors/*.
+   Importado por src/styles.css; copie este arquivo junto com a
+   pasta features/authors ao levar a página para outro projeto.
+   ============================================================ */
+
+@theme {
+  --color-author-background: #180d27;
+  --color-author-surface: #241633;
+  --color-author-foreground: #faf7fd;
+  --color-author-muted: #c6bacf;
+  --color-author-highlight: #e5ba68;
+  --color-author-border: #493651;
+  --color-author-hover: #382442;
+}
+
+.authors-page { background: var(--color-author-background); color: var(--color-author-foreground); letter-spacing: 0; }
+.authors-header { border-bottom: 1px solid var(--color-author-border); }
+.author-portrait { height: 230px; background: var(--color-author-hover); overflow: hidden; }
+.author-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.author-portrait-large { height: 220px; border-radius: 6px; }
+.author-initials { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; height: 100%; color: var(--color-author-highlight); font-family: Georgia, serif; font-size: 42px; }
+.author-control { color: var(--color-author-highlight); }
+.author-control:hover { background: var(--color-author-hover); color: var(--color-author-foreground); }
+.author-input { color: var(--color-author-foreground); }
+.author-input::placeholder { color: var(--color-author-muted); }
+.author-card { transition: border-color 180ms ease; }
+.author-card:hover { border-color: var(--color-author-highlight); }
+.author-dialog { background: var(--color-author-surface); }
+@media (prefers-reduced-motion: reduce) { .author-card { transition: none; } }

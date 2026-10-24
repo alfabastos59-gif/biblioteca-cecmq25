@@ -280,6 +280,15 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Sugestões</span>
             </button>
 
+            <a
+              id="nav-autores"
+              href="/autores"
+              className="px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer flex items-center gap-1.5 text-[#d8b4fe] hover:text-white hover:bg-[#32145e]/80"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Autores</span>
+            </a>
+
             <button
               id="nav-sobre"
               onClick={() => setActiveTab('sobre')}
