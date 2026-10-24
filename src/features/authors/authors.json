@@ -29,7 +29,7 @@
     "referenceUrl": "https://www.pensador.com/autor/fernando_pessoa/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/fernando-pessoa.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/fe/rn/fernando-pessoa-l.jpg"
   },
   {
     "id": "william-shakespeare",
@@ -61,7 +61,7 @@
     "referenceUrl": "https://www.pensador.com/autor/william_shakespeare/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/william-shakespeare.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg"
   },
   {
     "id": "clarice-lispector",
@@ -93,7 +93,7 @@
     "referenceUrl": "https://www.pensador.com/autor/clarice_lispector/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/clarice-lispector.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/cl/ar/clarice-lispector-2-l.jpg"
   },
   {
     "id": "friedrich-nietzsche",
@@ -125,7 +125,7 @@
     "referenceUrl": "https://www.pensador.com/autor/friedrich_nietzsche/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/friedrich-nietzsche.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/fr/ie/friedrich-nietzsche-2-l.jpg"
   },
   {
     "id": "maria-julia-paes-de-silva",
@@ -244,7 +244,7 @@
     "referenceUrl": "https://www.pensador.com/autor/luis_de_camoes/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/luis-de-camoes.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/lu/is/luis-de-camoes-l.jpg"
   },
   {
     "id": "carlos-drummond-de-andrade",
@@ -276,7 +276,7 @@
     "referenceUrl": "https://www.pensador.com/autor/carlos_drummond_de_andrade/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/carlos-drummond-de-andrade.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ca/rl/carlos-drummond-de-andrade-ss.jpg"
   },
   {
     "id": "mario-quintana",
@@ -308,7 +308,7 @@
     "referenceUrl": "https://www.pensador.com/autor/mario_quintana/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/mario-quintana.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ma/ri/mario-quintana-2-l.jpg"
   },
   {
     "id": "confucio",
@@ -372,7 +372,7 @@
     "referenceUrl": "https://www.pensador.com/autor/pitagoras/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/pitagoras.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/pi/ta/pitagoras-l.jpg"
   },
   {
     "id": "platao",
@@ -404,7 +404,7 @@
     "referenceUrl": "https://www.pensador.com/autor/platao/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/platao.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/pl/at/platao-ss.jpg"
   },
   {
     "id": "dalai-lama",
@@ -500,7 +500,7 @@
     "referenceUrl": "https://www.pensador.com/autor/haile_selassie/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/haile-selassie.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ha/il/haile-selassie-1-ss.jpg"
   },
   {
     "id": "oscar-wilde",
@@ -532,7 +532,7 @@
     "referenceUrl": "https://www.pensador.com/autor/oscar_wilde/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/oscar-wilde.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/os/ca/oscar-wilde-2-ss.jpg"
   },
   {
     "id": "machado-de-assis",
@@ -564,7 +564,7 @@
     "referenceUrl": "https://www.pensador.com/autor/machado_de_assis/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/machado-de-assis.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ma/ch/machado-de-assis-2-ss.jpg"
   },
   {
     "id": "oliver-wendell-holmes-sr",
@@ -654,7 +654,7 @@
     "referenceUrl": "https://www.pensador.com/autor/albert_einstein/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/albert-einstein.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/al/be/albert-einstein-ss.jpg"
   },
   {
     "id": "thich-nhat-hanh",
@@ -686,7 +686,7 @@
     "referenceUrl": "https://www.pensador.com/autor/thich_nhat_hanh/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/thich-nhat-hanh.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/th/ic/thich-nhat-hanh-ss.jpg"
   },
   {
     "id": "stubby-currence",
@@ -738,7 +738,7 @@
     "referenceUrl": "https://www.pensador.com/autor/john_wooden/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/john-wooden.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/jo/hn/john-wooden-1-ss.jpg"
   },
   {
     "id": "d-elhers",
@@ -790,7 +790,7 @@
     "referenceUrl": "https://www.pensador.com/autor/leonardo_da_vinci/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/leonardo-da-vinci.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/le/on/leonardo-da-vinci-ss.jpg"
   },
   {
     "id": "fernando-teixeira-de-andrade",
@@ -848,7 +848,7 @@
     "referenceUrl": "https://www.pensador.com/autor/gloria_hurtado/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/gloria-hurtado.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/gl/or/gloria-hurtado-1-ss.jpg"
   },
   {
     "id": "joseph-addison",
@@ -880,7 +880,7 @@
     "referenceUrl": "https://www.pensador.com/autor/joseph_addison/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/joseph-addison.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/jo/se/joseph-addison-ss.jpg"
   },
   {
     "id": "antoine-de-saint-exupery",
@@ -912,7 +912,7 @@
     "referenceUrl": "https://www.pensador.com/autor/antoine_de_saint_exupery/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/antoine-de-saint-exupery.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/an/to/antoine-de-saint-exupery-2-ss.jpg"
   },
   {
     "id": "paulo-coelho",
@@ -944,7 +944,7 @@
     "referenceUrl": "https://www.pensador.com/autor/paulo_coelho/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/paulo-coelho.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/pa/ul/paulo-coelho-ss.jpg"
   },
   {
     "id": "roger-bussy-rabutin",
@@ -973,7 +973,7 @@
     "referenceUrl": "https://www.pensador.com/autor/roger_bussy_rabutin/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/roger-bussy-rabutin.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ro/ge/roger-bussy-rabutin-ss.jpg"
   },
   {
     "id": "georges-bernanos",
@@ -1005,7 +1005,7 @@
     "referenceUrl": "https://www.pensador.com/autor/georges_bernanos/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/georges-bernanos.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ge/or/georges-bernanos-ss.jpg"
   },
   {
     "id": "toquinho-e-mutinho",
@@ -1053,7 +1053,7 @@
     "referenceUrl": "https://www.pensador.com/autor/socrates/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/socrates.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/so/cr/socrates-ss.jpg"
   },
   {
     "id": "evelyn-beatrice-hall",
@@ -1085,7 +1085,7 @@
     "referenceUrl": "https://www.pensador.com/autor/evelyn_beatrice_hall/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/evelyn-beatrice-hall.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ev/el/evelyn-beatrice-hall-1-ss.jpg"
   },
   {
     "id": "leticia-lanz-geraldo-eustaquio-de-souza",
@@ -1213,7 +1213,7 @@
     "referenceUrl": "https://www.pensador.com/autor/vinicius_de_moraes/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/vinicius-de-moraes.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/vi/ni/vinicius-de-moraes-2-ss.jpg"
   },
   {
     "id": "cora-coralina",
@@ -1245,7 +1245,7 @@
     "referenceUrl": "https://www.pensador.com/autor/cora_coralina/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/cora-coralina.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/co/ra/cora-coralina-1-ss.jpg"
   },
   {
     "id": "amyr-klink",
@@ -1277,7 +1277,7 @@
     "referenceUrl": "https://www.pensador.com/autor/amyr_klink/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/amyr-klink.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/am/yr/amyr-klink-ss.jpg"
   },
   {
     "id": "santo-agostinho",
@@ -1309,7 +1309,7 @@
     "referenceUrl": "https://www.pensador.com/autor/santo_agostinho/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/santo-agostinho.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/sa/nt/santo-agostinho-ss.jpg"
   },
   {
     "id": "waldemar-valle-martins",
@@ -1361,7 +1361,7 @@
     "referenceUrl": "https://www.pensador.com/autor/martin_luther_king/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/martin-luther-king.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ma/rt/martin-luther-king-ss.jpg"
   },
   {
     "id": "sarah-westphal",
@@ -1448,7 +1448,7 @@
     "referenceUrl": "https://www.pensador.com/autor/seneca/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/seneca.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/se/ne/seneca-ss.jpg"
   },
   {
     "id": "millor-fernandes",
@@ -1480,7 +1480,7 @@
     "referenceUrl": "https://www.pensador.com/autor/millor_fernandes/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/millor-fernandes.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/mi/ll/millor-fernandes-ss.jpg"
   },
   {
     "id": "vladimir-maiakovski",
@@ -1512,7 +1512,7 @@
     "referenceUrl": "https://www.pensador.com/autor/vladimir_maiakovski/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/vladimir-maiakovski.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/vl/ad/vladimir-maiakovski-ss.jpg"
   },
   {
     "id": "paulo-roberto-gaefke",
@@ -1576,7 +1576,7 @@
     "referenceUrl": "https://www.pensador.com/autor/rui_barbosa/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/rui-barbosa.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ru/ib/rui-barbosa-ss.jpg"
   },
   {
     "id": "john-dryden",
@@ -1608,7 +1608,7 @@
     "referenceUrl": "https://www.pensador.com/autor/john_dryden/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/john-dryden.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/jo/hn/john-dryden-ss.jpg"
   },
   {
     "id": "william-james",
@@ -1640,7 +1640,7 @@
     "referenceUrl": "https://www.pensador.com/autor/william_james/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/william-james.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/wi/ll/william-james-ss.jpg"
   },
   {
     "id": "oswaldo-montenegro",
@@ -1704,7 +1704,7 @@
     "referenceUrl": "https://www.pensador.com/autor/sigmund_freud/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/sigmund-freud.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/si/gm/sigmund-freud-ss.jpg"
   },
   {
     "id": "voltaire",
@@ -1736,7 +1736,7 @@
     "referenceUrl": "https://www.pensador.com/autor/voltaire/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/voltaire.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/vo/lt/voltaire-ss.jpg"
   },
   {
     "id": "oliver-goldsmith",
@@ -1768,7 +1768,7 @@
     "referenceUrl": "https://www.pensador.com/autor/oliver_goldsmith/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/oliver-goldsmith.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/ol/iv/oliver-goldsmith-ss.jpg"
   },
   {
     "id": "maurice-switzer",
@@ -1852,7 +1852,7 @@
     "referenceUrl": "https://www.pensador.com/autor/leon_tolstoi/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/leon-tolstoi.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/le/on/leon-tolstoi-2-ss.jpg"
   },
   {
     "id": "jo-cooke",
@@ -1904,7 +1904,7 @@
     "referenceUrl": "https://www.pensador.com/autor/khalil_gibran/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/khalil-gibran.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/kh/al/khalil-gibran-ss.jpg"
   },
   {
     "id": "henry-ford",
@@ -1984,7 +1984,7 @@
     "referenceUrl": "https://www.pensador.com/autor/john_ruskin/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/john-ruskin.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/jo/hn/john-ruskin-ss.jpg"
   },
   {
     "id": "victor-hugo",
@@ -2016,7 +2016,7 @@
     "referenceUrl": "https://www.pensador.com/autor/victor_hugo/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/victor-hugo.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/vi/ct/victor-hugo-ss.jpg"
   },
   {
     "id": "soren-kierkegaard",
@@ -2048,6 +2048,6 @@
     "referenceUrl": "https://www.pensador.com/autor/soren_kierkegaard/",
     "active": true,
     "quoteSource": "Pensador",
-    "photoUrl": "/authors/soren-kierkegaard.jpg"
+    "photoUrl": "https://cdn.pensador.com/img/authors/so/re/soren-kierkegaard-ss.jpg"
   }
 ]
