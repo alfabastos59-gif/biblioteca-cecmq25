@@ -87,7 +87,7 @@ export function QuiterioChat({ books, visible = true }: { books: Book[]; visible
   if (!visible) return null;
   return <>
     {!open && <Button onClick={() => setOpen(true)} variant="ghost" className="fixed bottom-3 left-3 z-[60] h-28 w-28 p-0 hover:bg-transparent" aria-label="Abrir Quitério — assistente de leitura"><QuiterioAgentMascot size={112} mood="idle" /></Button>}
-    {open && <section aria-label="Conversa com Quitério" className="quiterio-window fixed inset-2 sm:inset-4 md:inset-6 z-[60] mx-auto flex max-w-5xl flex-col overflow-hidden rounded-lg border border-border bg-background text-foreground">
+    {open && <section aria-label="Conversa com Quitério" className="quiterio-window fixed left-1/2 top-1/2 z-[60] flex h-[min(46vh,30rem)] w-[min(46vw,34rem)] min-h-[16rem] min-w-[17rem] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-lg border border-border bg-background text-foreground">
       <div aria-hidden="true" className="quiterio-stripe h-1.5 w-full shrink-0" />
       <header className="flex shrink-0 items-center gap-3 border-b border-border bg-secondary px-4 py-3">
         <QuiterioAgentMascot size={40} mood={loading ? "talking" : "happy"} />
