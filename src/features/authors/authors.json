@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "fernando-pessoa",
+    "authorCode": "001",
+    "name": "Fernando Pessoa",
+    "period": "1888 – 1935",
+    "role": "Poeta e Escritor Modernista",
+    "nationality": "Portuguesa",
+    "tag": "Pensador • Portuguesa",
+    "bio": "Pessoa (1888-1935) foi um dos mais importantes poetas em língua portuguesa, a figura central do Modernismo português",
+    "featuredQuote": "Amo como ama o amor.  Não conheço nenhuma outra razão para amar senão amar.  Que queres que te diga, além de que te amo, se o que quero dizer-te é que te amo?",
+    "additionalQuotes": [
+      {
+        "text": "Às vezes ouço passar o vento; e só de ouvir o vento passar, vale a pena ter nascido."
+      },
+      {
+        "text": "Para viajar basta existir."
+      },
+      {
+        "text": "Quero para mim o espírito desta frase, transformada a forma para a casar com o que eu sou: viver não é necessário, o que é necessário é criar."
+      },
+      {
+        "text": "Tenho em mim todos os sonhos do mundo."
+      },
+      {
+        "text": "Tudo vale a pena quando a alma não é pequena."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/fernando_pessoa/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/fernando-pessoa.jpg"
+  },
+  {
+    "id": "william-shakespeare",
+    "authorCode": "002",
+    "name": "William Shakespeare",
+    "period": "1564 – 1616",
+    "role": "Dramaturgo e Poeta",
+    "nationality": "Britânica",
+    "tag": "Pensador • Internacional",
+    "bio": "Shakespeare (1564-1616) foi dramaturgo e poeta, reconhecido como o maior dramaturgo de todos os tempos.",
+    "featuredQuote": "A suspeita sempre persegue a consciência culpada; o ladrão vê em cada sombra um policial.",
+    "additionalQuotes": [
+      {
+        "text": "Aquele que gosta de ser adulado é digno do adulador."
+      },
+      {
+        "text": "Assim que se olharam, amaram-se; assim que se amaram, suspiraram; assim que suspiraram, perguntaram-se um ao outro o motivo; assim que descobriram o motivo, procuraram o remédio."
+      },
+      {
+        "text": "Choramos ao nascer porque chegamos a este imenso cenário de dementes."
+      },
+      {
+        "text": "Conservar algo que possa recordar-te seria admitir que eu pudesse esquecer-te."
+      },
+      {
+        "text": "É mais fácil obter o que se deseja com um sorriso do que à ponta da espada."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/william_shakespeare/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/william-shakespeare.jpg"
+  },
+  {
+    "id": "clarice-lispector",
+    "authorCode": "003",
+    "name": "Clarice Lispector",
+    "period": "1920 – 1977",
+    "role": "Romancista e Contista",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Lispector (1920-1977) foi uma escritora brasileira. De origem judia, nascida na Ucrânia, é reconhecida como uma das mais importantes escritoras do século XX.",
+    "featuredQuote": "Até cortar os próprios defeitos pode ser perigoso. Nunca se sabe qual é o defeito que sustenta nosso edifício inteiro.",
+    "additionalQuotes": [
+      {
+        "text": "Brasília (...) Uma prisão ao ar livre."
+      },
+      {
+        "text": "Sim, minha força está na solidão. Não tenho medo nem de chuvas tempestivas, nem das grandes ventanias soltas, pois eu também sou o escuro da noite."
+      },
+      {
+        "text": "Que ninguém se engane, só se consegue a simplicidade através de muito trabalho."
+      },
+      {
+        "text": "Renda-se, como eu me rendi. Mergulhe no que você não conhece como eu mergulhei. Não se preocupe em entender, viver ultrapassa qualquer entendimento."
+      },
+      {
+        "text": "Sendo este um jornal por excelência, e por excelência dos precisa-se e oferece-se, vou pôr um anúncio em negrito: precisa-se de alguém homem ou mulher que ajude uma pessoa a ficar contente porque esta está tão contente que não pode ficar sozinha com a alegria, e precisa reparti-la. Paga-se extraordinariamente bem: minuto por minuto paga-se com a própria alegria. É urgente pois a alegria dessa pessoa é fugaz como estrelas cadentes, que até parece que só se as viu depois que tombaram; precisa-se urgente antes da noite cair porque a noite é muito perigosa e nenhuma ajuda é possível e fica tarde demais. Essa pessoa que atenda ao anúncio só tem folga depois que passa o horror do domingo que fere. Não faz mal que venha uma pessoa triste porque a alegria que se dá é tão grande que se tem que a repartir antes que se transforme em drama. Implora-se também que venha, implora-se com a humildade da alegria-sem-motivo. Em troca oferece-se também uma casa com todas as luzes acesas como numa festa de bailarinos. Dá-se o direito de dispor da copa e da cozinha, e da sala de estar. P.S. Não se precisa de prática. E se pede desculpa por estar num anúncio a dilacerar os outros. Mas juro que há em meu rosto sério uma alegria até mesmo divina para dar."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/clarice_lispector/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/clarice-lispector.jpg"
+  },
+  {
+    "id": "friedrich-nietzsche",
+    "authorCode": "004",
+    "name": "Friedrich Nietzsche",
+    "period": "1844 – 1900",
+    "role": "Filósofo e Filólogo",
+    "nationality": "Alemã",
+    "tag": "Pensador • Alemã",
+    "bio": "Nietzsche (1844-1900) foi um filósofo, escritor, poeta e filólogo alemão, um dos mais importantes do século XIX. Escreveu \"O Anticristo\" e \"Assim Falava Zaratustra\".",
+    "featuredQuote": "A vantagem de ter péssima memória é divertir-se muitas vezes com as mesmas coisas boas como se fosse a primeira vez.",
+    "additionalQuotes": [
+      {
+        "text": "A vida vai ficando cada vez mais dura perto do topo."
+      },
+      {
+        "text": "As convicções são inimigas mais perigosas da verdade do que as mentiras."
+      },
+      {
+        "text": "É mais fácil lidar com uma má consciência do que com uma má reputação."
+      },
+      {
+        "text": "Não há fatos eternos, como não há verdades absolutas."
+      },
+      {
+        "text": "O que não provoca minha morte faz com que eu fique mais forte."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/friedrich_nietzsche/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/friedrich-nietzsche.jpg"
+  },
+  {
+    "id": "maria-julia-paes-de-silva",
+    "authorCode": "005",
+    "name": "Maria Julia Paes de Silva",
+    "period": "2000",
+    "role": "Autor / Pensador",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Sobre Maria Julia Paes de SilvaMaria Julia Paes de Silva é uma escritora brasileira e Doutora em Enfermagem pela Escola de Enfermagem da Universidade de São Paulo, especialista na área da comunicação interpessoal. Entre suas obras se destacam Amor é o Caminho (2000), Comunicação Tem Remédio (2005) e Qual o Tempo do Cuidado? (2008).",
+    "featuredQuote": "O valor das coisas não está no tempo que elas duram, mas na intensidade com que acontecem. Por isso existem momentos inesquecíveis, coisas inexplicáveis e pessoas incomparáveis.",
+    "additionalQuotes": [
+      {
+        "text": "Existem momentos inesquecíveis, coisas inexplicáveis e pessoas incomparáveis."
+      },
+      {
+        "text": "Existem momentos inesquecíveis, pessoas incomparáveis e coisas inexplicáveis."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/maria_julia_paes_de_silva/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "roberto-shinyashiki",
+    "authorCode": "006",
+    "name": "Roberto Shinyashiki",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Sobre Roberto ShinyashikiRoberto Shinyashiki é médico-psiquiatra, conferencista, empresário e escritor brasileiro. Seus livros abordam temas como qualidade de vida e motivação.",
+    "featuredQuote": "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.",
+    "additionalQuotes": [
+      {
+        "text": "Vencer não é competir com o outro. É derrotar seus inimigos interiores."
+      },
+      {
+        "text": "Um beijo é melhor do que um tapa, mas um tapa é melhor do que o desprezo."
+      },
+      {
+        "text": "Para ser feliz, você não precisa de grandes conquistas materiais. Você já tem o pôr-do-sol, as estrelas, os pássaros, o sorriso dos seus amigos, seus irmãos. Agradeça a Deus, pois você tem tua vida. Tem o dia que está começando, tem sua força e determinação. Com todos esses presentes da vida, o resto você constrói!"
+      },
+      {
+        "text": "Muitas pessoas pensam que a felicidade somente será possível depois de alcançar algo, mas a verdade é que deixar para ser feliz amanhã é uma forma de ser infeliz."
+      },
+      {
+        "text": "Neste momento, penso em você e então quisera me transformar em vento.E se assim fosse, chegaria agora como brisa fresca e tocaria leve sua janela.E se você me escuta e me permite entrar, em você vou me enroscar quase sem o tocar.Vou roçar nos seus cabelos, soprar mansinho no ouvido, beijar sua boca macia, o embalar no meu carinhoMas eu não sou vento... Agora sou só pensamento e estou pensando em você.E se abrir sua janela, eu estou chegando aí, agora...neste momento, em pensamento... no vento."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/roberto_shinyashiki/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "augusto-cury",
+    "authorCode": "007",
+    "name": "Augusto Cury",
+    "period": "1958 – presente",
+    "role": "Psiquiatra e Escritor",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Cury (1958) é um psiquiatra e escritor brasileiro.",
+    "featuredQuote": "A maior aventura de um ser humano é viajar,E a maior viagem que alguém pode empreenderÉ para dentro de si mesmo.E o modo mais emocionante de realizá-la é ler um livro,Pois um livro revela que a vida é o maior de todos os livros,Mas é pouco útil para quem não souber ler nas entrelinhasE descobrir o que as palavras não disseram...",
+    "additionalQuotes": [
+      {
+        "text": "As grandes ideias surgem da observação dos pequenos detalhes."
+      },
+      {
+        "text": "Ser feliz é deixar de ser vítima dos problemas e se tornar um autor da própria história. É atravessar desertos fora de si, mas ser capaz de encontrar um oásis no recôndito da sua alma. É agradecer a Deus a cada manhã pelo milagre da vida."
+      },
+      {
+        "text": "Posso ter defeitos, viver ansioso e ficar irritado algumas vezes, mas não esqueço que minha vida é a maior empresa do mundo. E que posso evitar que ela vá à falência.Ser feliz é reconhecer que vale a pena viver, apesar de todos os desafios, incompreensões e períodos de crise.Ser feliz é deixar de ser vítima dos problemas e se tornar autor da própria história.É atravessar desertos fora de si, mas ser capaz de encontrar um oásis no recôndito da sua alma.É agradecer a Deus a cada manhã pelo milagre da vida.Ser feliz é não ter medo dos próprios sentimentos. É saber falar de si mesmo. É ter coragem para ouvir um “não”. É ter segurança para receber uma crítica, mesmo que injusta."
+      },
+      {
+        "text": "Você pode ter defeitos, viver ansioso e ficar irritado algumas vezes, mas não se esqueça de que sua vida é a maior empresa do mundo. Só você pode evitar que ela vá à falência. Há muitas pessoas que precisam, admiram e torcem por você.É importante que você sempre se lembre de que ser feliz não é ter um céu sem tempestades, caminhos sem acidentes, trabalhos sem fadigas, relacionamentos sem decepções. Ser feliz é encontrar força no perdão, esperança nas batalhas, segurança no palco do medo, amor nos desencontros."
+      },
+      {
+        "text": "Violência gera violência, os fracos julgam e condenam, porém os fortes perdoam e compreendem."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/augusto_cury/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/augusto-cury.jpg"
+  },
+  {
+    "id": "luis-de-camoes",
+    "authorCode": "008",
+    "name": "Luís de Camões",
+    "period": "1524 – 1580",
+    "role": "Poeta Nacional de Portugal",
+    "nationality": "Portuguesa",
+    "tag": "Pensador • Portuguesa",
+    "bio": "Camões (1524-1580) foi um poeta português, considerado o maior poeta de língua portuguesa. Autor dos Lusíadas, maior obra literária portuguesa.",
+    "featuredQuote": "O fraco rei faz fraca a forte gente.",
+    "additionalQuotes": [
+      {
+        "text": "Os bons vi sempre passarNo mundo graves tormentos;E para mais me espantarOs maus vi sempre nadarEm mar de contentamentos."
+      },
+      {
+        "text": "Amor é fogo que arde sem se ver;É ferida que dói, e não se sente;É um contentamento descontente;É dor que desatina sem doer.É um não querer mais que bem querer;É um andar solitário entre a gente;É nunca contentar-se de contente;É um cuidar que se ganha em se perder.É querer estar preso por vontade;É servir a quem vence, o vencedor;É ter com quem nos mata, lealdade.Mas como causar pode seu favorNos corações humanos amizade,Se tão contrário a si é o mesmo Amor?"
+      },
+      {
+        "text": "Busque Amor novas artes, novo engenho,para matar me, e novas esquivanças;que não pode tirar me as esperanças,que mal me tirará o que eu não tenho.Olhai de que esperanças me mantenho!Vede que perigosas seguranças!Que não temo contrastes nem mudanças,andando em bravo mar, perdido o lenho.Mas, conquanto não pode haver desgostoonde esperança falta, lá me escondeAmor um mal, que mata e não se vê.Que dias há que n'alma me tem postoum não sei quê, que nasce não sei onde,vem não sei como, e dói não sei porquê."
+      },
+      {
+        "text": "Transforma-se o amador na cousa amada,Por virtude do muito imaginar;Não tenho logo mais que desejar,Pois em mim tenho a parte desejada.Se nela está minha alma transformada,Que mais deseja o corpo de alcançar?Em si somente pode descansar,Pois consigo tal alma está ligada.Mas esta linda e pura semideia,Que, como o acidente em seu sujeito,Assim como a alma minha se conforma,Está no pensamento como ideia;[E] o vivo e puro amor de que sou feito,Como matéria simples busca a forma."
+      },
+      {
+        "text": "Eu cantarei de amor tão docemente,Por uns termos em si tão concertados,Que dois mil acidentes namoradosFaça sentir ao peito que não sente.Farei que amor a todos avivente,Pintando mil segredos delicados,Brandas iras, suspiros magoados,Temerosa ousadia e pena ausente.Também, Senhora, do desprezo honestoDe vossa vista branda e rigorosa,Contentar-me-ei dizendo a menor parte.Porém, pera cantar de vosso gestoA composição alta e milagrosaAqui falta saber, engenho e arte."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/luis_de_camoes/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/luis-de-camoes.jpg"
+  },
+  {
+    "id": "carlos-drummond-de-andrade",
+    "authorCode": "009",
+    "name": "Carlos Drummond de Andrade",
+    "period": "1902 – 1987",
+    "role": "Poeta e Cronista",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Andrade (1902 - 1987) foi um poeta, cronista, contista e tradutor brasileiro. Sua obra traduz a visão de um individualista comprometido com a realidade social.",
+    "featuredQuote": "A minha vontade é forte, porém minha disposição de obedecer-lhe é fraca.",
+    "additionalQuotes": [
+      {
+        "text": "Adão, o primeiro espoliado - e no próprio corpo."
+      },
+      {
+        "text": "As academias coroam com igual zelo o talento e a ausência dele."
+      },
+      {
+        "text": "Cada nova geração de computadores desmoraliza as antecedentes e seus criadores."
+      },
+      {
+        "text": "Há campeões de tudo, inclusive de perda de campeonatos."
+      },
+      {
+        "text": "Há homens e mulheres que fazem do casamento uma oportunidade de adultério."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/carlos_drummond_de_andrade/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/carlos-drummond-de-andrade.jpg"
+  },
+  {
+    "id": "mario-quintana",
+    "authorCode": "010",
+    "name": "Mario Quintana",
+    "period": "1906 – 1994",
+    "role": "Poeta e Tradutor",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Quintana (1906 - 1994) foi um poeta, tradutor e jornalista brasileiro. Foi considerado o \"poeta das coisas simples\", um dos maiores poetas brasileiros do século XX.",
+    "featuredQuote": "A resposta certa, não importa nada: o essencial é que as perguntas estejam certas.",
+    "additionalQuotes": [
+      {
+        "text": "Quando alguém pergunta a um autor o que este quis dizer, é porque um dos dois é burro."
+      },
+      {
+        "text": "A alma é essa coisa que nos pergunta se a alma existe."
+      },
+      {
+        "text": "A amizade é um amor que nunca morre."
+      },
+      {
+        "text": "A arte de viver é simplesmente a arte de conviver... simplesmente, disse eu? Mas como é difícil!"
+      },
+      {
+        "text": "A poesia não se entrega a quem a define."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/mario_quintana/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/mario-quintana.jpg"
+  },
+  {
+    "id": "confucio",
+    "authorCode": "011",
+    "name": "Confúcio",
+    "period": "551 a.C. – 479 a.C.",
+    "role": "Pensador e Filósofo",
+    "nationality": "Chinesa",
+    "tag": "Pensador • Chinesa",
+    "bio": "Sobre ConfúcioConfúcio (551- 479 a.C.) foi um filósofo chinês, cujas ideias serviram de norma de comportamento para a sociedade chinesa durante mais de dois mil anos e exerceu grande influência sobre toda a cultura da Ásia Oriental.",
+    "featuredQuote": "Ainda não vi ninguém que ame a virtude tanto quanto ama a beleza do corpo.",
+    "additionalQuotes": [
+      {
+        "text": "Aja antes de falar e, portanto, fale de acordo com os seus atos."
+      },
+      {
+        "text": "Até que o sol não brilhe, acendamos uma vela na escuridão."
+      },
+      {
+        "text": "Coloque a lealdade e a confiança acima de qualquer coisa; não te alies aos moralmente inferiores; não receies corrigir teus erros."
+      },
+      {
+        "text": "Não corrigir nossas faltas é o mesmo que cometer novos erros."
+      },
+      {
+        "text": "Não são as ervas más que afogam a boa semente, e sim a negligência do lavrador."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/confucio/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/confucio.jpg"
+  },
+  {
+    "id": "pitagoras",
+    "authorCode": "012",
+    "name": "Pitágoras",
+    "period": "570 a.C. – 495 a.C.",
+    "role": "Filósofo e Matemático",
+    "nationality": "Grega",
+    "tag": "Pensador • Grega",
+    "bio": "Sobre PitágorasPitágoras (580-497 a.C.) foi um importante matemático e filósofo grego da Antiguidade. Autor do \"Teorema de Pitágoras\".",
+    "featuredQuote": "Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.",
+    "additionalQuotes": [
+      {
+        "text": "Eduquem as crianças, para que não seja necessário punir os adultos."
+      },
+      {
+        "text": "Em estado de dúvida, suspende o juízo."
+      },
+      {
+        "text": "O homem é mortal por seus temores e imortal por seus desejos."
+      },
+      {
+        "text": "O universo é uma harmonia de contrários."
+      },
+      {
+        "text": "Purifica o teu coração antes de permitires que o amor entre nele, pois até o mel mais doce azeda num recipiente sujo."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/pitagoras/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/pitagoras.jpg"
+  },
+  {
+    "id": "platao",
+    "authorCode": "013",
+    "name": "Platão",
+    "period": "428 a.C. – 348 a.C.",
+    "role": "Filósofo da Grécia Clássica",
+    "nationality": "Grega",
+    "tag": "Pensador • Grega",
+    "bio": "Sobre PlatãoPlatão (427 a.C.-347 a.C.) foi um filósofo grego da Antiguidade, considerado um dos grandes pensadores da história da filosofia.",
+    "featuredQuote": "De todos os animais selvagens, o homem jovem é o mais difícil de domar.",
+    "additionalQuotes": [
+      {
+        "text": "Deve-se temer a velhice, porque ela nunca vem só. Bengalas são provas de idade e não de prudência."
+      },
+      {
+        "text": "Quem comete uma injustiça é sempre mais infeliz que o injustiçado."
+      },
+      {
+        "text": "Tente mover o mundo – o primeiro passo será mover a si mesmo."
+      },
+      {
+        "text": "Uma vida não questionada não merece ser vivida."
+      },
+      {
+        "text": "O livro é um mestre que fala, mas que não responde."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/platao/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/platao.jpg"
+  },
+  {
+    "id": "dalai-lama",
+    "authorCode": "014",
+    "name": "Dalai Lama",
+    "period": "1935 – presente",
+    "role": "Líder Espiritual Tibetano",
+    "nationality": "Tibetana",
+    "tag": "Pensador • Tibetana",
+    "bio": "Sobre Dalai LamaDalai Lama é um monge budista Tibetano. O atual Dalai Lama é Tenzin Gyatso, o 14º Dalai Lama. É ao mesmo tempo líder temporal e espiritual do povo tibetano.",
+    "featuredQuote": "Uma árvore em flor fica despida no outono. A beleza transforma-se em feiura, a juventude em velhice e o erro em virtude. Nada fica sempre igual e nada existe realmente. Portanto, as aparências e o vazio existem simultaneamente.",
+    "additionalQuotes": [
+      {
+        "text": "Só existem dois dias no ano que nada pode ser feito. Um se chama ontem e o outro se chama amanhã, portanto hoje é o dia certo para amar, acreditar, fazer e principalmente viver."
+      },
+      {
+        "text": "Cultivar estados mentais positivos como a generosidade e a compaixão decididamente conduz a melhor saúde mental e a felicidade."
+      },
+      {
+        "text": "Por um lado, ter um inimigo é muito ruim. Perturba nossa paz mental e destrói algumas de nossas coisas boas. Mas, se vemos de outro ângulo, somente um inimigo nos dá a oportunidade de exercer a paciência. Ninguém mais do que ele nos concede a oportunidade para a tolerância. Já que não conhecemos a maioria dos cinco bilhões de seres humanos nesta terra, a maioria das pessoas também não nos dá oportunidade de mostrar tolerância ou paciência. Somente essas pessoas que nós conhecemos e que nos criam problemas é que realmente nos dão uma boa chance de praticar a tolerância e a paciência."
+      },
+      {
+        "text": "Se você quer transformar o mundo, experimente primeiro promover o seu aperfeiçoamento pessoal e realizar inovações no seu próprio interior. Estas atitudes se refletirão em mudanças positivas no seu ambiente familiar. Deste ponto em diante, as mudanças se expandirão em proporções cada vez maiores. Tudo o que fazemos produz efeito, causa algum impacto."
+      },
+      {
+        "text": "Se existe amor, há também esperança de existirem verdadeiras famílias, verdadeira fraternidade, verdadeira igualdade e verdadeira paz. Se não há mais amor dentro de você, se você continua a ver os outros como inimigos, não importa o conhecimento ou o nível de instrução que você tenha, não importa o progresso material que alcance, só haverá sofrimento e confusão no cômputo final. O homem vai continuar enganando e subjugando outros homens. Basicamente, todo mundo existe na própria natureza do sofrimento, por isso insultar ou maltratar os outros é algo sem propósito. O fundamento de toda prática espiritual é o amor. Que você o pratique bem é meu único pedido."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/dalai_lama/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/dalai-lama.jpg"
+  },
+  {
+    "id": "aristoteles",
+    "authorCode": "015",
+    "name": "Aristóteles",
+    "period": "384 a.C. - 322 a.C.",
+    "role": "Influente filósofo grego",
+    "nationality": "Grega",
+    "tag": "Pensador • Grega",
+    "bio": "Sobre AristótelesAristóteles (384 a.C. - 322 a.C.) foi um influente filósofo grego, discípulo de Platão. Dedicou sua vida ao desenvolvimento de conceitos fundamentais de ética, lógica, política, e outros, que são usados até hoje.",
+    "featuredQuote": "A inteligência é a insolência educada.",
+    "additionalQuotes": [
+      {
+        "text": "Alguns pensam que para se ser amigo basta querê-lo, como se para se estar são bastasse desejar a saúde..."
+      },
+      {
+        "text": "O homem solitário é uma besta ou um deus."
+      },
+      {
+        "text": "O que é um amigo? Uma única alma habitando dois corpos."
+      },
+      {
+        "text": "Sócrates é meu amigo, mas sou mais amigo da verdade."
+      },
+      {
+        "text": "Um bom começo é a metade."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/aristoteles/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/aristoteles.jpg"
+  },
+  {
+    "id": "haile-selassie",
+    "authorCode": "016",
+    "name": "Haile Selassie",
+    "period": "1892 – 1975",
+    "role": "Imperador da Etiópia",
+    "nationality": "Etíope",
+    "tag": "Pensador • Internacional",
+    "bio": "Selassie (1892-1975) foi o último imperador da Etiópia, África, entre 1930 e 1974, quando a monarquia foi deposta por um golpe militar.",
+    "featuredQuote": "Enquanto a cor da pele for mais importante que o brilho dos olhos, haverá guerra.",
+    "additionalQuotes": [
+      {
+        "text": "Enquanto imperar a filosofia de que há uma raça inferior e outra superior o mundo estará permanentemente em guerra."
+      },
+      {
+        "text": "Enquanto a filosofia que declara uma raça superior e outra inferior não for finalmente e permanentemente desacreditada e abandonada; enquanto não deixarem de existir cidadãos de primeira e segunda categoria de qualquer nação; enquanto a cor da pele de uma pessoa for mais importante que a cor dos seus olhos; enquanto não forem garantidos a todos por igual os direitos humanos básicos, sem olhar a raças, até esse dia, os sonhos de paz duradoura, cidadania mundial e governo de uma moral internacional irão continuar a ser uma ilusão fugaz, a ser perseguida, mas nunca alcançada."
+      },
+      {
+        "text": "E igualmente, enquanto os regimes infelizes e ignóbeis que suprimem os nossos irmãos, em condições subumanas, em Angola, Moçambique e na África do Sul não forem superados e destruídos, enquanto o fanatismo, os preconceitos, a malícia e os interesses desumanos não forem substituídos pela compreensão, tolerância e boa-vontade, enquanto todos os Africanos não se levantarem e falarem como seres livres, iguais aos olhos de todos os homens como são no Céu, até esse dia, o continente Africano não conhecerá a Paz."
+      },
+      {
+        "text": "Nós, Africanos, iremos lutar, se necessário, e sabemos que iremos vencer, pois somos confiantes na vitória do bem sobre o mal."
+      },
+      {
+        "text": "Discurso de Haile Selassie:Enquanto a filosofia que declara uma raça superior e outra inferior não for finalmente e permanentemente desacreditada e abandonada; enquanto não deixarem de existir cidadãos de primeira e segunda categoria de qualquer nação; enquanto a cor da pele de uma pessoa for mais importante que a cor dos seus olhos; enquanto não forem garantidos a todos por igual os direitos humanos básicos, sem olhar a raças, até esse dia, os sonhos de paz duradoura, cidadania mundial e governo de uma moral internacional irão continuar a ser uma ilusão fugaz, a ser perseguida, mas nunca alcançada. E igualmente, enquanto os regimes infelizes e ignóbeis que suprimem os nossos irmãos, em condições subumanas, em Angola, Moçambique e na África do Sul não forem superados e destruídos, enquanto o fanatismo, os preconceitos, a malícia e os interesses desumanos não forem substituídos pela compreensão, tolerância e boa-vontade, enquanto todos os africanos não se levantarem e falarem como seres livres, iguais aos olhos de todos os homens como são no Céu, até esse dia, o continente africano não conhecerá a Paz.Nós, africanos, iremos lutar, se necessário, e sabemos que iremos vencer, pois somos confiantes na vitória do bem sobre o mal."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/haile_selassie/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/haile-selassie.jpg"
+  },
+  {
+    "id": "oscar-wilde",
+    "authorCode": "017",
+    "name": "Oscar Wilde",
+    "period": "1854 – 1900",
+    "role": "Escritor e poeta irlandês",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Wilde (1854-1900) foi um escritor e poeta irlandês, expoente da literatura inglesa durante a Era Vitoriana. É autor do romance filosófico e obra-prima, “O Retrato de Dorian Gray”.",
+    "featuredQuote": "A ambição é o último recurso do fracassado.",
+    "additionalQuotes": [
+      {
+        "text": "A cada bela impressão que causamos, conquistamos um inimigo. Para ser popular é indispensável ser medíocre."
+      },
+      {
+        "text": "A vida é muito importante para ser levada a sério."
+      },
+      {
+        "text": "O descontentamento é o primeiro passo na evolução de um homem ou de uma nação."
+      },
+      {
+        "text": "O Estado deve fazer o que é útil. O indivíduo deve fazer o que é belo."
+      },
+      {
+        "text": "O pessimista é uma pessoa que, podendo escolher entre dois males, prefere ambos."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/oscar_wilde/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/oscar-wilde.jpg"
+  },
+  {
+    "id": "machado-de-assis",
+    "authorCode": "018",
+    "name": "Machado de Assis",
+    "period": "1839 – 1908",
+    "role": "Romancista e Fundador da ABL",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Assis (1839-1908) foi um escritor e poeta brasileiro. Entre suas grandes criações literárias destacam-se: Helena, Memórias Póstumas de Brás Cubas, Dom Casmurro, Quincas Borba e O Alienista.",
+    "featuredQuote": "Não tive filhos, não transmiti a nenhuma criatura o legado de nossa miséria.",
+    "additionalQuotes": [
+      {
+        "text": "A vida sem luta é um mar morto no centro do organismo universal."
+      },
+      {
+        "text": "Botas...as botas apertadas são uma das maiores venturas da terra, porque, fazendo doer os pés, dão azo ao prazer de as descalçar."
+      },
+      {
+        "text": "Cada qual sabe amar a seu modo; o modo, pouco importa; o essencial é que saiba amar."
+      },
+      {
+        "text": "Creia em si, mas não duvide sempre dos outros."
+      },
+      {
+        "text": "Deus, para a felicidade do homem, inventou a fé e o amor. O Diabo, invejoso, fez o homem confundir fé com religião e amor com casamento."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/machado_de_assis/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/machado-de-assis.jpg"
+  },
+  {
+    "id": "oliver-wendell-holmes-sr",
+    "authorCode": "019",
+    "name": "Oliver Wendell Holmes Sr.",
+    "period": "1809 – 1894",
+    "role": "Médico",
+    "nationality": "Americana",
+    "tag": "Pensador • Americana",
+    "bio": "Sobre Oliver Wendell Holmes Sr.Oliver Wendell Holmes Sr. (1809-1894) foi um médico, poeta e ensaísta norte-americano, um dos nomes centrais da literatura dos Estados Unidos no século XIX.",
+    "featuredQuote": "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original.",
+    "additionalQuotes": [
+      {
+        "text": "A mente que se abre para alguma coisa nova nunca mais será a mesma."
+      },
+      {
+        "text": "De vez em quando a mente do homem é esticada por uma ideia nova ou sensação e nunca mais se reduz às suas antigas dimensões."
+      },
+      {
+        "text": "⁠A mente que se abre ao conhecimento jamais será a mesma."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/oliver_wendell_holmes_sr/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "charles-chaplin",
+    "authorCode": "020",
+    "name": "Charles Chaplin",
+    "period": "1889 – 1977",
+    "role": "Ator",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Chaplin (1889-1977) foi um ator, diretor e produtor cinematográfico inglês. Também conhecido como Carlitos, foi o mais famoso artista da era do cinema mudo. Ficou notabilizado por suas mímicas e comédias do gênero pastelão.",
+    "featuredQuote": "A persistência é o caminho do êxito.",
+    "additionalQuotes": [
+      {
+        "text": "A vida é maravilhosa se não se tem medo dela."
+      },
+      {
+        "text": "Pensamos demasiadamente e sentimos muito pouco. Necessitamos mais de humildade que de máquinas. Mais de bondade e ternura que de inteligência. Sem isso, a vida se tornará violenta e tudo se perderá."
+      },
+      {
+        "text": "Que os vossos esforços desafiem as impossibilidades, lembrai-vos de que as grandes coisas do homem foram conquistadas do que parecia impossível."
+      },
+      {
+        "text": "Se o que você está fazendo for engraçado, não há necessidade de ser engraçado para fazê-lo."
+      },
+      {
+        "text": "Num filme o que importa não é a realidade, mas o que dela possa extrair a imaginação."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/charles_chaplin/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "albert-einstein",
+    "authorCode": "021",
+    "name": "Albert Einstein",
+    "period": "1879 – 1955",
+    "role": "Físico e humanista alemão",
+    "nationality": "Alemã",
+    "tag": "Pensador • Alemã",
+    "bio": "Einstein (1879 - 1955) foi um físico e humanista alemão. Autor da Teoria da Relatividade tornou-se um dos mais célebres cientistas do sáculo XX. Recebeu o Prêmio Nobel de Física de 1921.",
+    "featuredQuote": "A imaginação é mais importante que o conhecimento.",
+    "additionalQuotes": [
+      {
+        "text": "A liberação da energia atômica mudou tudo, menos nossa maneira de pensar."
+      },
+      {
+        "text": "O mundo não está ameaçado pelas pessoas más, e sim por aquelas que permitem a maldade."
+      },
+      {
+        "text": "O nacionalismo é uma doença infantil; é o sarampo da humanidade."
+      },
+      {
+        "text": "O ser humano vivencia a si mesmo, seus pensamentos como algo separado do resto do universo – numa espécie de ilusão de ótica de sua consciência. E essa ilusão é uma espécie de prisão que nos restringe a nossos desejos pessoais, conceitos e ao afeto por pessoas mais próximas. Nossa principal tarefa é a de nos livrarmos dessa prisão, ampliando o nosso círculo de compaixão, para que ele abranja todos os seres vivos e toda a natureza em sua beleza. Ninguém conseguirá alcançar completamente esse objetivo, mas lutar pela sua realização já é por si só parte de nossa liberação e o alicerce de nossa segurança interior."
+      },
+      {
+        "text": "Os ideais que iluminaram o meu caminho são a bondade, a beleza e a verdade."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/albert_einstein/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/albert-einstein.jpg"
+  },
+  {
+    "id": "thich-nhat-hanh",
+    "authorCode": "022",
+    "name": "Thich Nhat Hanh",
+    "period": "1926 – 2022",
+    "role": "Monge Budista e Pacifista",
+    "nationality": "Vietnamita",
+    "tag": "Pensador • Internacional",
+    "bio": "Hanh (1926-2022) foi um monge, professor, pacifista, escritor e poeta vietnamita. Morreu em janeiro de 2022, aos 95 anos.",
+    "featuredQuote": "Não existe um caminho para a felicidade. A felicidade é o caminho.",
+    "additionalQuotes": [
+      {
+        "text": "Gosto de caminhar pelas trilhas do campo, pelas plantações de arroz ladeadas por gramíneas selvagens, pisando conscientemente o solo maravilhoso. Nessas horas, a existência se torna uma realidade miraculosa e misteriosa. Normalmente, as pessoas consideram um milagre caminhar sobre a água ou no ar. Mas eu acho que o verdadeiro milagre é caminhar no chão. Todos os dias nos envolvemos em milagres que sequer reconhecemos: o céu azul, as nuvens brancas, as folhas verdes, os olhos negros e curiosos de uma criança - nossos próprios olhos. Tudo é um milagre."
+      },
+      {
+        "text": "Às vezes uma ou duas palavras amáveis são suficientes para ajudar alguém a desabrochar como uma flor."
+      },
+      {
+        "text": "Não existe ninguém no universo de quem gostemos mais do que de nós mesmos. A mente pode viajar em milhares de direções, mas não encontrará ninguém mais amado. No momento em que vemos o quanto é importante amar a nós mesmos, deixamos de causar sofrimento às pessoas."
+      },
+      {
+        "text": "A primeira prática para se atingir a perfeição é a Generosidade (\"Dana\").Dar significa, primeiro, oferecer Alegria, Felicidade e Amor.Existe uma planta, muito conhecida na Ásia - um membro da família das cebolas, que fica deliciosa nas sopas, no arroz frito e nas omeletes - que a cada vez que a cortamos torna a crescer em vinte e quatro horas. E quanto mais se corta essa planta, maior e mais forte ela cresce.A planta representa a Generosidade. Não guardamos nada para nós. Apenas queremos dar.Talvez a outra pessoa se sinta feliz com isso, mas com certeza os maiores beneficiados seremos nós mesmos. Quer você dê sua presença, sua estabilidade, sua paz, sua leveza, sua firmeza, sua liberdade, ou sua compreensão, sua dádiva fará milagres.A Generosidade é a prática do Amor."
+      },
+      {
+        "text": "Não há caminho para a felicidade, a felicidade é o caminho."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/thich_nhat_hanh/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/thich-nhat-hanh.jpg"
+  },
+  {
+    "id": "stubby-currence",
+    "authorCode": "023",
+    "name": "Stubby Currence",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Stubby Currence. Frases, textos, pensamentos, poesias e poemas de Stubby Currence no Pensador.",
+    "featuredQuote": "O único lugar onde o sucesso vem antes do trabalho é no dicionário.",
+    "additionalQuotes": [
+      {
+        "text": "O dicionário é o único local onde o sucesso vem antes do trabalho. Trabalho árduo é o preço a pagar para se ter sucesso. Você pode conseguir tudo desde que esteja disposto a pagar o preço."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/stubby_currence/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "john-wooden",
+    "authorCode": "024",
+    "name": "John Wooden",
+    "period": "1910 – 2010",
+    "role": "Jogador e treinador de basquete norte-americano",
+    "nationality": "Americana",
+    "tag": "Pensador • Americana",
+    "bio": "Wooden (1910-2010) foi um jogador e treinador de basquete norte-americano. Recebeu o apelido de “O Mágico de Westwood”.",
+    "featuredQuote": "Preocupe-se mais com a sua consciência do que com sua reputação. Porque sua consciência é o que você é, e a sua reputação é o que os outros pensam de você. E o que os outros pensam, é problema deles.",
+    "additionalQuotes": [
+      {
+        "text": "Preocupe-se mais com o seu carácter do que com a sua reputação. O carácter é aquilo que você é realmente, enquanto a reputação é aquilo que os outros pensam que você é."
+      },
+      {
+        "text": "A habilidade pode te levar ao topo, mas é preciso caráter para te manter lá."
+      },
+      {
+        "text": "Para vencer uma vez é preciso ter talento, mas para vencer novamente é preciso ter caráter."
+      },
+      {
+        "text": "\"Quando você melhora um pouco a cada dia, coisas grandes começam a ocorrer. Não procure por melhoras rápidas e grandiosas, busque uma pequena melhoria, um dia de cada vez. É o único modo para que aconteça - e quando acontece, dura.\""
+      },
+      {
+        "text": "\"A perfeição é um impossibilidade, mas se esforçar para alcançar a perfeição não é.\""
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/john_wooden/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/john-wooden.jpg"
+  },
+  {
+    "id": "d-elhers",
+    "authorCode": "025",
+    "name": "D. Elhers",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "D. Elhers. Frases, textos, pensamentos, poesias e poemas de D. Elhers no Pensador.",
+    "featuredQuote": "Não corra atrás das borboletas; plante uma flor em seu jardim e todas as borboletas virão até ela.",
+    "additionalQuotes": [
+      {
+        "text": "O segredo é não correr atrás das borboletas... É cuidar do jardim para que elas venham até você."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/d_elhers/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "authorCode": "026",
+    "name": "Leonardo da Vinci",
+    "period": "1452 – 1519",
+    "role": "Polímata e Artista Renascentista",
+    "nationality": "Italiana",
+    "tag": "Pensador • Internacional",
+    "bio": "Vinci (1452-1519) foi uma das mais importantes figuras do Renascimento. Como artista deixou várias obras primas, entre elas \"Mona Lisa\" e \"A Virgem dos Rochedos\".",
+    "featuredQuote": "O casamento é como enfiar a mão num saco de serpentes na esperança de apanhar uma enguia.",
+    "additionalQuotes": [
+      {
+        "text": "Prazer e dor são representados com os traços gêmeos, formando como que uma unidade, pois um não vem nunca sem o outro; e se colocam um de costas para o outro porque se opõem um ao outro."
+      },
+      {
+        "text": "Se escolheres o prazer, conscientiza-te que atrás dele há alguém que só te trará atribulações e arrependimento."
+      },
+      {
+        "text": "Tal é o prazer e a dor... saem de um tronco único porque têm uma só e mesma base, eis que cansaço e dor são a base do prazer e os prazeres vãos e lascivos estão na base da dor."
+      },
+      {
+        "text": "Não prever, é já lamentar."
+      },
+      {
+        "text": "Quando eu pensar que aprendi a viver, terei aprendido a morrer."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/leonardo_da_vinci/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/leonardo-da-vinci.jpg"
+  },
+  {
+    "id": "fernando-teixeira-de-andrade",
+    "authorCode": "027",
+    "name": "Fernando Teixeira de Andrade",
+    "period": "1946 – 2008",
+    "role": "Professor de Literatura e Escritor",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Internacional",
+    "bio": "Andrade (1946 - 2008) foi um professor de literatura.",
+    "featuredQuote": "Há um tempo em que é preciso abandonar as roupas usadas, que já tem a forma do nosso corpo, e esquecer os nossos caminhos, que nos levam sempre aos mesmos lugares. É o tempo da travessia: e, se não ousarmos fazê-la, teremos ficado, para sempre, à margem de nós mesmos.",
+    "additionalQuotes": [
+      {
+        "text": "Enquanto não atravessarmos a dor de nossa própria solidão, continuaremos a nos buscar em outras metades. Para viver a dois, antes, é necessário ser um."
+      },
+      {
+        "text": "Há um tempo em que é preciso abandonar as roupas usadas, que já tem a forma do nosso corpo, e esquecer os nossos caminhos, que nos levam sempre aos mesmos lugares."
+      },
+      {
+        "text": "É o tempo da travessia: e, se não ousarmos fazê-la, teremos ficado, para sempre, à margem de nós mesmos."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/fernando_teixeira_de_andrade/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "gloria-hurtado",
+    "authorCode": "028",
+    "name": "Gloria Hurtado",
+    "period": "Contemporânea",
+    "role": "Psicóloga e Escritora",
+    "nationality": "Colombiana",
+    "tag": "Pensador • Internacional",
+    "bio": "Sobre Gloria HurtadoGloria Hurtado é uma psicóloga e colunista colombiana.",
+    "featuredQuote": "Encerrando ciclosSempre é preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver. Encerrando ciclos, fechando portas, terminando capítulos - não importa o nome que damos, o que importa é deixar no passado os momentos da vida que já se acabaram.Foi despedido do trabalho? Terminou uma relação?Deixou a casa dos pais? Partiu para viver em outro país?A amizade tão longamente cultivada desapareceu sem explicações?Você pode passar muito tempo se perguntando por que isso aconteceu. Pode dizer para si que não dará mais um passo enquanto não entender as razões que levaram certas coisas, que eram tão importantes e sólidas em sua vida, serem subitamente transformadas em pó. Mas tal atitude será um desgaste imenso para todos: seus pais, seu marido ou sua esposa, seus amigos, seus filhos, sua irmã, todos estarão encerrando capítulos, virando a folha, seguindo adiante, e todos sofrerão ao ver que você está parado.Ninguém pode estar, ao mesmo tempo, no presente e no passado, nem mesmo quando tentamos entender as coisas que acontecem conosco. O que passou não voltará: não podemos ser eternamente meninos, adolescentes tardios, filhos que se sentem culpados ou rancorosos com os pais, amantes que revivem noite e dia uma ligação com quem já foi embora e não tem a menor intenção de voltar.As coisas passam, e o melhor que fazemos é deixar que elas realmente possam ir embora. Por isso é tão importante (por mais doloroso que seja!) destruir recordações, mudar de casa, dar muitas coisas para orfanatos, vender ou doar os livros que tem. Tudo neste mundo visível é uma manifestação do mundo invisível, do que está acontecendo em nosso coração - e o desfazer-se de certas lembranças significa também abrir espaço para que outras tomem o seu lugar.Deixar ir embora. Soltar. Desprender-se.Ninguém está jogando nesta vida com cartas marcadas, portanto às vezes ganhamos, e às vezes perdemos. Não espere que devolvam algo, não espere que reconheçam seu esforço, que descubram seu gênio, que entendam seu amor. Pare de ligar sua televisão emocional e assistir sempre ao mesmo programa, que mostra como você sofreu com determinada perda: isso o estará apenas envenenando, e nada mais.Não há nada mais perigoso que rompimentos amorosos que não são aceitos, promessas de emprego que não têm data marcada para começar, decisões que sempre são adiadas em nome do “momento ideal”. Antes de começar um capítulo novo, é preciso terminar o antigo: diga a si mesmo que o que passou, jamais voltará.Lembre-se de que houve uma época em que podia viver sem aquilo, sem aquela pessoa - nada é insubstituível, um hábito não é uma necessidade. Pode parecer óbvio, pode mesmo ser difícil, mas é muito importante. Encerrando ciclos. Não pelo orgulho, por incapacidade, ou por soberba, mas porque simplesmente aquilo já não se encaixa mais na sua vida. Feche a porta, mude o disco, limpe a casa, sacuda a poeira. Deixe de ser quem era, e se transforme em quem é.",
+    "additionalQuotes": [
+      {
+        "text": "Sempre é preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver."
+      },
+      {
+        "text": "Enquanto não encerramos um capítulo, não podemos partir para o próximo. Por isso é tão importante deixar certas coisas irem embora, soltar, desprender-se. As pessoas precisam entender que ninguém está jogando com cartas marcadas, às vezes ganhamos e às vezes perdemos. Não espere que devolvam algo, não espere que reconheçam seu esforço, que descubram seu gênio, que entendam seu amor. Encerrando ciclos. Não por causa do orgulho, por incapacidade ou por soberba, mas porque simplesmente aquilo já não se encaixa mais na sua vida. Feche a porta, mude o disco, limpe a casa, sacuda a poeira. Deixe de ser quem era, e se transforme em quem é."
+      },
+      {
+        "text": "Sempre é preciso saber quando uma etapa chega ao final...Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver.Encerrando ciclos, fechando portas, terminando capítulos. Não importa o nome que damos, o que importa é deixar no passado os momentos da vida que já se acabaram...Encerrando ciclos. Não por causa do orgulho, por incapacidade, ou por soberba, mas porque simplesmente aquilo já não se encaixa mais na sua vida...E lembra-te:Tudo o que chega, chega sempre por alguma razão."
+      },
+      {
+        "text": "Sempre é preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver. Encerrando ciclos, fechando portas, terminando capítulos - não importa o nome que damos, importa é deixar no passado os momentos da vida que já se acabaram. Encerrando ciclos. Não por causa do orgulho, por incapacidade, ou por soberba, mas porque simplesmente aquilo já não se encaixa mais na sua vida. Feche a porta, mude o disco, limpe a casa, sacuda a poeira. Deixe de ser quem era, e se transforme em quem é."
+      },
+      {
+        "text": "Feche a porta, mude o disco, limpe a casa, sacuda a poeira. Deixe de ser quem era, e se transforme em quem é."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/gloria_hurtado/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/gloria-hurtado.jpg"
+  },
+  {
+    "id": "joseph-addison",
+    "authorCode": "029",
+    "name": "Joseph Addison",
+    "period": "1672 – 1719",
+    "role": "Poeta",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Addison (1672-1719) foi um poeta, ensaísta, dramaturgo e político inglês.",
+    "featuredQuote": "Um temperamento agradável pode compensar-nos da falta de beleza, mas a beleza não basta para nos indemnizar de um temperamento desagradável.",
+    "additionalQuotes": [
+      {
+        "text": "A leitura é para o intelecto o que o exercício é para o corpo."
+      },
+      {
+        "text": "A amizade desenvolve a felicidade e reduz o sofrimento, duplicando a nossa alegria e dividindo a nossa dor."
+      },
+      {
+        "text": "Depois da virtude, é o conhecimento o que eleva um homem sobre os demais."
+      },
+      {
+        "text": "O poeta nunca está inteiramente absorto nos seus pensamentos. O técnico está sempre."
+      },
+      {
+        "text": "O sol é para as flores o que os sorrisos são para a humanidade."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/joseph_addison/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/joseph-addison.jpg"
+  },
+  {
+    "id": "antoine-de-saint-exupery",
+    "authorCode": "030",
+    "name": "Antoine de Saint-Exupéry",
+    "period": "1900 – 1944",
+    "role": "Autor / Pensador",
+    "nationality": "Francesa",
+    "tag": "Pensador • Francesa",
+    "bio": "Exupéry (1900-1944) foi escritor, ilustrador e piloto francês. Ficou conhecido pela autoria do livro \"O Pequeno Príncipe\", um clássico da literatura, publicado em 1943.",
+    "featuredQuote": "O verdadeiro amor nunca se desgasta. Quanto mais se dá mais se tem.",
+    "additionalQuotes": [
+      {
+        "text": "Só se vê bem com o coração, o essencial é invisível aos olhos."
+      },
+      {
+        "text": "Tu te tornas eternamente responsável por aquilo que cativas."
+      },
+      {
+        "text": "O Homem distingue-se dos homens. Nada se diz de essencial acerca da catedral se apenas falarmos das pedras. Nada se diz de essencial a respeito do Homem se procurarmos defini-lo pelas qualidades humanas."
+      },
+      {
+        "text": "Mulher: a mais nua das carnes vivas e aquela cujo brilho é o mais suave."
+      },
+      {
+        "text": "A terra ensina-nos mais acerca de nós próprios do que todos os livros. Porque ela nos resiste."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/antoine_de_saint_exupery/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/antoine-de-saint-exupery.jpg"
+  },
+  {
+    "id": "paulo-coelho",
+    "authorCode": "031",
+    "name": "Paulo Coelho",
+    "period": "1947",
+    "role": "Autor / Pensador",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Coelho (1947) é um escritor brasileiro cuja obra se encontra publicada em mais de 160 países e traduzida em 73 idiomas, tendo mais de 130 milhões de exemplares vendidos em todo o mundo. É o autor de \"O Alquimista\", considerado o livro brasileiro mais vendido no mundo.",
+    "featuredQuote": "Não existe nada de completamente errado no mundo. Mesmo um relógio parado consegue estar certo duas vezes por dia.",
+    "additionalQuotes": [
+      {
+        "text": "Quando você quer alguma coisa, todo o universo conspira para que você realize o seu desejo."
+      },
+      {
+        "text": "Quem tentar possuir uma flor, verá sua beleza murchando. Mas quem apenas olhar uma flor num campo, permanecerá para sempre com ela. Você nunca será minha, e por isso terei você para sempre."
+      },
+      {
+        "text": "Um ancião índio norte-americano, certa vez, descreveu seus conflitos internos da seguinte maneira:- Dentro de mim há dois cachorros. Um deles é cruel e mau. O outro é muito bom, e eles estão sempre brigando.Quando lhe perguntaram qual cachorro ganhava a briga, o ancião parou, refletiu e respondeu:- Aquele que eu alimento mais frequentemente."
+      },
+      {
+        "text": "Uma coisa é você achar que está no caminho certo, outra é achar que o seu caminho é o único. Nunca podemos julgar a vida dos outros, porque cada um sabe da sua própria dor e renúncia."
+      },
+      {
+        "text": "Quantas coisas perdemos por medo de perder."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/paulo_coelho/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/paulo-coelho.jpg"
+  },
+  {
+    "id": "roger-bussy-rabutin",
+    "authorCode": "032",
+    "name": "Roger Bussy-Rabutin",
+    "period": "1618 – 1693",
+    "role": "General e escritor francês",
+    "nationality": "Francesa",
+    "tag": "Pensador • Francesa",
+    "bio": "Rabutin (1618 - 1693) o conde de Bussy, foi um general e escritor francês. É membro da Academia Francesa.",
+    "featuredQuote": "É preciso ter muita força para dizer moribundo o mesmo que se diria com saúde.",
+    "additionalQuotes": [
+      {
+        "text": "Quando não se ama demais, não se ama o suficiente."
+      },
+      {
+        "text": "A distância faz ao amor aquilo que o vento faz ao fogo: apaga o pequeno, inflama o grande."
+      },
+      {
+        "text": "Quem ama demais, não ama o bastante."
+      },
+      {
+        "text": "Quando não se ama apaixonadamente não se ama o suficiente."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/roger_bussy_rabutin/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/roger-bussy-rabutin.jpg"
+  },
+  {
+    "id": "georges-bernanos",
+    "authorCode": "033",
+    "name": "Georges Bernanos",
+    "period": "1888 – 1948",
+    "role": "Escritor e jornalista francês",
+    "nationality": "Francesa",
+    "tag": "Pensador • Francesa",
+    "bio": "Bernanos (1888-1948) foi um escritor e jornalista francês, considerado um dos principais escritores da França no século XX.",
+    "featuredQuote": "É um grande engano pensar que o homem mediano só tem paixões medianas.",
+    "additionalQuotes": [
+      {
+        "text": "Mais vale ter um mau-caráter que não ter caráter nenhum."
+      },
+      {
+        "text": "O acaso assemelha-se a nós."
+      },
+      {
+        "text": "A vida ensinou-me que ninguém é consolado, sem que tenha primeiro consolado outros; que nada recebemos, sem que primeiro tenhamos dado."
+      },
+      {
+        "text": "As faltas que cometo não me ajudam, perturbam-me demasiado."
+      },
+      {
+        "text": "O perigo não está na multiplicação das máquinas e sim no número cada vez maior de pessoas habituadas, desde a infância, a só desejar o que as máquinas podem dar."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/georges_bernanos/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/georges-bernanos.jpg"
+  },
+  {
+    "id": "toquinho-e-mutinho",
+    "authorCode": "034",
+    "name": "Toquinho e Mutinho",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Sobre Toquinho e MutinhoToquinho e Mutinho formaram uma das parcerias mais queridas da música popular brasileira, unindo o violão de Toquinho à bateria de Mutinho em canções voltadas ao público infantil.",
+    "featuredQuote": "Se o amor é fantasia, eu me encontro ultimamente em pleno carnaval.",
+    "additionalQuotes": [],
+    "referenceUrl": "https://www.pensador.com/autor/toquinho_e_mutinho/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "socrates",
+    "authorCode": "035",
+    "name": "Sócrates",
+    "period": "470 a.C. – 399 a.C.",
+    "role": "Filósofo da Grécia Antiga",
+    "nationality": "Grega",
+    "tag": "Pensador • Internacional",
+    "bio": "Sobre SócratesConhecido como patrono da Filosofia, Sócrates influencia até hoje o pensamento ocidental. Não deixou nenhuma obra escrita, sendo seus discípulos Platão e Xenofontes responsáveis por difundir seu pensamento.",
+    "featuredQuote": "O ideal no casamento é que a mulher seja cega e o homem surdo.",
+    "additionalQuotes": [
+      {
+        "text": "Sábio é aquele que conhece os limites da própria ignorância."
+      },
+      {
+        "text": "Sob a direção de um forte general, não haverá jamais soldados fracos."
+      },
+      {
+        "text": "Aquilo que não puderes controlar, não ordenes."
+      },
+      {
+        "text": "Para conseguir a amizade de uma pessoa digna é preciso desenvolvermos em nós mesmos as qualidades que naquela admiramos."
+      },
+      {
+        "text": "Se todos os nossos infortúnios fossem colocados juntos e, posteriormente, repartidos em partes iguais por cada um de nós, ficaríamos muito felizes se pudéssemos ter apenas, de novo, só os nossos."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/socrates/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/socrates.jpg"
+  },
+  {
+    "id": "evelyn-beatrice-hall",
+    "authorCode": "036",
+    "name": "Evelyn Beatrice Hall",
+    "period": "1868 – 1956",
+    "role": "Escritora britânica",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Hall (1868 - 1956) foi uma escritora britânica, sob o pseudônimo de Stephen G. Tallentyre.",
+    "featuredQuote": "Posso não concordar com nenhuma das palavras que você disser, mas defenderei até a morte o direito de você dizê-las.",
+    "additionalQuotes": [
+      {
+        "text": "Não concordo com uma palavra que você disse, mas defendo até a morte o teu direito de dizê-las."
+      },
+      {
+        "text": "\"Eu desaprovo o que você diz, mas defenderei até a morte seu direito de dizê-lo\", era a sua atitude agora."
+      },
+      {
+        "text": "É pelo caráter e não pelo intelecto que o mundo se ganha."
+      },
+      {
+        "text": "Há sempre mais bondade no mundo do que parece haver, porque a bondade é, por natureza, modesta e reservada."
+      },
+      {
+        "text": "A consciência nada é senão o eco da voz de Deus dentro da alma."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/evelyn_beatrice_hall/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/evelyn-beatrice-hall.jpg"
+  },
+  {
+    "id": "leticia-lanz-geraldo-eustaquio-de-souza",
+    "authorCode": "037",
+    "name": "Letícia Lanz (Geraldo Eustáquio de Souza)",
+    "period": "2021",
+    "role": "Escritora",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Sobre Letícia Lanz (Geraldo Eustáquio de Souza)Letícia Lanz é uma escritora, poetisa, psicanalista e palestrante brasileira. Fez transição de gênero aos 50 anos, deixando para trás o nome Geraldo Eustáquio de Souza. Essa experiência foi publicada no livro \"A construção de mim mesma\" (2021).",
+    "featuredQuote": "Agora eu compreendo que agitação não é vida. É vaidade.",
+    "additionalQuotes": [
+      {
+        "text": "Meu presente não é bom nem ruim. É o que a vida me dá. E fim."
+      },
+      {
+        "text": "O oposto da vida não é a morte: é a repetição."
+      },
+      {
+        "text": "Quando eu me pergunto quem sou eu, sou o que pergunta ou o que não sabe a resposta?"
+      },
+      {
+        "text": "Tentar e falhar é, pelo menos, aprender. Não chegar a tentar é sofrer a inestimável perda do que poderia ter sido."
+      },
+      {
+        "text": "Uma coisa é querer aprender. Outra é querer garantias de que não vai errar."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/leticia_lanz_geraldo_eustaquio_de_souza/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "nemo-nox",
+    "authorCode": "038",
+    "name": "Nemo Nox",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Nemo Nox. Frases, textos, pensamentos, poesias e poemas de Nemo Nox no Pensador.",
+    "featuredQuote": "Pedras no caminho? Eu guardo todas. Um dia vou construir um castelo.",
+    "additionalQuotes": [],
+    "referenceUrl": "https://www.pensador.com/autor/nemo_nox/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "myrtes-mathias",
+    "authorCode": "039",
+    "name": "Myrtes Mathias",
+    "period": "1933 – 1996",
+    "role": "Poetisa evangélica brasileira",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Antonio (1933 - 1996), foi uma poetisa evangélica brasileira.",
+    "featuredQuote": "Amor é síntesePor favor, não me analiseNão fique procurandocada ponto fraco meuSe ninguém resiste a uma análiseprofunda, quanto mais eu!Ciumenta, exigente, insegura, carentetoda cheia de marcas que a vida deixou:Veja em cada exigênciaum grito de carência,um pedido de amor!Amor, amor é síntese,uma integração de dados:não há que tirar nem pôr.Não me corte em fatias,(ninguém abraça um pedaço),me envolva todo em seus braçosE eu serei perfeita, amor!",
+    "additionalQuotes": [
+      {
+        "text": "A paciência e a impaciência, essas duas virtudes são necessárias para o equilíbrio no ambiente de trabalho."
+      },
+      {
+        "text": "Dizem que a dor e o amor fazem o poeta,mas eu acho que é só o amorquando ele chega é um sentimento lindoquando ele parte, a gente escreve:Dor..."
+      },
+      {
+        "text": "Não me corte em fatias. Ninguém consegue abraçar um pedaço...Me envolva todo em seus braços e eu serei o perfeito amor."
+      },
+      {
+        "text": "Em MEU IRMÃO MAIS VELHO, ela diz: “Tiraram-lhes a liberdade de culto, o direito de abrir as portas do templo, para cantar louvores ao Criador, para buscarem junto o consolo da prece em comum, da meditação nas santas promessas, remédio para um coração em pedaços, da Pátria escravizada. Não mais a alegria de contar, à futura geração, a história daquele outro menino, que nasceu numa manjedoura, conversou com doutores, e brincou nas ruas de Nazaré. Que bom lembrar-te Jesus, como meu irmão mais velho. Distribuindo entre nós tão menores a herança tua por direito. (...) Meu irmão, eternamente jovem, infinitamente forte, todo Amor: Obrigado, pela parte na herança, pelo lugar na família, e pelo doce nome de CRISTÃO."
+      },
+      {
+        "text": "Escreve em MimSenhor, aqui está minha vida,não como um documento já preparadoà espera da Tua rubrica.Apenas uma folha de papel em brancoa ser preenchida com a vontade Tua,com os planos Teus.Por favor, Senhor,pensa em minha insuficiência,considera minha dificuldade de compreendere escreve com tintas vivas, nítidas,de tal maneira que me seja impossívelconfundir ou duvidar.Quero sair agora,ainda hoje, se possível for,a mostrar ao mundo o que escreveste em mim,a provar aos homens que Tu és o Autor.Que a mais simples criança possa ler-te em mime que o mais sábio dos homens possa reconhecerem cada gesto meuo traçado dos eternos dedos Teus.Diante desse mundo que se desintegra,desta sociedade que exige cada vez mais,quem sou eu para escrever primeiroe pedir depois a Tua aprovação?Estende a mão que gravou no Sinai a Santa Lei,que escreveu na areia uma mensagem até hoje desconhecidae, para o bem do mundo,para glória Tua,para paz de minha alma,escreve na folha em branco de papel que eu sou,a palavra que és Tu mesmo:AMOR!"
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/myrtes_mathias/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "lilian-tonet",
+    "authorCode": "040",
+    "name": "Lilian Tonet",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Lilian Tonet. Frases, textos, pensamentos, poesias e poemas de Lilian Tonet no Pensador.",
+    "featuredQuote": "As pessoas entram em nossa vida por acaso, mas não é por acaso que elas permanecem.",
+    "additionalQuotes": [],
+    "referenceUrl": "https://www.pensador.com/autor/lilian_tonet/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "vinicius-de-moraes",
+    "authorCode": "041",
+    "name": "Vinicius de Moraes",
+    "period": "1913 – 1980",
+    "role": "Poeta",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Moraes (1913-1980) foi um poeta, compositor, dramaturgo, jornalista, roteirista e diplomata brasileiro.",
+    "featuredQuote": "Amai, porque nada melhor para a saúde que um amor correspondido.",
+    "additionalQuotes": [
+      {
+        "text": "Com as lágrimas do tempo e a cal do meu dia eu fiz o cimento da minha poesia."
+      },
+      {
+        "text": "Nádegas é importantíssimo. Grave, porém, é o problema das saboneteiras. Uma mulher sem saboneteiras é como um rio sem pontes."
+      },
+      {
+        "text": "O uísque é o melhor amigo do homem: é um cachorro engarrafado."
+      },
+      {
+        "text": "A vida é a arte do encontro, embora haja tanto desencontro pela vida."
+      },
+      {
+        "text": "Críticos são sujeitos que têm mau hálito no pensamento."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/vinicius_de_moraes/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/vinicius-de-moraes.jpg"
+  },
+  {
+    "id": "cora-coralina",
+    "authorCode": "042",
+    "name": "Cora Coralina",
+    "period": "1889 – 1985",
+    "role": "Poetisa e Contista",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Internacional",
+    "bio": "Peixoto (1889 - 1985), foi uma das vozes femininas mais relevantes da literatura nacional",
+    "featuredQuote": "Feliz aquele que transfere o que sabe e aprende o que ensina.",
+    "additionalQuotes": [
+      {
+        "text": "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim, terás o que colher."
+      },
+      {
+        "text": "O saber se aprende com os mestres. A sabedoria, só com o corriqueiro da vida."
+      },
+      {
+        "text": "HumildadeSenhor, fazei com que eu aceiteminha pobreza tal como sempre foi.Que não sinta o que não tenho.Não lamente o que podia tere se perdeu por caminhos erradose nunca mais voltou.Dai, Senhor, que minha humildadeseja como a chuva desejadacaindo mansa,longa noite escuranuma terra sedentae num telhado velho.Que eu possa agradecer a Vós,minha cama estreita,minhas coisinhas pobres,minha casa de chão,pedras e tábuas remontadas.E ter sempre um feixe de lenhadebaixo do meu fogão de taipa,e acender, eu mesma,o fogo alegre da minha casana manhã de um novo dia que começa."
+      },
+      {
+        "text": "Conclusões de AninhaEstavam ali parados. Marido e mulher.Esperavam o carro. E foi que veio aquela da roçatímida, humilde, sofrida.Contou que o fogo, lá longe, tinha queimado seu rancho,e tudo que tinha dentro.Estava ali no comércio pedindo um auxílio para levantarnovo rancho e comprar suas pobrezinhas.O homem ouviu. Abriu a carteira tirou uma cédula,entregou sem palavra.A mulher ouviu. Perguntou, indagou, especulou, aconselhou,se comoveu e disse que Nossa Senhora havia de ajudarE não abriu a bolsa.Qual dos dois ajudou mais?Donde se infere que o homem ajuda sem participare a mulher participa sem ajudar.Da mesma forma aquela sentença:\"A quem te pedir um peixe, dá uma vara de pescar.\"Pensando bem, não só a vara de pescar, também a linhada,o anzol, a chumbada, a isca, apontar um poço piscosoe ensinar a paciência do pescador.Você faria isso, Leitor?Antes que tudo isso se fizesseo desvalido não morreria de fome?Conclusão:Na prática, a teoria é outra."
+      },
+      {
+        "text": "O saber a gente aprende com os mestres e os livros. A sabedoria se aprende é com a vida e com os humildes."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/cora_coralina/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/cora-coralina.jpg"
+  },
+  {
+    "id": "amyr-klink",
+    "authorCode": "043",
+    "name": "Amyr Klink",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Sobre Amyr KlinkAmyr Klink é um navegador brasileiro que ficou conhecido por ter feito viagens ao redor do mundo, como da Antártica ao Ártico. Muitas de suas aventuras viraram livros.",
+    "featuredQuote": "Não espero socorro de Deus. Deus não existe para ficar tirando a gente de apuros. É para dividir prazeres e alegrias.",
+    "additionalQuotes": [
+      {
+        "text": "Quem tem um amigo, mesmo que um só, não importa onde se encontre, jamais sofrerá de solidão. Poderá morrer de saudades, mas não estará só."
+      },
+      {
+        "text": "Pior que não terminar uma viagem é nunca partir."
+      },
+      {
+        "text": "Um homem precisa viajar. Por sua conta, não por meio de histórias, imagens, livros ou TV. Precisa viajar por si, com seus olhos e pés, para entender o que é seu. Para um dia plantar as suas próprias árvores e dar-lhes valor. Conhecer o frio para desfrutar o calor. E o oposto. Sentir a distância e o desabrigo para estar bem sob o próprio teto. Um homem precisa viajar para lugares que não conhece para quebrar essa arrogância que nos faz ver o mundo como o imaginamos, e não simplesmente como é ou pode ser. Que nos faz professores e doutores do que não vimos, quando deveríamos ser alunos, e simplesmente ir ver."
+      },
+      {
+        "text": "O mar não é um obstáculo: é um caminho."
+      },
+      {
+        "text": "Um dia é preciso parar de sonhar e, de algum modo, partir."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/amyr_klink/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/amyr-klink.jpg"
+  },
+  {
+    "id": "santo-agostinho",
+    "authorCode": "044",
+    "name": "Santo Agostinho",
+    "period": "354 – 430",
+    "role": "Teólogo e Filósofo Cristão",
+    "nationality": "Romana",
+    "tag": "Pensador • Internacional",
+    "bio": "Agostinho (354-430) foi um religioso cristão, um dos mais célebres padres da Igreja Católica, responsável pelo projeto intelectual da Igreja.",
+    "featuredQuote": "O orgulho é a fonte de todas as fraquezas, porque é a fonte de todos os vícios.",
+    "additionalQuotes": [
+      {
+        "text": "O supérfluo dos ricos é propriedade dos pobres."
+      },
+      {
+        "text": "A medida do amor é amar sem medida."
+      },
+      {
+        "text": "Ninguém faz bem o que faz contra a vontade, mesmo que seja bom o que faz."
+      },
+      {
+        "text": "A angústia de ter perdido não supera a alegria de ter um dia possuído."
+      },
+      {
+        "text": "Conhece-se melhor a Deus na ignorância."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/santo_agostinho/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/santo-agostinho.jpg"
+  },
+  {
+    "id": "waldemar-valle-martins",
+    "authorCode": "045",
+    "name": "Waldemar Valle Martins",
+    "period": "1932 – 2000",
+    "role": "Padre e Educador",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Internacional",
+    "bio": "Sobre Waldemar Valle MartinsO Padre Waldemar Valle Martins foi o primeiro Reitor da Universidade Católica de Santos e publicou vários livros ligados à religião.",
+    "featuredQuote": "O importante não é vencer todos os dias, mas lutar sempre.",
+    "additionalQuotes": [
+      {
+        "text": "Bem aventurados os pacíficos, aqueles que falam de paz e a procuram, obrigados a viver entre fogos da maldade humana."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/waldemar_valle_martins/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "martin-luther-king",
+    "authorCode": "046",
+    "name": "Martin Luther King",
+    "period": "1929 – 1968",
+    "role": "Pastor e Ativista dos Direitos Civis",
+    "nationality": "Americana",
+    "tag": "Pensador • Internacional",
+    "bio": "Sobre Martin Luther KingMartin Luther King, Jr. (1929 - 1968) foi líder de movimentos pacíficos que buscavam o respeito aos direitos dos negros e o fim da discriminação racial nos EUA.",
+    "featuredQuote": "A verdadeira medida de um homem não se vê na forma como se comporta em momentos de conforto e conveniência, mas em como se mantém em tempos de controvérsia e desafio.",
+    "additionalQuotes": [
+      {
+        "text": "Aprendemos a voar como os pássaros e a nadar como os peixes, mas não aprendemos a conviver como irmãos."
+      },
+      {
+        "text": "Não ficaremos satisfeitos enquanto um só negro do Mississipi não puder votar ou um negro de Nova York acreditar que não tem razão para votar."
+      },
+      {
+        "text": "O perdão é um catalisador que cria a ambiência necessária para uma nova partida, para um reinício."
+      },
+      {
+        "text": "Uma das coisas importantes da não violência é que não busca destruir a pessoa, mas transformá-la."
+      },
+      {
+        "text": "Temos de aprender a viver todos como irmãos ou morreremos todos como loucos."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/martin_luther_king/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/martin-luther-king.jpg"
+  },
+  {
+    "id": "sarah-westphal",
+    "authorCode": "047",
+    "name": "Sarah Westphal",
+    "period": "1983",
+    "role": "Catarinense",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Silva (1983) é uma catarinense, autora da crônica \"Quase\", que durante anos foi atribuída ao escritor Luis Fernando Veríssimo, sendo publicada na França, numa coletânea de textos e versos de escritores brasileiros, reunidos por uma escritora francesa.",
+    "featuredQuote": "Desconfie do destino e acredite em você. Gaste mais horas realizando que sonhando, fazendo que planejando, vivendo que esperando porque, embora quem quase morre esteja vivo, quem quase vive já morreu.",
+    "additionalQuotes": [
+      {
+        "text": "QuaseAinda pior que a convicção do não e a incerteza do talvez é a desilusão de um quase. É o quase que me incomoda, que me entristece, que me mata trazendo tudo que poderia ter sido e não foi. Quem quase ganhou ainda joga, quem quase passou ainda estuda, quem quase morreu está vivo, quem quase amou não amou. Basta pensar nas oportunidades que escaparam pelos dedos, nas chances que se perdem por medo, nas ideias que nunca sairão do papel por essa maldita mania de viver no outono.Pergunto-me, às vezes, o que nos leva a escolher uma vida morna; ou melhor não me pergunto, contesto. A resposta eu sei de cor, está estampada na distância e frieza dos sorrisos, na frouxidão dos abraços, na indiferença dos \"Bom dia\", quase que sussurrados. Sobra covardia e falta coragem até pra ser feliz. A paixão queima, o amor enlouquece, o desejo trai. Talvez esses fossem bons motivos para decidir entre a alegria e a dor, sentir o nada, mas não são. Se a virtude estivesse mesmo no meio termo, o mar não teria ondas, os dias seriam nublados e o arco-íris em tons de cinza. O nada não ilumina, não inspira, não aflige nem acalma, apenas amplia o vazio que cada um traz dentro de si.Não é que fé mova montanhas, nem que todas as estrelas estejam ao alcance, para as coisas que não podem ser mudadas resta-nos somente paciência porém,preferir a derrota prévia à dúvida da vitória é desperdiçar a oportunidade de merecer. Pros erros há perdão; pros fracassos, chance; pros amores impossíveis, tempo. De nada adianta cercar um coração vazio ou economizar alma. Um romance cujo fim é instantâneo ou indolor não é romance. Não deixe que a saudade sufoque, que a rotina acomode, que o medo impeça de tentar. Desconfie do destino e acredite em você. Gaste mais horas realizando que sonhando, fazendo que planejando, vivendo que esperando porque, embora quem quase morre esteja vivo, quem quase vive já morreu."
+      },
+      {
+        "text": "Pros erros há perdão; pros fracassos, chance; pros amores impossíveis, tempo. De nada adianta cercar um coração vazio ou economizar alma. Um romance cujo fim é instantâneo ou indolor não é romance. Não deixe que a saudade sufoque, que a rotina acomode, que o medo impeça de tentar. Desconfie do destino e acredite em você. Gaste mais horas realizando que sonhando, fazendo que planejando, vivendo que esperando porque, embora quem quase morre esteja vivo, quem quase vive já morreu."
+      },
+      {
+        "text": "Não deixe que a saudade sufoque, que a rotina acomode, que o medo impeça de tentar. Desconfie do destino e acredite em você. Gaste mais horas realizando que sonhando, fazendo que planejando, vivendo que esperando porque, embora quem quase morre esteja vivo, quem quase vive já morreu."
+      },
+      {
+        "text": "O que nos leva a escolher uma vida morna? A resposta está estampada na distância e na frieza dos sorrisos, na frouxidão dos abraços, na indiferença dos \"bom dia\", quase que sussurrados."
+      },
+      {
+        "text": "Pros erros há perdão; pros fracassos, chance; pros amores impossíveis, tempo."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/sarah_westphal/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "garth-henrichs",
+    "authorCode": "048",
+    "name": "Garth Henrichs",
+    "period": "1903 – 2002",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Henrichs (1903 - 2002) foi editor da revista \"Sunshine Magazine\".",
+    "featuredQuote": "A gente não faz amigos, reconhece-os.",
+    "additionalQuotes": [
+      {
+        "text": "A pessoa que está esperando algo acontecer poderia começar por puxar as mangas da camisa."
+      },
+      {
+        "text": "A amizade é um sentimento mais nobre do que o amor, eis o que permite que o objeto dela se divida em outros afetos, enquanto o amor tem intrínseco o ciúme."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/garth_henrichs/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "seneca",
+    "authorCode": "049",
+    "name": "Sêneca",
+    "period": "4 a.C. – 65 d.C.",
+    "role": "Filósofo Estoico e Escritor",
+    "nationality": "Romana",
+    "tag": "Pensador • Internacional",
+    "bio": "Sobre SênecaSêneca (04 a.C. - 65) foi um importante filósofo, escritor, mestre da arte da retórica, membro do senado, questor e magistrado da justiça criminal, durante o Império Romano.",
+    "featuredQuote": "É parte da cura o desejo de ser curado.",
+    "additionalQuotes": [
+      {
+        "text": "É válido procurarmos conhecer a que má e penosa servidão nos sujeitamos quando nos abandonamos ao poder alternado dos prazeres e das dores, esses dois amos tão caprichosos quanto tirânicos."
+      },
+      {
+        "text": "Muitas coisas não ousamos empreender por parecerem difíceis; entretanto, são difíceis porque não ousamos empreendê-las."
+      },
+      {
+        "text": "Nada é tão lamentável e nocivo como antecipar desgraças."
+      },
+      {
+        "text": "Ninguém chegou a ser sábio por acaso."
+      },
+      {
+        "text": "O homem que sofre antes de ser necessário, sofre mais que o necessário."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/seneca/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/seneca.jpg"
+  },
+  {
+    "id": "millor-fernandes",
+    "authorCode": "050",
+    "name": "Millôr Fernandes",
+    "period": "1923 – 2012",
+    "role": "Desenhista",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Fernandes (1923-2012), conhecido como Millôr Fernandes, foi um desenhista, jornalista, escritor, humorista, dramaturgo, roteirista, poeta e tradutor brasileiro.",
+    "featuredQuote": "[Sobre o Xadrez]Jogo chinês que aumenta a capacidade de jogar xadrez.",
+    "additionalQuotes": [
+      {
+        "text": "A maior vantagem da comida macrobiótica é que, por mais que você coma, por mais que encha o estômago, está sempre perfeitamente subalimentado."
+      },
+      {
+        "text": "A triste certezaDe que hoje estou de posseÉ que a minha calvícieNem ao menos é precoce."
+      },
+      {
+        "text": "Acreditar que não acreditamos em nada é crer na crença do descrer."
+      },
+      {
+        "text": "Anatomia é uma coisa que os homens também têm, mas que, nas mulheres, fica muito melhor."
+      },
+      {
+        "text": "As pessoas que falam muito, mentem sempre, porque acabam esgotando seu estoque de verdades."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/millor_fernandes/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/millor-fernandes.jpg"
+  },
+  {
+    "id": "vladimir-maiakovski",
+    "authorCode": "051",
+    "name": "Vladimir Maiakóvski",
+    "period": "1893 – 1930",
+    "role": "Dos poetas mais representativos do futurismo russo",
+    "nationality": "Russa",
+    "tag": "Pensador • Russa",
+    "bio": "Mayakovsky (1893 - 1930) foi um dos poetas mais representativos do Futurismo Russo.",
+    "featuredQuote": "Amar não é aceitar tudo. Aliás: onde tudo é aceito, desconfio que há falta de amor.",
+    "additionalQuotes": [
+      {
+        "text": "A arte não é um espelho para refletir o mundo, mas um martelo para forjá-lo."
+      },
+      {
+        "text": "Não é difícil morrer nesta vida. Viver é muito mais difícil."
+      },
+      {
+        "text": "folhinhaslinhaszibelinas sozinhas"
+      },
+      {
+        "text": "Se a criança é um porquinho, quando adulto não poderá ser outra coisa senão um porco."
+      },
+      {
+        "text": "Nos demais,todo mundo sabe,o coração tem moradia certa,fica bem aqui no meio do peito,mas comigo a anatomia ficou louca,sou todo coração."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/vladimir_maiakovski/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/vladimir-maiakovski.jpg"
+  },
+  {
+    "id": "paulo-roberto-gaefke",
+    "authorCode": "052",
+    "name": "Paulo Roberto Gaefke",
+    "period": "1961",
+    "role": "Escritor e blogueiro brasileiro",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Gaefke (1961) é um escritor e blogueiro brasileiro.",
+    "featuredQuote": "RECOMEÇARNão importa onde você parou,em que momento da vida você cansou,o que importa é que sempre é possívele necessário \"Recomeçar\".Recomeçar é dar uma novachance a si mesmo.É renovar as esperanças na vidae o mais importante:acreditar em você de novo.Sofreu muito nesse período?Foi aprendizado.Chorou muito?Foi limpeza da alma.Ficou com raiva das pessoas?Foi para perdoá-las um dia.Sentiu-se só por diversas vezes?É por que fechaste a porta até para os outros.Acreditou que tudo estava perdido?Era o início da tua melhora.Pois é!Agora é hora de iniciar,de pensar na luz,de encontrar prazer nas coisas simples de novo.Que tal um novo emprego?Uma nova profissão?Um corte de cabelo arrojado, diferente?Um novo curso,ou aquele velho desejo de aprender a pintar,desenhar,dominar o computador,ou qualquer outra coisa?Olha quanto desafio.Quanta coisa nova nesse mundãode meu Deus te esperando.Tá se sentindo sozinho?Besteira!Tem tanta gente que você afastoucom o seu \"período de isolamento\",tem tanta gente esperando apenas umsorriso teu para \"chegar\" perto de você.Quando nos trancamos na tristeza nemnós mesmos nos suportamos.Ficamos horríveis.O mau humor vai comendo nosso fígado,até a boca ficar amarga.Recomeçar!Hoje é um bom dia para começarnovos desafios.Onde você quer chegar?Ir alto.Sonhe alto,queira o melhor do melhor,queira coisas boas para a vida.pensamentos assim trazem para nósaquilo que desejamos.Se pensarmos pequeno,coisas pequenas teremos.Já se desejarmos fortemente o melhore principalmente lutarmos pelo melhor,o melhor vai se instalar na nossa vida.E é hoje o dia da Faxina Mental.Joga fora tudo que te prende ao passado,ao mundinho de coisas tristes,fotos,peças de roupa,papel de bala,ingressos de cinema,bilhetes de viagens,e toda aquela tranqueira que guardamosquando nos julgamos apaixonados.Jogue tudo fora.Mas, principalmente,esvazie seu coração.Fique pronto para a vida,para um novo amor.Lembre-se somos apaixonáveis,somos sempre capazes de amarmuitas e muitas vezes.Afinal de contas,nós somos o \"Amor\".",
+    "additionalQuotes": [
+      {
+        "text": "Revolução Da AlmaNinguém é dono da sua felicidade, por isso não entregue a sua alegria, a sua paz, a sua vida nas mãos de ninguém, absolutamente ninguém.Somos livres, não pertencemos a ninguém e não podemos querer ser donos dos desejos, da vontade ou dos sonhos de quem quer que seja.A razão de ser da sua vida é você mesmo.A sua paz interior deve ser a sua meta de vida; quando sentir um vazio na alma, quando acreditar que ainda falta algo, mesmo tendo tudo, remeta o seu pensamento para os seus desejos mais íntimos e busque a divindade que existe dentro de si.Pare de procurar a sua felicidade cada dia mais longe.Não tenha objetivos longe demais das suas mãos, abrace aqueles que estão ao seu alcance hoje.Se está desesperado devido a problemas financeiros, amorosos ou de relacionamentos familiares, busque no seu interior a resposta para se acalmar, você é reflexo do que pensa diariamente.Pare de pensar mal de si mesmo, e seja o seu próprio melhor amigo, sempre.Sorrir significa aprovar, aceitar, felicitar.Então abra um sorriso de aprovação para o mundo, que tem o melhor para lhe oferecer.Com um sorriso, as pessoas terão melhor impressão sua, e você estará afirmando para si mesmo, que está \"pronto\"para ser feliz.Trabalhe, trabalhe muito a seu favor.Pare de esperar que a felicidade chegue sem trabalho.Pare de exigir das pessoas aquilo que nem você conquistou ainda.Agradeça tudo aquilo que está na sua vida, neste momento, incluindo nessa gratidão, a dor.A nossa compreensão do universo ainda é muito pequena, para julgarmos o que quer que seja na nossa vida."
+      },
+      {
+        "text": "PACIÊNCIAAh! Se vendessem paciência nas farmácias e supermercados... Muita gente iria gastar boa parte do salário nessa mercadoria tão rara hoje em dia.Por muito pouco a madame que parece uma \"lady\" solta palavrões e berros que lembram as antigas \"trabalhadoras do cais\"... E o bem comportado executivo?O \"cavalheiro\" se transforma numa \"besta selvagem\" no trânsito que ele mesmo ajuda a tumultuar...Os filhos atrapalham, os idosos incomodam, a voz da vizinha é um tormento, ojeito do chefe é demais para sua cabeça, a esposa virou uma chata, o maridouma \"mala sem alça\". Aquela velha amiga uma \"alça sem mala\", o emprego uma tortura, a escola uma chatice.O cinema se arrasta, o teatro nem pensar, até o passeio virou novela.Outro dia, vi um jovem reclamando que o banco dele pela internet estavademorando a dar o saldo, eu me lembrei da fila dos bancos e balancei acabeça, inconformado...Vi uma moça abrindo um e-mail com um texto maravilhoso e ela deletou semsequer ler o título, dizendo que era longo demais.Pobres de nós, meninos e meninas sem paciência, sem tempo para a vida, sem tempo para Deus.A paciência está em falta no mercado, e pelo jeito, a paciência sintéticados calmantes está cada vez mais em alta.Pergunte para alguém, que você saiba que é \"ansioso demais\" onde ele querchegar?Qual é a finalidade de sua vida?Surpreenda-se com a falta de metas, com o vago de sua resposta.E você?Onde você quer chegar?Está correndo tanto para quê?Por quem?Seu coração vai agüentar?Se você morrer hoje de infarto agudo do miocárdio o mundo vai parar?A empresa que você trabalha vai acabar?As pessoas que você ama vão parar?Será que você conseguiu ler até aqui?Respire... Acalme-se...O mundo está apenas na sua primeira volta e, com certeza, no final do diavai completar o seu giro ao redor do sol, com ou sem a sua paciência..."
+      },
+      {
+        "text": "O caminho que eu escolhi é o do amor,Não importam as dores, nem as angústias.Nem as decepções que vou ter que encarar,Escolhi ser verdadeira.No meu caminho, o abraço é apertado.O aperto de mão é sincero,Não estranhe a minha maneira de sorrir.De te desejar o bem!Não estranhe se eu me emocionarcom a sua história!Se eu chorar junto com você!Afinal de contas, sou um ser humano,Que fez a opção pelo bem!É assim que eu enxergo a vida!É só assim que eu acredito,que vale a pena viver.Viver com emoção!Com verdade!Viver com amor!Viver com o coração!"
+      },
+      {
+        "text": "DENTRO DE VOCÊE se eu disser quedentro de você mora um anjo que se reveste de luzpara fazer novos amigos?E se eu disser que dentro de você existe  uma paz infinita que o torna tão amigo e querido?E se eu disser que dentro de você existe luz  e que essa luz apaga a inveja,  a discórdia e a guerra?E se eu disser quedentro de você existeum cupido que espalha amor e que flecha meu coração?E se eu disser que vocêé iluminado pelas estrelas e seus olhos parecem reflexo dessa luz?E se eu disser que você é divinamente concebidoe tem dentro de si tudo o que precisa para viver?E se eu disser que dentro de você existe uma fera que sabe lutar e defender os seus?E se eu disser que dentro de você habita uma chama que é capaz de incendiar uma cidade?E se eu disser que dentro de você mora um inventorcapaz de criar mil maneiras de fazer a mesma coisa?E se eu disser que dentro de você existe um construtor que é capazde criar novos caminhos?E se eu disser que dentro de você existe um elo de corrente que o liga ao sobrenatural tão facilmente?E se eu disser que você é um deus, e que possui a chave da vida eterna...Da alegria que não acaba, dos sonhos que se  realizam, da saúde que se perpetua, dos amigos que nunca o esquecem!Da saudade gostosa, do desejo que realiza, do prazer da vida?Você é a própria luz.Acredite nisso e brilhe,por amor a você e a quem o criou.Construa, viva, conquiste,não aceite as derrotas, os \"nãos”!O impossível é apenas uma força te convidando para realizar.Acredite.Dentro de você existe um universo em permanente construção."
+      },
+      {
+        "text": "Entre!A porta da vida está aberta e convida,pessoas com coragem para arriscar,a rir, chorar, trabalhar, se esforçar, amar,ser ouvido ou incompreendido,receber atenção ou sofrer uma desilusão,ser amado ou perder-se numa paixão,a vida pede atenção...A vida oferece muitas possibilidades,até para quem já ñ acredita mais em nada,sempre haverá algo novo sob o sol,um fio de esperança que poderá te levar ao paraíso,uma nova oportunidade de ser e crescer.Só ñ vale ter medo de si mesmo,só ñ vale não se conhecer, ñ se respeitar.Tem que pegar todas as experiências,boas e ruins, doces e amargas,e colocar no grande caldeirão da alma,para entender o que vale e o que ñ vale a pena.Assim, você terá uma bússola precisa,que vai indicar o seu Norte, a sua direção,que ñ tem tempo nem idade,rumo a realização dos seus sonhos,rumo a felicidade.Acredite na vida, acredite em você"
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/paulo_roberto_gaefke/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "rui-barbosa",
+    "authorCode": "053",
+    "name": "Rui Barbosa",
+    "period": "1849  – 1923",
+    "role": "Político",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Barbosa (1849 -1923) foi um político, diplomata, advogado e jurista brasileiro. Representou o Brasil na Conferência de Haia. Membro e fundador da Academia Brasileira de Letras foi seu presidente entre 1908 e 1919.",
+    "featuredQuote": "A força do direito deve superar o direito da força.",
+    "additionalQuotes": [
+      {
+        "text": "De tanto ver triunfar as nulidades; de tanto ver prosperar a desonra, de tanto ver crescer a injustiça. De tanto ver agigantarem-se os poderes nas mãos dos maus, o homem chega a desanimar-se da virtude, a rir-se da honra e a ter vergonha de ser honesto."
+      },
+      {
+        "text": "A regra da igualdade não consiste senão em quinhoar desigualmente aos desiguais, na medida em que se desigualam. Nesta desigualdade social, proporcionada à desigualdade natural, é que se acha a verdadeira lei da igualdade... Tratar com desigualdade a iguais, ou a desiguais com igualdade, seria desigualdade flagrante, e não igualdade real."
+      },
+      {
+        "text": "As leis são um freio para os crimes públicos -a religião para os crimes secretos."
+      },
+      {
+        "text": "Maior que a tristeza de não haver vencido é a vergonha de não ter lutado!"
+      },
+      {
+        "text": "A especulação é no comércio uma necessidade; é nos abusos, uma inconveniência; mas entre as inconveniências dos abusos e a necessidade do uso, está, em todos os casos dessa espécie a liberdade, que deve ser respeitada, porque se em nome de abusos possíveis nos quiserem tirar a liberdade do uso, talvez não nos deixem água para beber."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/rui_barbosa/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/rui-barbosa.jpg"
+  },
+  {
+    "id": "john-dryden",
+    "authorCode": "054",
+    "name": "John Dryden",
+    "period": "1631 – 1700",
+    "role": "Poeta",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Dryden (1631-1700) foi um poeta, crítico literário e dramaturgo inglês. Sua obra exerceu grande influência na Inglaterra, que seu período foi chamado de Era de Drysden.",
+    "featuredQuote": "Cuidado com a fúria de um homem paciente.",
+    "additionalQuotes": [
+      {
+        "text": "A felicidade que o homem pode alcançar não está no prazer, mas no descanso da dor."
+      },
+      {
+        "text": "Existe um prazer garantido em ser louco e que apenas os loucos conhecem."
+      },
+      {
+        "text": "Resta saber se o casamento é um dos sete sacramentos ou um dos sete pecados mortais."
+      },
+      {
+        "text": "Aqui jaz a minha esposa: que ela tenha repouso! / Agora ela está em paz, e eu também."
+      },
+      {
+        "text": "O amor calcula as horas por meses, e os dias por anos; e cada pequena ausência é uma eternidade."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/john_dryden/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/john-dryden.jpg"
+  },
+  {
+    "id": "william-james",
+    "authorCode": "055",
+    "name": "William James",
+    "period": "1842 – 1910",
+    "role": "Importante filósofo e psicólogo norte-americano",
+    "nationality": "Americana",
+    "tag": "Pensador • Americana",
+    "bio": "James (1842-1910) foi um importante filósofo e psicólogo norte-americano, um dos criadores do “pragmatismo” e um dos fundadores da Psicologia Moderna.",
+    "featuredQuote": "Acredita que vale a pena viver, e a tua convicção ajudará a criar esse fato.",
+    "additionalQuotes": [
+      {
+        "text": "Onde quer que nos encontremos, são os nossos amigos que constituem o nosso mundo."
+      },
+      {
+        "text": "Muitas pessoas pensam que estão a pensar quando estão apenas a re-arrumar os seus preconceitos."
+      },
+      {
+        "text": "Não existe ser humano mais miserável do que aquele em que a única coisa habitual é a indecisão."
+      },
+      {
+        "text": "O instinto de propriedade é fundamental na natureza do homem."
+      },
+      {
+        "text": "O melhor uso da vida consiste em gastá-la por alguma coisa que dure mais que a própria vida."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/william_james/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/william-james.jpg"
+  },
+  {
+    "id": "oswaldo-montenegro",
+    "authorCode": "056",
+    "name": "Oswaldo Montenegro",
+    "period": "1956",
+    "role": "Cantor e compositor brasileiro",
+    "nationality": "Brasileira",
+    "tag": "Pensador • Brasileira",
+    "bio": "Montenegro (1956), é um cantor e compositor brasileiro.",
+    "featuredQuote": "E que a minha loucura seja perdoada. Porque metade de mim é amor e a outra metade também.",
+    "additionalQuotes": [
+      {
+        "text": "Quem vai dizer ao coração que a paixão não é loucura, mesmo que pareça insano acreditar..."
+      },
+      {
+        "text": "METADEQue a força do medo que tenhoNão me impeça de ver o que anseio;Que a morte de tudo em que acreditoNão me tape os ouvidos e a boca;Porque metade de mim é o que eu grito,Mas a outra metade é silêncio...Que a música que eu ouço ao longeSeja linda, ainda que tristeza;Que a mulher que eu amo seja pra sempre amadaMesmo que distante;Porque metade de mim é partidaMas a outra metade é saudade...Que as palavras que eu faloNão sejam ouvidas como preceE nem repetidas com fervor,Apenas respeitadas como a única coisa que restaA um homem inundado de sentimentos;Porque metade de mim é o que ouçoMas a outra metade é o que calo...Que essa minha vontade de ir emboraSe transforme na calma e na paz que eu mereço;E que essa tensão que me corrói por dentroSeja um dia recompensada;Porque metade de mim é o que pensoMas a outra metade é um vulcão...Que o medo da solidão se afasteE que o convívio comigo mesmoSe torne ao menos suportável;Que o espelho reflita em meu rostoUm doce sorriso que me lembro ter dado na infância;Porque metade de mim é a lembrança do que fui,A outra metade eu não sei...Que não seja preciso mais do que uma simples alegriapara me fazer aquietar o espíritoE que o teu silêncio me fale cada vez mais;Porque metade de mim é abrigoMas a outra metade é cansaço...Que a arte nos aponte uma respostaMesmo que ela não saibaE que ninguém a tente complicarPorque é preciso simplicidade para fazê-la florescer;Porque metade de mim é platéiaE a outra metade é canção...E que a minha loucura seja perdoadaPorque metade de mim é amorE a outra metade... também."
+      },
+      {
+        "text": "como sem licença o sol rompe a barra da noite sem pedir perdão..."
+      },
+      {
+        "text": "Que a força do medo que tenho não me impeça de ver o que anseio.Que a morte de tudo que acredito não me tape os ouvidos e a boca."
+      },
+      {
+        "text": "A ListaFaça uma lista de grandes amigos,quem você mais via há dez anos atrás...Quantos você ainda vê todo dia ?Quantos você já não encontra mais?Faça uma lista dos sonhos que tinha...Quantos você desistiu de sonhar?Quantos amores jurados pra sempre...Quantos você conseguiu preservar?Onde você ainda se reconhece,na foto passada ou no espelho de agora?Hoje é do jeito que achou que seria?Quantos amigos você jogou fora...Quantos mistérios que você sondava,quantos você conseguiu entender?Quantos defeitos sanados com o tempo,era o melhor que havia em você?Quantas mentiras você condenava,quantas você teve que cometer ?Quantas canções que você não cantava,hoje assobia pra sobreviver ...Quantos segredos que você guardava,hoje são bobos ninguém quer saber ...Quantas pessoas que você amava,hoje acredita que amam você?"
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/oswaldo_montenegro/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/oswaldo-montenegro.jpg"
+  },
+  {
+    "id": "sigmund-freud",
+    "authorCode": "057",
+    "name": "Sigmund Freud",
+    "period": "1856 – 1939",
+    "role": "Médico e Criador da Psicanálise",
+    "nationality": "Austríaca",
+    "tag": "Pensador • Internacional",
+    "bio": "Freud (1856-1939), conhecido por Sigmund Freud, foi um médico e psicólogo austríaco. Foi o fundador da Psicanálise.",
+    "featuredQuote": "O sonho é a satisfação de que o desejo se realize.",
+    "additionalQuotes": [
+      {
+        "text": "Qualquer coisa que encoraje o crescimento de laços emocionais tem que servir contra as guerras."
+      },
+      {
+        "text": "Um homem que está livre da religião tem uma oportunidade melhor de viver uma vida mais normal e completa."
+      },
+      {
+        "text": "A ciência não é uma ilusão, mas seria uma ilusão acreditar que poderemos encontrar noutro lugar o que ela não nos pode dar."
+      },
+      {
+        "text": "A inteligência é o único meio que possuímos para dominar os nossos instintos."
+      },
+      {
+        "text": "A renúncia progressiva dos instintos parece ser um dos fundamentos do desenvolvimento da civilização humana."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/sigmund_freud/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/sigmund-freud.jpg"
+  },
+  {
+    "id": "voltaire",
+    "authorCode": "058",
+    "name": "Voltaire",
+    "period": "1694 – 1778",
+    "role": "Poeta",
+    "nationality": "Francesa",
+    "tag": "Pensador • Francesa",
+    "bio": "Arouet (1694 - 1778), foi um poeta, ensaísta, dramaturgo, historiador e filósofo iluminista francês. Ele defendia a liberdade de ser e pensar diferente.",
+    "featuredQuote": "Devemos julgar um homem mais pelas suas perguntas que pelas respostas.",
+    "additionalQuotes": [
+      {
+        "text": "Encontra-se oportunidade para fazer o mal cem vezes por dia e para fazer o bem uma vez por ano."
+      },
+      {
+        "text": "Escrevo-vos uma longa carta porque não tenho tempo de a escrever breve."
+      },
+      {
+        "text": "Os infinitamente pequenos têm um orgulho infinitamente grande."
+      },
+      {
+        "text": "Um mérito inegável da poesia: ela diz mais e em menor número de palavras que a prosa."
+      },
+      {
+        "text": "Uma coletânea de pensamentos é uma farmácia moral onde se encontram remédios para todos os males."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/voltaire/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/voltaire.jpg"
+  },
+  {
+    "id": "oliver-goldsmith",
+    "authorCode": "059",
+    "name": "Oliver Goldsmith",
+    "period": "1730 – 1774",
+    "role": "Escritor irlandês",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Goldsmith (1730-1774) foi um escritor irlandês. Escreveu uma das mais destacadas novelas da literatura inglesa: The Vicar of Wakefield.",
+    "featuredQuote": "O silêncio tornou-se a sua língua materna.",
+    "additionalQuotes": [
+      {
+        "text": "As alegrias da riqueza são fugazes e não têm qualquer valor; e os que apreciam essas coisas valem menos ainda."
+      },
+      {
+        "text": "A adulação liga-se sempre a ambição; porque é de todas as paixões aquela a que a lisonja dá mais prazer."
+      },
+      {
+        "text": "A nossa maior glória não reside no fato de nunca cairmos, mas sim em levantarmo-nos sempre depois de cada queda."
+      },
+      {
+        "text": "As leis trituram os pobres, e os ricos mandam na lei."
+      },
+      {
+        "text": "As leis inglesas punem as faltas; as leis chinesas fazem mais do que isso: recompensam os méritos."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/oliver_goldsmith/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/oliver-goldsmith.jpg"
+  },
+  {
+    "id": "maurice-switzer",
+    "authorCode": "060",
+    "name": "Maurice Switzer",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Maurice Switzer. Frases, textos, pensamentos, poesias e poemas de Maurice Switzer no Pensador.",
+    "featuredQuote": "É melhor calar-se e deixar que as pessoas pensem que você é um idiota do que falar e acabar com a dúvida.",
+    "additionalQuotes": [
+      {
+        "text": "Às vezes é melhor ficar em silêncio e ser considerado um idiota do que falar e remover todas as dúvidas."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/maurice_switzer/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "mahatma-gandhi",
+    "authorCode": "061",
+    "name": "Mahatma Gandhi",
+    "period": "1869 – 1948",
+    "role": "Autor / Pensador",
+    "nationality": "Indiana",
+    "tag": "Pensador • Indiana",
+    "bio": "Gandhi (1869-1948) foi um líder pacifista indiano que lutou pela independência da Índia e pela paz entre hindus e muçulmanos. Ao defender a luta não violenta, criou uma nova forma de resistência, tornando-se referência e uma celebridade mundial.",
+    "featuredQuote": "A alegria está na luta, na tentativa, no sofrimento envolvido e não na vitória propriamente dita.",
+    "additionalQuotes": [
+      {
+        "text": "A força não provém da capacidade física. Provém de uma vontade indomável."
+      },
+      {
+        "text": "A não violência e a covardia não combinam. Posso imaginar um homem armado até os dentes que no fundo é um covarde. A posse de armas insinua um elemento de medo, se não mesmo de covardia. Mas a verdadeira não violência é uma impossibilidade sem a posse de um destemor inflexível."
+      },
+      {
+        "text": "A vida merece algo além do aumento da sua velocidade."
+      },
+      {
+        "text": "Aprendi através da experiência amarga a suprema lição: controlar minha ira e torná-la como o calor que é convertido em energia. Nossa ira controlada pode ser convertida numa força capaz de mover o mundo."
+      },
+      {
+        "text": "As religiões são caminhos diferentes convergindo para o mesmo ponto. Que importância faz se seguimos por caminhos diferentes, desde que alcancemos o mesmo objetivo?"
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/mahatma_gandhi/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/mahatma-gandhi.jpg"
+  },
+  {
+    "id": "leon-tolstoi",
+    "authorCode": "062",
+    "name": "Leon Tolstói",
+    "period": "1828 – 1910",
+    "role": "Escritor russo",
+    "nationality": "Russa",
+    "tag": "Pensador • Russa",
+    "bio": "Tolstói (1828-1910) foi um escritor russo, é autor do romance Guerra e Paz, um clássico da literatura russa. Com centenas de personagens, na versão original, é considerado um dos maiores romances da história",
+    "featuredQuote": "Aquele que conheceu apenas a sua mulher, e a amou, sabe mais de mulheres do que aquele que conheceu mil.",
+    "additionalQuotes": [
+      {
+        "text": "Os homens distinguem-se entre si também neste caso: alguns primeiro pensam, depois falam e, em seguida, agem; outros, ao contrário, primeiro falam, depois agem e, por fim, pensam."
+      },
+      {
+        "text": "A arte é um dos meios que une os homens."
+      },
+      {
+        "text": "Aquilo que foi e que será, e até mesmo aquilo que é, não somos capazes de saber, mas quanto àquilo que devemos fazer, não apenas somos capazes de saber, como também o sabemos sempre, e somente isso nos é necessário."
+      },
+      {
+        "text": "Não é possível ser bom pela metade."
+      },
+      {
+        "text": "A verdadeira felicidade está na própria casa, entre as alegrias da família."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/leon_tolstoi/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/leon-tolstoi.jpg"
+  },
+  {
+    "id": "jo-cooke",
+    "authorCode": "063",
+    "name": "Jo. Cooke",
+    "period": "",
+    "role": "Escritor",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Sobre Jo. CookeJo. Cooke foi um escritor.",
+    "featuredQuote": "Como são sábios aqueles que se entregam às loucuras do amor!",
+    "additionalQuotes": [
+      {
+        "text": "Que tolos são os que parecem mais sábios no amor,Como são sábios os que não passam de tolos apaixonados."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/jo_cooke/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "khalil-gibran",
+    "authorCode": "064",
+    "name": "Khalil Gibran",
+    "period": "1883 – 1931",
+    "role": "Célebre escritor libanês que fez carreira nos eua",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Gibran (1883 - 1931) foi um célebre escritor libanês que fez carreira nos EUA, escrevendo diversos livros em árabe e em inglês. Também se dedicou ao mundo das artes, expondo suas obras em Boston, NY e Paris.",
+    "featuredQuote": "Numa só semente de trigo há mais vida do que num montão de feno.",
+    "additionalQuotes": [
+      {
+        "text": "Quando o amor vos fizer sinal, segui-o; ainda que os seus caminhos sejam duros e escarpados. E quando as suas asas vos envolverem, entregai-vos; ainda que a espada escondida na sua plumagem vos possa ferir."
+      },
+      {
+        "text": "Quando você levantar o braço para bater em seu filho, ainda com o braço no ar, pense se não seria mais educativo se você descesse esse braço de forma a acariciá-lo, em vez de machucá-lo."
+      },
+      {
+        "text": "Quem vive nas trevas não consegue ser visto, nem vê nada."
+      },
+      {
+        "text": "Tartarugas conhecem as estradas melhor do que os coelhos."
+      },
+      {
+        "text": "Um livro é como uma janela. Quem não o lê, é como alguém que ficou distante da janela e só pode ver uma pequena parte da paisagem."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/khalil_gibran/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/khalil-gibran.jpg"
+  },
+  {
+    "id": "henry-ford",
+    "authorCode": "065",
+    "name": "Henry Ford",
+    "period": "1863 – 1947",
+    "role": "Empreendedor norte-americano",
+    "nationality": "Americana",
+    "tag": "Pensador • Americana",
+    "bio": "Ford (1863-1947) foi um empreendedor norte-americano, o fundador da Ford Motor Company. Foi o primeiro a implantar a linha de montagem em série na fabricação de automóveis.",
+    "featuredQuote": "O insucesso é apenas uma oportunidade para recomeçar com mais inteligência.",
+    "additionalQuotes": [
+      {
+        "text": "Sei que metade da publicidade que faço é inútil. Mas não sei qual é a metade inútil."
+      },
+      {
+        "text": "Não encontro defeitos. Encontro soluções. Qualquer um sabe queixar-se."
+      },
+      {
+        "text": "O homem que empenha todo o seu trabalho e imaginação em oferecer por um dólar o mais possível, em vez de menos, está condenado ao sucesso."
+      },
+      {
+        "text": "Pensar é o trabalho mais difícil que existe. Talvez por isso tão poucos se dediquem a ele."
+      },
+      {
+        "text": "Se o dinheiro for a sua esperança de independência, você jamais a terá. A única segurança verdadeira consiste numa reserva de sabedoria, de experiência e de competência."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/henry_ford/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/henry-ford.jpg"
+  },
+  {
+    "id": "cynthia-kersey",
+    "authorCode": "066",
+    "name": "Cynthia Kersey",
+    "period": "",
+    "role": "Autor / Pensador",
+    "nationality": "Internacional",
+    "tag": "Pensador • Internacional",
+    "bio": "Cynthia Kersey. Frases, textos, pensamentos, poesias e poemas de Cynthia Kersey no Pensador.",
+    "featuredQuote": "Acredite em si e chegará um dia em que os outros não terão outra escolha senão acreditar com você.",
+    "additionalQuotes": [],
+    "referenceUrl": "https://www.pensador.com/autor/cynthia_kersey/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": ""
+  },
+  {
+    "id": "john-ruskin",
+    "authorCode": "067",
+    "name": "John Ruskin",
+    "period": "1819 – 1900",
+    "role": "Poeta e crítico inglês",
+    "nationality": "Britânica",
+    "tag": "Pensador • Britânica",
+    "bio": "Ruskin (1819 - 1900) foi um poeta e crítico inglês.",
+    "featuredQuote": "Algo como o mau tempo, na verdade, não existe. Existem, sim, vários tipos de bom tempo.",
+    "additionalQuotes": [
+      {
+        "text": "De todas as coisas que pode usar, a sua expressão é, seguramente, a mais importante."
+      },
+      {
+        "text": "Os livros podem ser divididos em dois grupos: aqueles do momento e aqueles de sempre."
+      },
+      {
+        "text": "As grandes nações escrevem a sua autobiografia em três manuscritos: o livro dos seus feitos, o livro das suas palavras e o livro da sua arte."
+      },
+      {
+        "text": "Somente quando encontramos o amor é que descobrimos o que nos faltava na vida."
+      },
+      {
+        "text": "Reformemos as nossas escolas, e não teremos que reformar grande coisa nas nossas prisões."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/john_ruskin/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/john-ruskin.jpg"
+  },
+  {
+    "id": "victor-hugo",
+    "authorCode": "068",
+    "name": "Victor Hugo",
+    "period": "1802 – 1885",
+    "role": "Escritor e Poeta Romântico",
+    "nationality": "Francesa",
+    "tag": "Pensador • Internacional",
+    "bio": "Hugo (1802-1885) foi um dos maiores escritores românticos da França no século XIX, autor de \"Os Miseráveis\" e o \"Corcunda de Notre Dame\", entre outras obras célebres.",
+    "featuredQuote": "Do atrito de duas pedras chispam faíscas; das faíscas vem o fogo; do fogo brota a luz.",
+    "additionalQuotes": [
+      {
+        "text": "Não há nada como o sonho para criar o futuro. Utopia hoje, carne e osso amanhã."
+      },
+      {
+        "text": "Os infelizes são ingratos; isso faz parte da infelicidade deles."
+      },
+      {
+        "text": "Seja como os pássaros que, ao pousarem um instante sobre ramos muito leves, sentem-nos ceder, mas cantam! Eles sabem que possuem asas."
+      },
+      {
+        "text": "Ser bom é fácil. O difícil é ser justo."
+      },
+      {
+        "text": "A música é o verbo do futuro."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/victor_hugo/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/victor-hugo.jpg"
+  },
+  {
+    "id": "soren-kierkegaard",
+    "authorCode": "069",
+    "name": "Soren Kierkegaard",
+    "period": "1813 – 1855",
+    "role": "Filósofo e Teólogo Existencialista",
+    "nationality": "Dinamarquesa",
+    "tag": "Pensador • Internacional",
+    "bio": "Kierkegaard (1813 - 1855) foi um filósofo e teólogo dinamarquês. É considerado um precursor do Existencialismo.",
+    "featuredQuote": "A vida só pode ser compreendida olhando-se para trás, mas só pode ser vivida olhando-se para a frente.",
+    "additionalQuotes": [
+      {
+        "text": "Ousar é perder o equilíbrio momentaneamente. Não ousar é perder-se."
+      },
+      {
+        "text": "A vida só se compreende mediante um retorno ao passado, mas só se vive para diante."
+      },
+      {
+        "text": "O povo pede o poder da palavra para compensar o poder de livre pensamento a que ele foge."
+      },
+      {
+        "text": "Sem pecado, nada de sexualidade, e sem sexualidade, nada de História."
+      },
+      {
+        "text": "O casamento feliz é e continuará a ser a viagem de descoberta mais importante que o homem jamais poderá empreender."
+      }
+    ],
+    "referenceUrl": "https://www.pensador.com/autor/soren_kierkegaard/",
+    "active": true,
+    "quoteSource": "Pensador",
+    "photoUrl": "/authors/soren-kierkegaard.jpg"
+  }
+]
