@@ -17,4 +17,4 @@
 - [x] Chat limpo: sem seletor de modo, botão de voz, atalhos das abas e sugestões; respostas ocupam quase a tela toda
 - [x] Avatar trocado pelo gatinho Tabby de óculos e laço, sem círculo, com animações (acenando, pulando, virando); agente só aparece no Início e no Catálogo
 - [x] Índice A–Z de autores (Pensador)
-- [ ] Avatar do Quitério trocado pelo GIF do gato digitando
+- [x] Avatar do Quitério trocado pelo GIF do gato digitando
