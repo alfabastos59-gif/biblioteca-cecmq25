@@ -12,8 +12,9 @@ export function AuthorsPage() {
   const [search, setSearch] = useState('');
   const [nationality, setNationality] = useState('Todas');
   const [selected, setSelected] = useState<Author | null>(null);
+  const [letter, setLetter] = useState('Todas');
   const nationalities = useMemo(() => listAuthorNationalities(), []);
-  const authors = useMemo(() => filterAuthors({ search, nationality }), [search, nationality]);
+  const authors = useMemo(() => filterAuthors({ search, nationality, letter }), [search, nationality, letter]);
 
   return <div className="authors-page min-h-screen">
     <header className="authors-header"><div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-5 sm:px-8">
@@ -27,11 +28,12 @@ export function AuthorsPage() {
         <select aria-label="Nacionalidade" value={nationality} onChange={e => setNationality(e.target.value)} className="author-input h-11 rounded-md border border-author-border bg-author-surface px-3 sm:w-56"><option value="Todas">Todas as nacionalidades</option>{nationalities.map(n => <option key={n}>{n}</option>)}</select>
         <span className="text-sm text-author-muted">{authors.length} {authors.length === 1 ? 'autor' : 'autores'}</span>
       </div>
+      <nav aria-label="Índice alfabético" className="mb-8 flex flex-wrap gap-1.5">{['Todas', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')].map(l => <Button key={l} size="sm" variant={letter === l ? 'default' : 'ghost'} aria-pressed={letter === l} onClick={() => setLetter(l)} className={letter === l ? 'min-w-9' : 'author-control min-w-9'}>{l === 'Todas' ? 'Todos' : l}</Button>)}</nav>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">{authors.map(author => <article key={author.id} className="author-card overflow-hidden rounded-lg border border-author-border bg-author-surface">
         <AuthorPortrait author={author} />
         <div className="p-5"><p className="mb-2 text-xs text-author-highlight">{author.nationality}{author.period ? ` · ${author.period}` : ''}</p><h2 className="font-serif text-2xl leading-tight">{author.name}</h2><p className="mt-2 min-h-10 text-sm text-author-muted">{author.role}</p><blockquote className="mt-4 line-clamp-3 min-h-16 border-l-2 border-author-highlight pl-3 text-sm italic leading-relaxed">“{author.featuredQuote}”</blockquote><Button variant="ghost" onClick={() => setSelected(author)} className="author-control mt-5 w-full justify-between px-0">Conhecer autor <ArrowUpRight /></Button></div>
       </article>)}</div>
-      {!authors.length && <div className="py-20 text-center"><Feather className="mx-auto mb-4 text-author-highlight" /><h2 className="font-serif text-2xl">Nenhum autor encontrado</h2><Button variant="ghost" className="author-control mt-4" onClick={() => {setSearch('');setNationality('Todas');}}>Limpar filtros</Button></div>}
+      {!authors.length && <div className="py-20 text-center"><Feather className="mx-auto mb-4 text-author-highlight" /><h2 className="font-serif text-2xl">Nenhum autor encontrado</h2><Button variant="ghost" className="author-control mt-4" onClick={() => {setSearch('');setNationality('Todas');setLetter('Todas');}}>Limpar filtros</Button></div>}
       <footer className="mt-12 border-t border-author-border pt-6 text-sm text-author-muted">Biografias e citações: <a href="https://www.pensador.com/autores/" target="_blank" rel="noopener noreferrer" className="underline">Pensador</a></footer>
     </main>
     <AuthorDetailDialog author={selected} onClose={() => setSelected(null)} />

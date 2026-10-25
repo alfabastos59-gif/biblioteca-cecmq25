@@ -1,4 +1,4 @@
-import quiterioTabby from "@/assets/quiterio-tabby.png.asset.json";
+import quiterioTabby from "@/assets/quiterio-digitando.gif.asset.json";
 
 type Props = { size?: number; mood?: "idle" | "talking" | "happy"; className?: string };
 
