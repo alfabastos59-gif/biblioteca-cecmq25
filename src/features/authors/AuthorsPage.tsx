@@ -12,8 +12,9 @@ export function AuthorsPage() {
   const [search, setSearch] = useState('');
   const [nationality, setNationality] = useState('Todas');
   const [selected, setSelected] = useState<Author | null>(null);
+  const [letter, setLetter] = useState('Todas');
   const nationalities = useMemo(() => listAuthorNationalities(), []);
-  const authors = useMemo(() => filterAuthors({ search, nationality }), [search, nationality]);
+  const authors = useMemo(() => filterAuthors({ search, nationality, letter }), [search, nationality, letter]);
 
   return <div className="authors-page min-h-screen">
     <header className="authors-header"><div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-5 sm:px-8">

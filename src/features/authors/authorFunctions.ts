@@ -20,15 +20,22 @@ export function listAuthorNationalities(): string[] {
 interface FilterAuthorsParams {
   search: string;
   nationality: string;
+  letter?: string;
 }
 
-/** Aplica os filtros de busca e nacionalidade e ordena alfabeticamente. */
-export function filterAuthors({ search, nationality }: FilterAuthorsParams): Author[] {
+/** Letra inicial (sem acento) usada no índice A–Z. */
+export function authorInitial(name: string): string {
+  return normalizeAuthorText(name).charAt(0).toUpperCase();
+}
+
+/** Aplica busca, nacionalidade e letra inicial e ordena alfabeticamente. */
+export function filterAuthors({ search, nationality, letter = 'Todas' }: FilterAuthorsParams): Author[] {
   return authorsData
     .filter(
       (a) =>
         a.active !== false &&
         (nationality === 'Todas' || a.nationality === nationality) &&
+        (letter === 'Todas' || authorInitial(a.name) === letter) &&
         normalizeAuthorText(`${a.name} ${a.role}`).includes(normalizeAuthorText(search)),
     )
     .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
